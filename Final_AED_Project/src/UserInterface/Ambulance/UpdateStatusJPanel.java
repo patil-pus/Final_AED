@@ -57,41 +57,50 @@ public class UpdateStatusJPanel extends javax.swing.JPanel {
         UPDATE = new javax.swing.JButton();
         backbtn = new javax.swing.JButton();
 
-        setBackground(new java.awt.Color(138, 194, 211));
+        setBackground(new java.awt.Color(0, 51, 51));
         setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
 
-        jLabel1.setFont(new java.awt.Font("Lucida Grande", 0, 18)); // NOI18N
-        jLabel1.setText("STATUS:");
-        add(jLabel1, new org.netbeans.lib.awtextra.AbsoluteConstraints(310, 300, 80, 30));
+        jLabel1.setFont(new java.awt.Font("Segoe UI", 1, 12)); // NOI18N
+        jLabel1.setForeground(new java.awt.Color(255, 255, 255));
+        jLabel1.setText("Status:");
+        add(jLabel1, new org.netbeans.lib.awtextra.AbsoluteConstraints(50, 140, 40, 30));
 
         ReqStatus.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 ReqStatusActionPerformed(evt);
             }
         });
-        add(ReqStatus, new org.netbeans.lib.awtextra.AbsoluteConstraints(390, 300, 160, 30));
+        add(ReqStatus, new org.netbeans.lib.awtextra.AbsoluteConstraints(100, 140, 110, -1));
 
-        jLabel2.setText("REQUEST ID:");
-        add(jLabel2, new org.netbeans.lib.awtextra.AbsoluteConstraints(310, 210, -1, 40));
+        jLabel2.setBackground(new java.awt.Color(255, 255, 255));
+        jLabel2.setFont(new java.awt.Font("Segoe UI", 1, 12)); // NOI18N
+        jLabel2.setForeground(new java.awt.Color(255, 255, 255));
+        jLabel2.setText("Request ID:");
+        add(jLabel2, new org.netbeans.lib.awtextra.AbsoluteConstraints(30, 90, -1, 40));
 
         idLabel.setFont(new java.awt.Font("Lucida Grande", 0, 14)); // NOI18N
         add(idLabel, new org.netbeans.lib.awtextra.AbsoluteConstraints(400, 200, 60, 60));
 
-        UPDATE.setText("UPDATE");
+        UPDATE.setBackground(new java.awt.Color(0, 0, 0));
+        UPDATE.setFont(new java.awt.Font("Segoe UI", 1, 12)); // NOI18N
+        UPDATE.setForeground(new java.awt.Color(255, 255, 255));
+        UPDATE.setText("Update");
         UPDATE.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 UPDATEActionPerformed(evt);
             }
         });
-        add(UPDATE, new org.netbeans.lib.awtextra.AbsoluteConstraints(420, 340, 100, 40));
+        add(UPDATE, new org.netbeans.lib.awtextra.AbsoluteConstraints(130, 190, 80, 30));
 
-        backbtn.setText("<Back");
+        backbtn.setBackground(new java.awt.Color(0, 0, 0));
+        backbtn.setForeground(new java.awt.Color(255, 255, 255));
+        backbtn.setText("Back");
         backbtn.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 backbtnActionPerformed(evt);
             }
         });
-        add(backbtn, new org.netbeans.lib.awtextra.AbsoluteConstraints(70, 520, -1, -1));
+        add(backbtn, new org.netbeans.lib.awtextra.AbsoluteConstraints(30, 190, -1, 30));
     }// </editor-fold>//GEN-END:initComponents
 
     private void ReqStatusActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_ReqStatusActionPerformed

@@ -127,7 +127,7 @@ public class SystemAdminManufacturerNewJPanel extends javax.swing.JPanel {
         });
         add(backBtn, new org.netbeans.lib.awtextra.AbsoluteConstraints(190, 70, 50, -1));
 
-        jLabel2.setBackground(new java.awt.Color(138, 194, 211));
+        jLabel2.setBackground(new java.awt.Color(0, 51, 51));
         jLabel2.setIcon(new javax.swing.ImageIcon(getClass().getResource("/ui/Picture/cover1.jpeg"))); // NOI18N
         add(jLabel2, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, -50, 1180, 790));
     }// </editor-fold>//GEN-END:initComponents

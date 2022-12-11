@@ -65,6 +65,7 @@ public class CreatePharmacyJPanel extends javax.swing.JPanel {
         addressTxt = new javax.swing.JTextField();
         jLabel2 = new javax.swing.JLabel();
 
+        setBackground(new java.awt.Color(0, 51, 51));
         setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
 
         jPanel1.setBackground(new java.awt.Color(138, 194, 211));
@@ -173,12 +174,12 @@ public class CreatePharmacyJPanel extends javax.swing.JPanel {
         jPanel1.add(jLabel10a, new org.netbeans.lib.awtextra.AbsoluteConstraints(600, 460, -1, -1));
         jPanel1.add(addressTxt, new org.netbeans.lib.awtextra.AbsoluteConstraints(660, 450, 200, 30));
 
-        jLabel2.setBackground(new java.awt.Color(138, 194, 211));
+        jLabel2.setBackground(new java.awt.Color(0, 51, 51));
         jLabel2.setForeground(new java.awt.Color(255, 255, 255));
         jLabel2.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
         jLabel2.setIcon(new javax.swing.ImageIcon(getClass().getResource("/ui/Picture/pharmacy1.jpeg"))); // NOI18N
         jLabel2.setToolTipText("");
-        jPanel1.add(jLabel2, new org.netbeans.lib.awtextra.AbsoluteConstraints(-50, -10, 1060, 710));
+        jPanel1.add(jLabel2, new org.netbeans.lib.awtextra.AbsoluteConstraints(-50, 0, 1060, 710));
 
         add(jPanel1, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, 1013, 674));
     }// </editor-fold>//GEN-END:initComponents
