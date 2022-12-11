@@ -17,7 +17,7 @@ import javax.swing.table.DefaultTableModel;
 
 /**
  *
- * @author shrutikasalian
+ * @author Atharva
  */
 public class ConfirmSOSRequest extends javax.swing.JPanel {
 
