@@ -21,8 +21,11 @@ import Business.UserAccount.UserAccount;
 import java.awt.CardLayout;
 import javax.swing.JPanel;
 
-  
- @author Atharva
+  /**
+ *
+ * @author pranavkulkarni
+ */
+ 
 
 public class PharmacySideNavWorkAreaJpanel extends javax.swing.JPanel {
 

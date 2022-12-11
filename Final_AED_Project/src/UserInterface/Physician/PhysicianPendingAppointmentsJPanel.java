@@ -19,7 +19,7 @@ import javax.swing.table.DefaultTableModel;
 
 /**
  *
- * @author Saad Ghojaria
+ * @author pranavkulkarni
  */
 public class PhysicianPendingAppointmentsJPanel extends javax.swing.JPanel {
     
