@@ -18,7 +18,7 @@ import javax.swing.JPanel;
 
 /**
  *
- * @author shrutikasalian
+ * @author pushk
  */
 public class DoctorSideNavWorkAreaJpanel extends javax.swing.JPanel {
 
