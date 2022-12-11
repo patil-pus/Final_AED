@@ -10,10 +10,10 @@ import java.awt.image.BufferedImage;
 import java.time.LocalDateTime;
 import java.util.ArrayList;
 
-/**
- *
- * @author Saad Ghojaria
- */
+
+ @author pranavkulkarni
+
+
 public class SlotList {
     
     private ArrayList<Slot> slotList;

@@ -8,10 +8,10 @@ package Business.Slot;
 //import com.toedter.calendar.JDateChooser;
 import java.time.LocalDateTime;
 import java.util.Date;
-/**
- *
- * @author srushtidesai
- */
+
+
+ @author pranavkulkarni
+
 public class Slot {
     
     private String slotId;
