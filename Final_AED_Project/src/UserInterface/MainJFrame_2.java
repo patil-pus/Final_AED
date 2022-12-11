@@ -14,7 +14,7 @@ import java.awt.Toolkit;
 
 /**
  *
- * @author Saad Ghojaria
+ * @author pranavkulkarni
  */
 public class MainJFrame extends javax.swing.JFrame {
 

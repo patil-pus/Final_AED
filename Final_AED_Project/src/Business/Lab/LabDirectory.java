@@ -10,7 +10,7 @@ import java.util.ArrayList;
 
 /**
  *
- * @author Saad Ghojaria
+ * @author pranavkulkarni
  */
 public class LabDirectory {
     

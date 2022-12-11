@@ -21,7 +21,7 @@ import javax.swing.JPanel;
 
 /**
  *
- * @author Saad Ghojaria
+ * @author pranavkulkarni
  */
 public class TestNewJpanel extends javax.swing.JPanel {
     
