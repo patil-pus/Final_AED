@@ -15,7 +15,7 @@ import javax.swing.JPanel;
 
 /**
  *
- * @author Atharva
+ * @author pranavkulkarni
  */
 public class PatientDetailsJPanel extends javax.swing.JPanel {
     

@@ -24,7 +24,7 @@ import javax.swing.JPanel;
 
 /**
  *
- * @author pushk
+ * @author Atharva
  */
 public class CreatePrescriptionJPanel extends javax.swing.JPanel {
 

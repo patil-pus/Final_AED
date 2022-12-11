@@ -19,7 +19,7 @@ import javax.swing.JPanel;
 
 /**
  *
- * @author Atharva
+ * @author srushtidesai
  */
 public class CreateDepartmentJPanel extends javax.swing.JPanel {
 

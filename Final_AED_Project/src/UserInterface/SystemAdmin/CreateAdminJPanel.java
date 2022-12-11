@@ -6,7 +6,7 @@ package UserInterface.SystemAdmin;
 
 /**
  *
- * @author pranavkulkarni
+ * @author Saad Ghojaria
  */
 public class CreateAdminJPanel extends javax.swing.JPanel {
 

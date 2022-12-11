@@ -19,7 +19,7 @@ import javax.swing.JPanel;
 
 /**
  *
- * @author pranavkulkarni
+ * @author srushtidesai
  */
 public class AddManufacturerJPanel extends javax.swing.JPanel {
 

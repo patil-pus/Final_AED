@@ -18,7 +18,7 @@ import javax.swing.table.DefaultTableModel;
 
 /**
  *
- * @author Atharva
+ * @author pushk
  */
 public class PatientHistoryJPanel extends javax.swing.JPanel {
     

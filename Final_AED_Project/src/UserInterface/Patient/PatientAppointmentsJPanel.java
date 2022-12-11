@@ -12,7 +12,7 @@ import javax.swing.JPanel;
 
 /**
  *
- * @author Atharva
+ * @author pranavkulkarni
  */
 public class PatientAppointmentsJPanel extends javax.swing.JPanel {
 

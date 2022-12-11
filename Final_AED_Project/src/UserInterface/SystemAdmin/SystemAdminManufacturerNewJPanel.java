@@ -17,7 +17,7 @@ import javax.swing.table.DefaultTableModel;
 
 /**
  *
- * @author pranavkulkarni
+ * @author srushtidesai
  */
 public class SystemAdminManufacturerNewJPanel extends javax.swing.JPanel {
 

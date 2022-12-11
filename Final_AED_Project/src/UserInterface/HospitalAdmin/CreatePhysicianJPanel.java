@@ -30,7 +30,7 @@ import javax.swing.JPanel;
 
 /**
  *
- * @author Atharva
+ * @author Saad Ghojaria
  */
 public class CreatePhysicianJPanel extends javax.swing.JPanel {
 

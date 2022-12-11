@@ -22,7 +22,7 @@ import javax.swing.table.DefaultTableModel;
 
 /**
  *
- * @author Atharva
+ * @author shrutikasalian
  */
 public class HospitalManageDepartmentJPanel extends javax.swing.JPanel {
 

@@ -14,7 +14,7 @@ import javax.swing.JPanel;
 
 /**
  *
- * @author Atharva
+ * @author Saad Ghojaria
  */
 public class DepartmentInfoJPanel extends javax.swing.JPanel {
 

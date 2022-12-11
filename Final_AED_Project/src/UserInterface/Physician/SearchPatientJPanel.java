@@ -23,7 +23,7 @@ import javax.swing.JPanel;
 
 /**
  *
- * @author pranavkulkarni
+ * @author pushk
  */
 public class SearchPatientJPanel extends javax.swing.JPanel {
 

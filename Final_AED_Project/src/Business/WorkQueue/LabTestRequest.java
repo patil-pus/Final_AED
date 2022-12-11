@@ -10,7 +10,7 @@ import java.awt.image.BufferedImage;
 
 /**
  *
- * @author pranavkulkarni
+ * @author Saad Ghojaria
  */
 public class LabTestRequest extends WorkRequest {
     

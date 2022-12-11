@@ -9,7 +9,7 @@ import java.util.Date;
 
 /**
  *
- * @author Atharva
+ * @author Saad Ghojaria
  */
 public class PhysicianRequest extends WorkRequest {
     

@@ -21,12 +21,10 @@ import Business.UserAccount.UserAccount;
 import java.awt.CardLayout;
 import javax.swing.JPanel;
 
-  /**
+/**
  *
- * @author pranavkulkarni
+ * @author Atharva
  */
- 
-
 public class PharmacySideNavWorkAreaJpanel extends javax.swing.JPanel {
 
     JPanel userProcessContainer;

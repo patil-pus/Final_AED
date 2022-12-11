@@ -7,7 +7,7 @@ package Business.SOSRequest;
 
 /**
  *
- * @author pranavkulkarni
+ * @author shrutikasalian
  */
 public class SOSRequests {
     String RequestId;

@@ -18,7 +18,7 @@ import javax.swing.table.DefaultTableModel;
 
 /**
  *
- * @author Atharva
+ * @author shrutikasalian
  */
 public class ManageSlotsJPanel extends javax.swing.JPanel {
 

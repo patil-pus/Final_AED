@@ -25,7 +25,7 @@ import javax.swing.table.DefaultTableModel;
 
 /**
  *
- * @author pranavkulkarni
+ * @author srushtidesai
  */
 public class PendingTestsJPanel extends javax.swing.JPanel {
 

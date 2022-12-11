@@ -14,7 +14,7 @@ import javax.swing.JPanel;
 
 /**
  *
- * @author Atharva
+ * @author shrutikasalian
  */
 public class HospitalInfoJPanel extends javax.swing.JPanel {
 

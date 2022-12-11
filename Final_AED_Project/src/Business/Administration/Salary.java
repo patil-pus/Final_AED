@@ -6,7 +6,7 @@ package Business.Administration;
 
 /**
  *
- * @author Atharva
+ * @author Saad Ghojaria
  */
 public class Salary {
     

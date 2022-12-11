@@ -19,7 +19,7 @@ import javax.swing.JPanel;
 
 /**
  *
- * @author pushk
+ * @author srushtidesai
  */
 public class CreatePharmacyJPanel extends javax.swing.JPanel {
 
