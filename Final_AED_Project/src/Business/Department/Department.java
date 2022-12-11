@@ -13,7 +13,7 @@ import java.util.ArrayList;
 
 /**
  *
- * @author Saad Ghojaria
+ * @author Atharva
  */
 public class Department {
     
