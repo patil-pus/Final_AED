@@ -22,7 +22,7 @@ import java.awt.CardLayout;
 import javax.swing.JPanel;
 
   
- @author Atharva
+ 
 
 public class PharmacySideNavWorkAreaJpanel extends javax.swing.JPanel {
 

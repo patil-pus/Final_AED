@@ -26,7 +26,7 @@ import javax.swing.table.DefaultTableModel;
 
 /**
  *
- * @author Saad Ghojaria
+ * @author pranavkulkarni
  */
 public class PhysicianPatientMedicationsJPanel1 extends javax.swing.JPanel {
     
