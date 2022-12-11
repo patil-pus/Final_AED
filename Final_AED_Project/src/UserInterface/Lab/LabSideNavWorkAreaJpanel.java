@@ -22,7 +22,7 @@ import javax.swing.JPanel;
 
 /**
  *
- * @author shrutikasalian
+ * @author pranavkulkarni
  */
 public class LabSideNavWorkAreaJpanel extends javax.swing.JPanel {
 

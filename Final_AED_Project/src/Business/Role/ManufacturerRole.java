@@ -13,7 +13,7 @@ import javax.swing.JPanel;
 
 /**
  *
- * @author Saad Ghojaria
+ * @author pranavkulkarni
  */
 public class ManufacturerRole extends Role{
     
