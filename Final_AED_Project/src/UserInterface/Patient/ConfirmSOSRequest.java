@@ -106,31 +106,35 @@ public class ConfirmSOSRequest extends javax.swing.JPanel {
         jScrollPane1 = new javax.swing.JScrollPane();
         sosTable = new javax.swing.JTable();
 
-        setBackground(new java.awt.Color(138, 194, 211));
+        setBackground(new java.awt.Color(0, 51, 51));
         setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
 
+        jLabel2.setFont(new java.awt.Font("Segoe UI", 1, 14)); // NOI18N
+        jLabel2.setForeground(new java.awt.Color(255, 255, 255));
         jLabel2.setText("Location:");
-        add(jLabel2, new org.netbeans.lib.awtextra.AbsoluteConstraints(300, 200, -1, -1));
+        add(jLabel2, new org.netbeans.lib.awtextra.AbsoluteConstraints(50, 150, -1, -1));
 
         patientAddr.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 patientAddrActionPerformed(evt);
             }
         });
-        add(patientAddr, new org.netbeans.lib.awtextra.AbsoluteConstraints(360, 193, 193, -1));
+        add(patientAddr, new org.netbeans.lib.awtextra.AbsoluteConstraints(130, 150, 193, -1));
 
-        Confirmbtn.setText("CONFIRM");
+        Confirmbtn.setBackground(new java.awt.Color(0, 0, 0));
+        Confirmbtn.setForeground(new java.awt.Color(255, 255, 255));
+        Confirmbtn.setText("Confirm");
         Confirmbtn.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 ConfirmbtnActionPerformed(evt);
             }
         });
-        add(Confirmbtn, new org.netbeans.lib.awtextra.AbsoluteConstraints(393, 225, 119, 37));
+        add(Confirmbtn, new org.netbeans.lib.awtextra.AbsoluteConstraints(350, 150, 90, 30));
 
-        jLabel1.setFont(new java.awt.Font("Lucida Grande", 1, 24)); // NOI18N
+        jLabel1.setFont(new java.awt.Font("Lucida Grande", 1, 28)); // NOI18N
         jLabel1.setForeground(new java.awt.Color(255, 255, 255));
-        jLabel1.setText("CONFIRM SOS REQUEST");
-        add(jLabel1, new org.netbeans.lib.awtextra.AbsoluteConstraints(282, 82, 309, -1));
+        jLabel1.setText("Confirm SOS Request");
+        add(jLabel1, new org.netbeans.lib.awtextra.AbsoluteConstraints(40, 60, 309, -1));
 
         sosTable.setModel(new javax.swing.table.DefaultTableModel(
             new Object [][] {
@@ -145,7 +149,7 @@ public class ConfirmSOSRequest extends javax.swing.JPanel {
         ));
         jScrollPane1.setViewportView(sosTable);
 
-        add(jScrollPane1, new org.netbeans.lib.awtextra.AbsoluteConstraints(40, 310, 840, 280));
+        add(jScrollPane1, new org.netbeans.lib.awtextra.AbsoluteConstraints(40, 220, 840, 340));
     }// </editor-fold>//GEN-END:initComponents
 
     private void patientAddrActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_patientAddrActionPerformed

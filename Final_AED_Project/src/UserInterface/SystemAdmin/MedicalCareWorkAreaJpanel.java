@@ -47,71 +47,77 @@ public class MedicalCareWorkAreaJpanel extends javax.swing.JPanel {
         labbtn = new javax.swing.JButton();
         pharmacyBtn1 = new javax.swing.JButton();
         manageAMBULANCE1 = new javax.swing.JButton();
+        jLabel2 = new javax.swing.JLabel();
         rightSystemAdminPanel = new javax.swing.JPanel();
         jLabel1 = new javax.swing.JLabel();
 
         setPreferredSize(new java.awt.Dimension(1800, 900));
 
-        jPanel3.setBackground(new java.awt.Color(13, 37, 70));
+        jPanel3.setBackground(new java.awt.Color(0, 51, 51));
         jPanel3.setMinimumSize(new java.awt.Dimension(280, 840));
         jPanel3.setPreferredSize(new java.awt.Dimension(280, 840));
         jPanel3.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
 
         hospitalPortalBtn.setBackground(new java.awt.Color(204, 204, 204));
-        hospitalPortalBtn.setFont(new java.awt.Font("Lucida Grande", 3, 13)); // NOI18N
+        hospitalPortalBtn.setFont(new java.awt.Font("Lucida Grande", 1, 13)); // NOI18N
         hospitalPortalBtn.setText("Manage Hospital ");
         hospitalPortalBtn.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 hospitalPortalBtnActionPerformed(evt);
             }
         });
-        jPanel3.add(hospitalPortalBtn, new org.netbeans.lib.awtextra.AbsoluteConstraints(30, 100, 200, 40));
+        jPanel3.add(hospitalPortalBtn, new org.netbeans.lib.awtextra.AbsoluteConstraints(50, 130, 180, 40));
 
         manageManu.setBackground(new java.awt.Color(204, 204, 204));
-        manageManu.setFont(new java.awt.Font("Lucida Grande", 3, 13)); // NOI18N
+        manageManu.setFont(new java.awt.Font("Lucida Grande", 1, 13)); // NOI18N
         manageManu.setText("Manage Manufacturer");
         manageManu.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 manageManuActionPerformed(evt);
             }
         });
-        jPanel3.add(manageManu, new org.netbeans.lib.awtextra.AbsoluteConstraints(30, 160, 200, 40));
+        jPanel3.add(manageManu, new org.netbeans.lib.awtextra.AbsoluteConstraints(50, 240, 180, 40));
 
         labbtn.setBackground(new java.awt.Color(204, 204, 204));
-        labbtn.setFont(new java.awt.Font("Lucida Grande", 3, 13)); // NOI18N
+        labbtn.setFont(new java.awt.Font("Lucida Grande", 1, 13)); // NOI18N
         labbtn.setText("Manage Labs");
         labbtn.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 labbtnActionPerformed(evt);
             }
         });
-        jPanel3.add(labbtn, new org.netbeans.lib.awtextra.AbsoluteConstraints(30, 220, 200, 40));
+        jPanel3.add(labbtn, new org.netbeans.lib.awtextra.AbsoluteConstraints(50, 340, 180, 40));
 
         pharmacyBtn1.setBackground(new java.awt.Color(204, 204, 204));
-        pharmacyBtn1.setFont(new java.awt.Font("Lucida Grande", 3, 13)); // NOI18N
+        pharmacyBtn1.setFont(new java.awt.Font("Lucida Grande", 1, 13)); // NOI18N
         pharmacyBtn1.setText("Pharmacy Portal");
         pharmacyBtn1.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 pharmacyBtn1ActionPerformed(evt);
             }
         });
-        jPanel3.add(pharmacyBtn1, new org.netbeans.lib.awtextra.AbsoluteConstraints(30, 280, 200, 40));
+        jPanel3.add(pharmacyBtn1, new org.netbeans.lib.awtextra.AbsoluteConstraints(50, 450, 180, 40));
 
         manageAMBULANCE1.setBackground(new java.awt.Color(204, 204, 204));
-        manageAMBULANCE1.setFont(new java.awt.Font("Lucida Grande", 3, 13)); // NOI18N
+        manageAMBULANCE1.setFont(new java.awt.Font("Lucida Grande", 1, 13)); // NOI18N
         manageAMBULANCE1.setText("Manage Ambulance");
         manageAMBULANCE1.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 manageAMBULANCE1ActionPerformed(evt);
             }
         });
-        jPanel3.add(manageAMBULANCE1, new org.netbeans.lib.awtextra.AbsoluteConstraints(30, 340, 200, 40));
+        jPanel3.add(manageAMBULANCE1, new org.netbeans.lib.awtextra.AbsoluteConstraints(50, 560, 180, 40));
+
+        jLabel2.setFont(new java.awt.Font("Lucida Grande", 3, 26)); // NOI18N
+        jLabel2.setForeground(new java.awt.Color(255, 255, 255));
+        jLabel2.setText("Hi, System Admin!");
+        jPanel3.add(jLabel2, new org.netbeans.lib.awtextra.AbsoluteConstraints(30, 40, -1, -1));
 
         rightSystemAdminPanel.setBackground(new java.awt.Color(138, 194, 211));
         rightSystemAdminPanel.setPreferredSize(new java.awt.Dimension(1058, 840));
         rightSystemAdminPanel.setLayout(new java.awt.CardLayout());
 
-        jLabel1.setBackground(new java.awt.Color(138, 194, 211));
+        jLabel1.setBackground(new java.awt.Color(0, 51, 51));
         jLabel1.setIcon(new javax.swing.ImageIcon(getClass().getResource("/ui/Picture/cover1.jpeg"))); // NOI18N
         rightSystemAdminPanel.add(jLabel1, "card2");
 
@@ -177,6 +183,7 @@ public class MedicalCareWorkAreaJpanel extends javax.swing.JPanel {
     // Variables declaration - do not modify//GEN-BEGIN:variables
     private javax.swing.JButton hospitalPortalBtn;
     private javax.swing.JLabel jLabel1;
+    private javax.swing.JLabel jLabel2;
     private javax.swing.JPanel jPanel3;
     private javax.swing.JButton labbtn;
     private javax.swing.JButton manageAMBULANCE1;

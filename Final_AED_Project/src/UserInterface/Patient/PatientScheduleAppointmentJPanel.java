@@ -72,20 +72,19 @@ public class PatientScheduleAppointmentJPanel extends javax.swing.JPanel {
     // <editor-fold defaultstate="collapsed" desc="Generated Code">//GEN-BEGIN:initComponents
     private void initComponents() {
 
-        physicianNameCombo = new javax.swing.JComboBox<>();
+        physicianNameCombo = new javax.swing.JComboBox<Doctor>();
         jLabel1 = new javax.swing.JLabel();
         searchByHospitalName = new javax.swing.JButton();
         jLabel2 = new javax.swing.JLabel();
-        hospitalNameComboBox = new javax.swing.JComboBox<>();
+        hospitalNameComboBox = new javax.swing.JComboBox<Hospital>();
         jLabel3 = new javax.swing.JLabel();
-        departmentlNameCombo = new javax.swing.JComboBox<>();
+        departmentlNameCombo = new javax.swing.JComboBox<Department>();
         jScrollPane1 = new javax.swing.JScrollPane();
         jTable1 = new javax.swing.JTable();
         jLabel4 = new javax.swing.JLabel();
         booknowbtn = new javax.swing.JButton();
-        jDateChooser1 = new com.toedter.calendar.JDateChooser();
 
-        setBackground(new java.awt.Color(138, 194, 211));
+        setBackground(new java.awt.Color(0, 51, 51));
         setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
 
         physicianNameCombo.addActionListener(new java.awt.event.ActionListener() {
@@ -93,13 +92,15 @@ public class PatientScheduleAppointmentJPanel extends javax.swing.JPanel {
                 physicianNameComboActionPerformed(evt);
             }
         });
-        add(physicianNameCombo, new org.netbeans.lib.awtextra.AbsoluteConstraints(490, 150, 200, -1));
+        add(physicianNameCombo, new org.netbeans.lib.awtextra.AbsoluteConstraints(150, 130, 200, -1));
 
         jLabel1.setForeground(new java.awt.Color(255, 255, 255));
         jLabel1.setText("Hospital: ");
-        add(jLabel1, new org.netbeans.lib.awtextra.AbsoluteConstraints(320, 60, 124, 27));
+        add(jLabel1, new org.netbeans.lib.awtextra.AbsoluteConstraints(80, 50, 124, 27));
 
-        searchByHospitalName.setFont(new java.awt.Font("Lucida Grande", 3, 13)); // NOI18N
+        searchByHospitalName.setBackground(new java.awt.Color(0, 0, 0));
+        searchByHospitalName.setFont(new java.awt.Font("Lucida Grande", 1, 13)); // NOI18N
+        searchByHospitalName.setForeground(new java.awt.Color(255, 255, 255));
         searchByHospitalName.setText("Get available time slots");
         searchByHospitalName.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -110,25 +111,25 @@ public class PatientScheduleAppointmentJPanel extends javax.swing.JPanel {
 
         jLabel2.setForeground(new java.awt.Color(255, 255, 255));
         jLabel2.setText("Physician:");
-        add(jLabel2, new org.netbeans.lib.awtextra.AbsoluteConstraints(310, 150, 124, 27));
+        add(jLabel2, new org.netbeans.lib.awtextra.AbsoluteConstraints(70, 130, 124, 27));
 
         hospitalNameComboBox.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 hospitalNameComboBoxActionPerformed(evt);
             }
         });
-        add(hospitalNameComboBox, new org.netbeans.lib.awtextra.AbsoluteConstraints(490, 60, 200, -1));
+        add(hospitalNameComboBox, new org.netbeans.lib.awtextra.AbsoluteConstraints(150, 50, 200, -1));
 
         jLabel3.setForeground(new java.awt.Color(255, 255, 255));
         jLabel3.setText("Department: ");
-        add(jLabel3, new org.netbeans.lib.awtextra.AbsoluteConstraints(300, 100, 124, 27));
+        add(jLabel3, new org.netbeans.lib.awtextra.AbsoluteConstraints(60, 90, 124, 27));
 
         departmentlNameCombo.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 departmentlNameComboActionPerformed(evt);
             }
         });
-        add(departmentlNameCombo, new org.netbeans.lib.awtextra.AbsoluteConstraints(490, 100, 200, -1));
+        add(departmentlNameCombo, new org.netbeans.lib.awtextra.AbsoluteConstraints(150, 90, 200, -1));
 
         jTable1.setModel(new javax.swing.table.DefaultTableModel(
             new Object [][] {
@@ -147,17 +148,18 @@ public class PatientScheduleAppointmentJPanel extends javax.swing.JPanel {
 
         jLabel4.setForeground(new java.awt.Color(255, 255, 255));
         jLabel4.setText("Date:");
-        add(jLabel4, new org.netbeans.lib.awtextra.AbsoluteConstraints(330, 200, 124, 27));
+        add(jLabel4, new org.netbeans.lib.awtextra.AbsoluteConstraints(100, 170, 124, 27));
 
-        booknowbtn.setFont(new java.awt.Font("Lucida Grande", 3, 13)); // NOI18N
+        booknowbtn.setBackground(new java.awt.Color(0, 0, 0));
+        booknowbtn.setFont(new java.awt.Font("Lucida Grande", 1, 13)); // NOI18N
+        booknowbtn.setForeground(new java.awt.Color(255, 255, 255));
         booknowbtn.setText("Book Now");
         booknowbtn.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 booknowbtnActionPerformed(evt);
             }
         });
-        add(booknowbtn, new org.netbeans.lib.awtextra.AbsoluteConstraints(380, 520, 190, 40));
-        add(jDateChooser1, new org.netbeans.lib.awtextra.AbsoluteConstraints(520, 210, -1, -1));
+        add(booknowbtn, new org.netbeans.lib.awtextra.AbsoluteConstraints(90, 510, 110, 30));
     }// </editor-fold>//GEN-END:initComponents
 
     private void physicianNameComboActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_physicianNameComboActionPerformed
@@ -297,7 +299,6 @@ public class PatientScheduleAppointmentJPanel extends javax.swing.JPanel {
     private javax.swing.JButton booknowbtn;
     private javax.swing.JComboBox<Department> departmentlNameCombo;
     private javax.swing.JComboBox<Hospital> hospitalNameComboBox;
-    private com.toedter.calendar.JDateChooser jDateChooser1;
     private javax.swing.JLabel jLabel1;
     private javax.swing.JLabel jLabel2;
     private javax.swing.JLabel jLabel3;

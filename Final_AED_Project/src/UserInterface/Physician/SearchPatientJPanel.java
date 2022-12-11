@@ -89,7 +89,7 @@ public class SearchPatientJPanel extends javax.swing.JPanel {
         jSplitPane1 = new javax.swing.JSplitPane();
         rightJPanel = new javax.swing.JPanel();
         jPanel1 = new javax.swing.JPanel();
-        patientComboBox = new javax.swing.JComboBox<>();
+        patientComboBox = new javax.swing.JComboBox<Patient>();
         patientDetails = new javax.swing.JButton();
         jButton2 = new javax.swing.JButton();
         testResult = new javax.swing.JButton();
@@ -114,46 +114,51 @@ public class SearchPatientJPanel extends javax.swing.JPanel {
 
         jSplitPane1.setRightComponent(rightJPanel);
 
-        jPanel1.setBackground(new java.awt.Color(138, 194, 211));
+        jPanel1.setBackground(new java.awt.Color(0, 51, 51));
         jPanel1.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
 
-        jPanel1.add(patientComboBox, new org.netbeans.lib.awtextra.AbsoluteConstraints(6, 81, 135, -1));
+        jPanel1.add(patientComboBox, new org.netbeans.lib.awtextra.AbsoluteConstraints(15, 80, 150, -1));
 
-        patientDetails.setFont(new java.awt.Font("Lucida Grande", 3, 13)); // NOI18N
+        patientDetails.setBackground(new java.awt.Color(204, 204, 204));
+        patientDetails.setFont(new java.awt.Font("Lucida Grande", 1, 13)); // NOI18N
         patientDetails.setText("Patient Details");
         patientDetails.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 patientDetailsActionPerformed(evt);
             }
         });
-        jPanel1.add(patientDetails, new org.netbeans.lib.awtextra.AbsoluteConstraints(6, 125, 180, 50));
+        jPanel1.add(patientDetails, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 140, 160, 30));
 
-        jButton2.setFont(new java.awt.Font("Lucida Grande", 3, 13)); // NOI18N
+        jButton2.setBackground(new java.awt.Color(204, 204, 204));
+        jButton2.setFont(new java.awt.Font("Lucida Grande", 1, 13)); // NOI18N
         jButton2.setText("Patient Medications");
         jButton2.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 jButton2ActionPerformed(evt);
             }
         });
-        jPanel1.add(jButton2, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 190, -1, 50));
+        jPanel1.add(jButton2, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 200, 160, 30));
 
-        testResult.setFont(new java.awt.Font("Lucida Grande", 3, 13)); // NOI18N
+        testResult.setBackground(new java.awt.Color(204, 204, 204));
+        testResult.setFont(new java.awt.Font("Lucida Grande", 1, 13)); // NOI18N
         testResult.setText("Patient Test Results");
         testResult.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 testResultActionPerformed(evt);
             }
         });
-        jPanel1.add(testResult, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 250, -1, 50));
+        jPanel1.add(testResult, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 260, 160, 30));
 
-        backBtn.setFont(new java.awt.Font("Lucida Grande", 3, 13)); // NOI18N
-        backBtn.setText("< Back");
+        backBtn.setBackground(new java.awt.Color(0, 0, 0));
+        backBtn.setFont(new java.awt.Font("Lucida Grande", 1, 13)); // NOI18N
+        backBtn.setForeground(new java.awt.Color(255, 255, 255));
+        backBtn.setText("Back");
         backBtn.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 backBtnActionPerformed(evt);
             }
         });
-        jPanel1.add(backBtn, new org.netbeans.lib.awtextra.AbsoluteConstraints(6, 14, 110, -1));
+        jPanel1.add(backBtn, new org.netbeans.lib.awtextra.AbsoluteConstraints(6, 14, 80, -1));
 
         jLabel3.setIcon(new javax.swing.ImageIcon(getClass().getResource("/UserInterface/images/company logo.png"))); // NOI18N
         jPanel1.add(jLabel3, new org.netbeans.lib.awtextra.AbsoluteConstraints(6, 364, -1, -1));

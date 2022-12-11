@@ -153,9 +153,9 @@ public class SystemAdminLabJPanel extends javax.swing.JPanel {
         });
         add(viewHospitalBtn, new org.netbeans.lib.awtextra.AbsoluteConstraints(350, 580, 190, 40));
 
-        jLabel2.setBackground(new java.awt.Color(138, 194, 211));
+        jLabel2.setBackground(new java.awt.Color(0, 51, 51));
         jLabel2.setIcon(new javax.swing.ImageIcon(getClass().getResource("/ui/Picture/cover1.jpeg"))); // NOI18N
-        add(jLabel2, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, -50, 1180, 790));
+        add(jLabel2, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, -40, 1180, 790));
     }// </editor-fold>//GEN-END:initComponents
 
     private void backBtnActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_backBtnActionPerformed

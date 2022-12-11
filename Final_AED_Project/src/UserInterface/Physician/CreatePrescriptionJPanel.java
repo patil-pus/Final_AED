@@ -99,66 +99,73 @@ public class CreatePrescriptionJPanel extends javax.swing.JPanel {
         jLabel1 = new javax.swing.JLabel();
         jLabel2 = new javax.swing.JLabel();
         jLabel3 = new javax.swing.JLabel();
-        pharmacyListComboBox = new javax.swing.JComboBox<>();
+        pharmacyListComboBox = new javax.swing.JComboBox<Pharmacy>();
         backBtn = new javax.swing.JButton();
         sendRequestBtn = new javax.swing.JButton();
         jLabel4 = new javax.swing.JLabel();
-        patientjComboBox = new javax.swing.JComboBox<>();
+        patientjComboBox = new javax.swing.JComboBox<Patient>();
         jScrollPane1 = new javax.swing.JScrollPane();
         jTextArea1 = new javax.swing.JTextArea();
 
-        setBackground(new java.awt.Color(138, 194, 211));
+        setBackground(new java.awt.Color(0, 51, 51));
         setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
 
-        jLabel1.setFont(new java.awt.Font("Lucida Grande", 1, 36)); // NOI18N
+        jLabel1.setFont(new java.awt.Font("Lucida Grande", 1, 28)); // NOI18N
         jLabel1.setForeground(new java.awt.Color(255, 255, 255));
-        jLabel1.setText("CREATE PRESCRIPTION");
-        add(jLabel1, new org.netbeans.lib.awtextra.AbsoluteConstraints(220, 30, -1, -1));
+        jLabel1.setText("Create Prescription");
+        add(jLabel1, new org.netbeans.lib.awtextra.AbsoluteConstraints(20, 80, -1, -1));
 
+        jLabel2.setFont(new java.awt.Font("Segoe UI", 1, 12)); // NOI18N
         jLabel2.setForeground(new java.awt.Color(255, 255, 255));
         jLabel2.setText("Prescribe Medicines:");
-        add(jLabel2, new org.netbeans.lib.awtextra.AbsoluteConstraints(180, 230, -1, -1));
+        add(jLabel2, new org.netbeans.lib.awtextra.AbsoluteConstraints(20, 220, -1, -1));
 
+        jLabel3.setFont(new java.awt.Font("Segoe UI", 1, 12)); // NOI18N
         jLabel3.setForeground(new java.awt.Color(255, 255, 255));
         jLabel3.setText("Select Pharmacy:");
-        add(jLabel3, new org.netbeans.lib.awtextra.AbsoluteConstraints(200, 180, 128, -1));
+        add(jLabel3, new org.netbeans.lib.awtextra.AbsoluteConstraints(20, 180, 128, -1));
 
         pharmacyListComboBox.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 pharmacyListComboBoxActionPerformed(evt);
             }
         });
-        add(pharmacyListComboBox, new org.netbeans.lib.awtextra.AbsoluteConstraints(390, 170, 232, -1));
+        add(pharmacyListComboBox, new org.netbeans.lib.awtextra.AbsoluteConstraints(150, 180, 200, -1));
 
-        backBtn.setFont(new java.awt.Font("Lucida Grande", 3, 13)); // NOI18N
-        backBtn.setText("< Back");
+        backBtn.setBackground(new java.awt.Color(0, 0, 0));
+        backBtn.setFont(new java.awt.Font("Lucida Grande", 1, 13)); // NOI18N
+        backBtn.setForeground(new java.awt.Color(255, 255, 255));
+        backBtn.setText("Back");
         backBtn.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 backBtnActionPerformed(evt);
             }
         });
-        add(backBtn, new org.netbeans.lib.awtextra.AbsoluteConstraints(18, 28, 110, -1));
+        add(backBtn, new org.netbeans.lib.awtextra.AbsoluteConstraints(18, 28, 80, -1));
 
-        sendRequestBtn.setFont(new java.awt.Font("Lucida Grande", 3, 13)); // NOI18N
+        sendRequestBtn.setBackground(new java.awt.Color(0, 0, 0));
+        sendRequestBtn.setFont(new java.awt.Font("Lucida Grande", 1, 13)); // NOI18N
+        sendRequestBtn.setForeground(new java.awt.Color(255, 255, 255));
         sendRequestBtn.setText("Send Request");
         sendRequestBtn.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 sendRequestBtnActionPerformed(evt);
             }
         });
-        add(sendRequestBtn, new org.netbeans.lib.awtextra.AbsoluteConstraints(440, 350, 160, -1));
+        add(sendRequestBtn, new org.netbeans.lib.awtextra.AbsoluteConstraints(150, 320, -1, -1));
 
+        jLabel4.setFont(new java.awt.Font("Segoe UI", 1, 12)); // NOI18N
         jLabel4.setForeground(new java.awt.Color(255, 255, 255));
         jLabel4.setText("Patient ID:");
-        add(jLabel4, new org.netbeans.lib.awtextra.AbsoluteConstraints(230, 130, 128, -1));
+        add(jLabel4, new org.netbeans.lib.awtextra.AbsoluteConstraints(20, 140, 128, -1));
 
-        add(patientjComboBox, new org.netbeans.lib.awtextra.AbsoluteConstraints(390, 120, 232, -1));
+        add(patientjComboBox, new org.netbeans.lib.awtextra.AbsoluteConstraints(150, 140, 200, -1));
 
         jTextArea1.setColumns(20);
         jTextArea1.setRows(5);
         jScrollPane1.setViewportView(jTextArea1);
 
-        add(jScrollPane1, new org.netbeans.lib.awtextra.AbsoluteConstraints(390, 230, -1, -1));
+        add(jScrollPane1, new org.netbeans.lib.awtextra.AbsoluteConstraints(150, 220, 200, -1));
     }// </editor-fold>//GEN-END:initComponents
 
     private void pharmacyListComboBoxActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_pharmacyListComboBoxActionPerformed

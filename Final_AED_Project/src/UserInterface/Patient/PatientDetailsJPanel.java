@@ -81,60 +81,70 @@ public class PatientDetailsJPanel extends javax.swing.JPanel {
         addNotesBtn = new javax.swing.JButton();
         saveBtn = new javax.swing.JButton();
 
-        setBackground(new java.awt.Color(138, 194, 211));
+        setBackground(new java.awt.Color(0, 51, 51));
         setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
-        add(hospitalTxt, new org.netbeans.lib.awtextra.AbsoluteConstraints(210, 70, 382, -1));
-        add(DoctorTxt, new org.netbeans.lib.awtextra.AbsoluteConstraints(210, 110, 382, -1));
-        add(dateTxt, new org.netbeans.lib.awtextra.AbsoluteConstraints(210, 150, 382, -1));
+        add(hospitalTxt, new org.netbeans.lib.awtextra.AbsoluteConstraints(100, 110, 210, -1));
+        add(DoctorTxt, new org.netbeans.lib.awtextra.AbsoluteConstraints(100, 150, 210, -1));
+        add(dateTxt, new org.netbeans.lib.awtextra.AbsoluteConstraints(100, 190, 210, -1));
 
         notesTxt.setColumns(20);
         notesTxt.setRows(5);
         jScrollPane1.setViewportView(notesTxt);
 
-        add(jScrollPane1, new org.netbeans.lib.awtextra.AbsoluteConstraints(210, 190, 382, 214));
+        add(jScrollPane1, new org.netbeans.lib.awtextra.AbsoluteConstraints(100, 230, 210, 170));
 
+        jLabel1.setFont(new java.awt.Font("Segoe UI", 1, 12)); // NOI18N
         jLabel1.setForeground(new java.awt.Color(255, 255, 255));
         jLabel1.setText("Hospital: ");
-        add(jLabel1, new org.netbeans.lib.awtextra.AbsoluteConstraints(120, 80, -1, -1));
+        add(jLabel1, new org.netbeans.lib.awtextra.AbsoluteConstraints(30, 110, -1, -1));
 
+        jLabel2.setFont(new java.awt.Font("Segoe UI", 1, 12)); // NOI18N
         jLabel2.setForeground(new java.awt.Color(255, 255, 255));
         jLabel2.setText("Physician: ");
-        add(jLabel2, new org.netbeans.lib.awtextra.AbsoluteConstraints(120, 120, -1, -1));
+        add(jLabel2, new org.netbeans.lib.awtextra.AbsoluteConstraints(30, 150, -1, -1));
 
+        jLabel3.setFont(new java.awt.Font("Segoe UI", 1, 12)); // NOI18N
         jLabel3.setForeground(new java.awt.Color(255, 255, 255));
         jLabel3.setText("Date: ");
-        add(jLabel3, new org.netbeans.lib.awtextra.AbsoluteConstraints(150, 150, -1, -1));
+        add(jLabel3, new org.netbeans.lib.awtextra.AbsoluteConstraints(50, 190, -1, -1));
 
+        jLabel4.setFont(new java.awt.Font("Segoe UI", 1, 12)); // NOI18N
         jLabel4.setForeground(new java.awt.Color(255, 255, 255));
         jLabel4.setText("Notes: ");
-        add(jLabel4, new org.netbeans.lib.awtextra.AbsoluteConstraints(150, 190, -1, -1));
+        add(jLabel4, new org.netbeans.lib.awtextra.AbsoluteConstraints(40, 230, -1, -1));
 
-        backBtn.setFont(new java.awt.Font("Lucida Grande", 3, 13)); // NOI18N
-        backBtn.setText("< Back");
+        backBtn.setBackground(new java.awt.Color(0, 0, 0));
+        backBtn.setFont(new java.awt.Font("Lucida Grande", 1, 13)); // NOI18N
+        backBtn.setForeground(new java.awt.Color(255, 255, 255));
+        backBtn.setText("Back");
         backBtn.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 backBtnActionPerformed(evt);
             }
         });
-        add(backBtn, new org.netbeans.lib.awtextra.AbsoluteConstraints(20, 30, 110, -1));
+        add(backBtn, new org.netbeans.lib.awtextra.AbsoluteConstraints(20, 30, 70, -1));
 
-        addNotesBtn.setFont(new java.awt.Font("Lucida Grande", 3, 13)); // NOI18N
+        addNotesBtn.setBackground(new java.awt.Color(0, 0, 0));
+        addNotesBtn.setFont(new java.awt.Font("Lucida Grande", 1, 13)); // NOI18N
+        addNotesBtn.setForeground(new java.awt.Color(255, 255, 255));
         addNotesBtn.setText("Add Notes");
         addNotesBtn.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 addNotesBtnActionPerformed(evt);
             }
         });
-        add(addNotesBtn, new org.netbeans.lib.awtextra.AbsoluteConstraints(210, 430, -1, -1));
+        add(addNotesBtn, new org.netbeans.lib.awtextra.AbsoluteConstraints(110, 420, -1, -1));
 
-        saveBtn.setFont(new java.awt.Font("Lucida Grande", 3, 13)); // NOI18N
+        saveBtn.setBackground(new java.awt.Color(0, 0, 0));
+        saveBtn.setFont(new java.awt.Font("Lucida Grande", 1, 13)); // NOI18N
+        saveBtn.setForeground(new java.awt.Color(255, 255, 255));
         saveBtn.setText("Save");
         saveBtn.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 saveBtnActionPerformed(evt);
             }
         });
-        add(saveBtn, new org.netbeans.lib.awtextra.AbsoluteConstraints(495, 430, 100, -1));
+        add(saveBtn, new org.netbeans.lib.awtextra.AbsoluteConstraints(220, 420, 90, -1));
     }// </editor-fold>//GEN-END:initComponents
 
     private void backBtnActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_backBtnActionPerformed

@@ -64,22 +64,23 @@ public class UpdateRoom extends javax.swing.JPanel {
         UpdateBtn = new javax.swing.JButton();
         jButton1 = new javax.swing.JButton();
 
-        setBackground(new java.awt.Color(138, 194, 211));
+        setBackground(new java.awt.Color(0, 51, 51));
         setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
 
+        jLabel4.setFont(new java.awt.Font("Segoe UI", 1, 12)); // NOI18N
         jLabel4.setForeground(new java.awt.Color(255, 255, 255));
         jLabel4.setText("Update Rooms:");
-        add(jLabel4, new org.netbeans.lib.awtextra.AbsoluteConstraints(260, 290, -1, 30));
+        add(jLabel4, new org.netbeans.lib.awtextra.AbsoluteConstraints(20, 150, -1, 30));
 
         TxtUpdate.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 TxtUpdateActionPerformed(evt);
             }
         });
-        add(TxtUpdate, new org.netbeans.lib.awtextra.AbsoluteConstraints(420, 300, 160, -1));
+        add(TxtUpdate, new org.netbeans.lib.awtextra.AbsoluteConstraints(110, 150, 160, -1));
 
-        UpdateSave.setBackground(new java.awt.Color(255, 255, 255));
-        UpdateSave.setFont(new java.awt.Font("Lucida Grande", 3, 13)); // NOI18N
+        UpdateSave.setBackground(new java.awt.Color(0, 0, 0));
+        UpdateSave.setFont(new java.awt.Font("Lucida Grande", 1, 13)); // NOI18N
         UpdateSave.setText("Save");
         UpdateSave.setEnabled(false);
         UpdateSave.addActionListener(new java.awt.event.ActionListener() {
@@ -87,30 +88,35 @@ public class UpdateRoom extends javax.swing.JPanel {
                 UpdateSaveActionPerformed(evt);
             }
         });
-        add(UpdateSave, new org.netbeans.lib.awtextra.AbsoluteConstraints(460, 370, 120, -1));
+        add(UpdateSave, new org.netbeans.lib.awtextra.AbsoluteConstraints(160, 210, 90, -1));
 
+        jLabel1.setFont(new java.awt.Font("Segoe UI", 1, 12)); // NOI18N
         jLabel1.setForeground(new java.awt.Color(255, 255, 255));
         jLabel1.setText("Room Status:");
-        add(jLabel1, new org.netbeans.lib.awtextra.AbsoluteConstraints(270, 230, -1, 30));
-        add(RoomStatus, new org.netbeans.lib.awtextra.AbsoluteConstraints(420, 240, 160, -1));
+        add(jLabel1, new org.netbeans.lib.awtextra.AbsoluteConstraints(20, 100, -1, 30));
+        add(RoomStatus, new org.netbeans.lib.awtextra.AbsoluteConstraints(110, 100, 160, -1));
 
-        UpdateBtn.setFont(new java.awt.Font("Lucida Grande", 3, 13)); // NOI18N
+        UpdateBtn.setBackground(new java.awt.Color(0, 0, 0));
+        UpdateBtn.setFont(new java.awt.Font("Lucida Grande", 1, 13)); // NOI18N
+        UpdateBtn.setForeground(new java.awt.Color(255, 255, 255));
         UpdateBtn.setText("Update");
         UpdateBtn.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 UpdateBtnActionPerformed(evt);
             }
         });
-        add(UpdateBtn, new org.netbeans.lib.awtextra.AbsoluteConstraints(260, 370, 120, -1));
+        add(UpdateBtn, new org.netbeans.lib.awtextra.AbsoluteConstraints(40, 210, 100, -1));
 
-        jButton1.setFont(new java.awt.Font("Lucida Grande", 3, 13)); // NOI18N
-        jButton1.setText("< Back");
+        jButton1.setBackground(new java.awt.Color(0, 0, 0));
+        jButton1.setFont(new java.awt.Font("Lucida Grande", 1, 13)); // NOI18N
+        jButton1.setForeground(new java.awt.Color(255, 255, 255));
+        jButton1.setText("Back");
         jButton1.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 jButton1ActionPerformed(evt);
             }
         });
-        add(jButton1, new org.netbeans.lib.awtextra.AbsoluteConstraints(50, 60, 130, -1));
+        add(jButton1, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 20, 90, -1));
     }// </editor-fold>//GEN-END:initComponents
 
     private void TxtUpdateActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_TxtUpdateActionPerformed

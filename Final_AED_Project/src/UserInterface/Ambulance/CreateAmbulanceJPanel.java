@@ -68,72 +68,77 @@ public class CreateAmbulanceJPanel extends javax.swing.JPanel {
         licenseTxt = new javax.swing.JTextField();
         jLabel3 = new javax.swing.JLabel();
 
-        setBackground(new java.awt.Color(13, 37, 70));
+        setBackground(new java.awt.Color(0, 51, 51));
         setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
 
-        backBtn.setText("<");
+        backBtn.setBackground(new java.awt.Color(0, 0, 0));
+        backBtn.setFont(new java.awt.Font("Segoe UI", 1, 12)); // NOI18N
+        backBtn.setForeground(new java.awt.Color(255, 255, 255));
+        backBtn.setText("Back");
         backBtn.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 backBtnActionPerformed(evt);
             }
         });
-        add(backBtn, new org.netbeans.lib.awtextra.AbsoluteConstraints(291, 130, 50, -1));
+        add(backBtn, new org.netbeans.lib.awtextra.AbsoluteConstraints(20, 20, 70, -1));
 
-        jLabel1.setFont(new java.awt.Font("Lucida Grande", 1, 36)); // NOI18N
+        jLabel1.setFont(new java.awt.Font("Lucida Grande", 1, 28)); // NOI18N
         jLabel1.setForeground(new java.awt.Color(255, 255, 255));
-        jLabel1.setText("ADD NEW AMBULANCE");
-        add(jLabel1, new org.netbeans.lib.awtextra.AbsoluteConstraints(340, 120, -1, -1));
+        jLabel1.setText("Add New Balance");
+        add(jLabel1, new org.netbeans.lib.awtextra.AbsoluteConstraints(20, 80, -1, -1));
 
         jLabel2.setForeground(new java.awt.Color(255, 255, 255));
         jLabel2.setText("Driver Name:");
-        add(jLabel2, new org.netbeans.lib.awtextra.AbsoluteConstraints(370, 290, -1, -1));
-        add(drivernameTxt, new org.netbeans.lib.awtextra.AbsoluteConstraints(460, 290, 221, -1));
+        add(jLabel2, new org.netbeans.lib.awtextra.AbsoluteConstraints(40, 250, -1, -1));
+        add(drivernameTxt, new org.netbeans.lib.awtextra.AbsoluteConstraints(120, 250, 221, -1));
 
         jLabel6.setForeground(new java.awt.Color(255, 255, 255));
         jLabel6.setText("Contact number:");
-        add(jLabel6, new org.netbeans.lib.awtextra.AbsoluteConstraints(350, 330, -1, 40));
-        add(numberTxt, new org.netbeans.lib.awtextra.AbsoluteConstraints(460, 340, 221, -1));
+        add(jLabel6, new org.netbeans.lib.awtextra.AbsoluteConstraints(20, 280, -1, 40));
+        add(numberTxt, new org.netbeans.lib.awtextra.AbsoluteConstraints(120, 290, 221, -1));
 
         jLabel4.setForeground(new java.awt.Color(255, 255, 255));
         jLabel4.setText("Base Location:");
-        add(jLabel4, new org.netbeans.lib.awtextra.AbsoluteConstraints(360, 390, -1, 30));
+        add(jLabel4, new org.netbeans.lib.awtextra.AbsoluteConstraints(30, 330, -1, 30));
 
         baseLocationTxt.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 baseLocationTxtActionPerformed(evt);
             }
         });
-        add(baseLocationTxt, new org.netbeans.lib.awtextra.AbsoluteConstraints(460, 390, 221, -1));
+        add(baseLocationTxt, new org.netbeans.lib.awtextra.AbsoluteConstraints(120, 340, 221, -1));
 
-        saveBtn.setFont(new java.awt.Font("Lucida Grande", 3, 13)); // NOI18N
+        saveBtn.setBackground(new java.awt.Color(0, 0, 0));
+        saveBtn.setFont(new java.awt.Font("Lucida Grande", 1, 13)); // NOI18N
+        saveBtn.setForeground(new java.awt.Color(255, 255, 255));
         saveBtn.setText("Save");
         saveBtn.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 saveBtnActionPerformed(evt);
             }
         });
-        add(saveBtn, new org.netbeans.lib.awtextra.AbsoluteConstraints(510, 480, 110, -1));
+        add(saveBtn, new org.netbeans.lib.awtextra.AbsoluteConstraints(170, 420, 70, -1));
 
         jLabel5.setForeground(new java.awt.Color(255, 255, 255));
         jLabel5.setText("UserName:");
-        add(jLabel5, new org.netbeans.lib.awtextra.AbsoluteConstraints(390, 190, -1, 20));
-        add(usernameTxt, new org.netbeans.lib.awtextra.AbsoluteConstraints(460, 190, 221, -1));
+        add(jLabel5, new org.netbeans.lib.awtextra.AbsoluteConstraints(50, 150, -1, 20));
+        add(usernameTxt, new org.netbeans.lib.awtextra.AbsoluteConstraints(120, 150, 221, -1));
 
         jLabel8.setForeground(new java.awt.Color(255, 255, 255));
-        jLabel8.setText("Passowrd:");
-        add(jLabel8, new org.netbeans.lib.awtextra.AbsoluteConstraints(390, 240, -1, 20));
-        add(passwordTxt, new org.netbeans.lib.awtextra.AbsoluteConstraints(460, 240, 221, -1));
+        jLabel8.setText("Password:");
+        add(jLabel8, new org.netbeans.lib.awtextra.AbsoluteConstraints(50, 200, -1, 20));
+        add(passwordTxt, new org.netbeans.lib.awtextra.AbsoluteConstraints(120, 200, 221, -1));
 
         jLabel7.setForeground(new java.awt.Color(255, 255, 255));
         jLabel7.setText("License Number:");
-        add(jLabel7, new org.netbeans.lib.awtextra.AbsoluteConstraints(350, 440, -1, 20));
+        add(jLabel7, new org.netbeans.lib.awtextra.AbsoluteConstraints(20, 380, -1, 20));
 
         licenseTxt.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 licenseTxtActionPerformed(evt);
             }
         });
-        add(licenseTxt, new org.netbeans.lib.awtextra.AbsoluteConstraints(460, 440, 221, -1));
+        add(licenseTxt, new org.netbeans.lib.awtextra.AbsoluteConstraints(120, 380, 221, -1));
 
         jLabel3.setIcon(new javax.swing.ImageIcon(getClass().getResource("/ui/Picture/ambu.jpeg"))); // NOI18N
         add(jLabel3, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 66, 850, 470));

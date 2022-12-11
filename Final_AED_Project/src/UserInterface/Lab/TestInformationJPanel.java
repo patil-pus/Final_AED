@@ -73,7 +73,7 @@ public class TestInformationJPanel extends javax.swing.JPanel {
         addBtn = new javax.swing.JButton();
         removeBtn = new javax.swing.JButton();
 
-        setBackground(new java.awt.Color(138, 194, 211));
+        setBackground(new java.awt.Color(0, 51, 51));
         setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
 
         jTable1.setModel(new javax.swing.table.DefaultTableModel(
@@ -97,34 +97,40 @@ public class TestInformationJPanel extends javax.swing.JPanel {
         });
         jScrollPane1.setViewportView(jTable1);
 
-        add(jScrollPane1, new org.netbeans.lib.awtextra.AbsoluteConstraints(193, 170, 450, 150));
+        add(jScrollPane1, new org.netbeans.lib.awtextra.AbsoluteConstraints(43, 100, 700, 230));
 
-        backBtn.setFont(new java.awt.Font("Lucida Grande", 3, 13)); // NOI18N
-        backBtn.setText("< Back");
+        backBtn.setBackground(new java.awt.Color(0, 0, 0));
+        backBtn.setFont(new java.awt.Font("Lucida Grande", 1, 13)); // NOI18N
+        backBtn.setForeground(new java.awt.Color(255, 255, 255));
+        backBtn.setText("Back");
         backBtn.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 backBtnActionPerformed(evt);
             }
         });
-        add(backBtn, new org.netbeans.lib.awtextra.AbsoluteConstraints(40, 40, 110, -1));
+        add(backBtn, new org.netbeans.lib.awtextra.AbsoluteConstraints(40, 40, 70, -1));
 
-        addBtn.setFont(new java.awt.Font("Lucida Grande", 3, 13)); // NOI18N
+        addBtn.setBackground(new java.awt.Color(0, 0, 0));
+        addBtn.setFont(new java.awt.Font("Lucida Grande", 1, 13)); // NOI18N
+        addBtn.setForeground(new java.awt.Color(255, 255, 255));
         addBtn.setText("Add ");
         addBtn.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 addBtnActionPerformed(evt);
             }
         });
-        add(addBtn, new org.netbeans.lib.awtextra.AbsoluteConstraints(330, 340, 180, 40));
+        add(addBtn, new org.netbeans.lib.awtextra.AbsoluteConstraints(70, 360, 80, 30));
 
-        removeBtn.setFont(new java.awt.Font("Lucida Grande", 3, 13)); // NOI18N
+        removeBtn.setBackground(new java.awt.Color(0, 0, 0));
+        removeBtn.setFont(new java.awt.Font("Lucida Grande", 1, 13)); // NOI18N
+        removeBtn.setForeground(new java.awt.Color(255, 255, 255));
         removeBtn.setText("Delete");
         removeBtn.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 removeBtnActionPerformed(evt);
             }
         });
-        add(removeBtn, new org.netbeans.lib.awtextra.AbsoluteConstraints(330, 410, 180, 40));
+        add(removeBtn, new org.netbeans.lib.awtextra.AbsoluteConstraints(170, 360, 80, 30));
     }// </editor-fold>//GEN-END:initComponents
 
     private void addBtnActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_addBtnActionPerformed
