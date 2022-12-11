@@ -12,7 +12,7 @@ import javax.swing.JPanel;
 
 /**
  *
- * @author Saad Ghojaria
+ * @author Atharva
  */
 public class LabInfoJpanel extends javax.swing.JPanel {
 

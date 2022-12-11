@@ -7,7 +7,7 @@ package UserInterface.Lab;
 
 /**
  *
- * @author srushtidesai
+ * @author Atharva
  */
 public class ConfirmManuOrder extends javax.swing.JPanel {
 

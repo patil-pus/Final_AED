@@ -16,7 +16,7 @@ import javax.swing.JPanel;
 
 /**
  *
- * @author srushtidesai
+ * @author Atharva
  */
 public class HospitalSideNavWorkAreaJpanel extends javax.swing.JPanel {
 

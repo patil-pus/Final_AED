@@ -14,7 +14,7 @@ import javax.swing.JPanel;
 
 /**
  *
- * @author srushtidesai
+ * @author Atharva
  */
 public class LabRole extends Role {
     public JPanel createWorkArea(JPanel userProcessContainer, 

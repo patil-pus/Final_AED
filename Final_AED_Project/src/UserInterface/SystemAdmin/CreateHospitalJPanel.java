@@ -20,7 +20,7 @@ import javax.swing.JPanel;
 
 /**
  *
- * @author Saad Ghojaria
+ * @author pranavkulkarni
  */
 public class CreateHospitalJPanel extends javax.swing.JPanel {
 
