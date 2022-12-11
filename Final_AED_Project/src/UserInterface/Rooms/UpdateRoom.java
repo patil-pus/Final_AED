@@ -17,7 +17,7 @@ import javax.swing.JPanel;
 
 /**
  *
- * @author shrutikasalian
+ * @author pushk
  */
 public class UpdateRoom extends javax.swing.JPanel {
 
