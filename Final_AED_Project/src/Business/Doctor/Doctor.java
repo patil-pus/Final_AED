@@ -11,7 +11,7 @@ import java.util.List;
 
 /**
  *
- * @author Saad Ghojaria
+ * @author pranavkulkarni
  */
 public class Doctor {
     
