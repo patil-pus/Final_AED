@@ -81,7 +81,7 @@ public class ManufacturerNavJpanel extends javax.swing.JPanel {
 
         jPanel1.setPreferredSize(new java.awt.Dimension(1800, 900));
 
-        systemAdminPanel.setBackground(new java.awt.Color(204, 255, 255));
+        systemAdminPanel.setBackground(new java.awt.Color(0, 51, 51));
         systemAdminPanel.setMinimumSize(new java.awt.Dimension(1338, 840));
 
         javax.swing.GroupLayout systemAdminPanelLayout = new javax.swing.GroupLayout(systemAdminPanel);
@@ -95,35 +95,41 @@ public class ManufacturerNavJpanel extends javax.swing.JPanel {
             .addGap(0, 1037, Short.MAX_VALUE)
         );
 
-        jPanel3.setBackground(new java.awt.Color(204, 204, 255));
+        jPanel3.setBackground(new java.awt.Color(0, 51, 51));
         jPanel3.setMinimumSize(new java.awt.Dimension(280, 840));
         jPanel3.setPreferredSize(new java.awt.Dimension(280, 840));
         jPanel3.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
         jPanel3.add(jLabel3, new org.netbeans.lib.awtextra.AbsoluteConstraints(90, 60, 60, 30));
 
+        manageOrderbtn.setBackground(new java.awt.Color(204, 204, 204));
+        manageOrderbtn.setFont(new java.awt.Font("Segoe UI", 1, 12)); // NOI18N
         manageOrderbtn.setText("Manage Orders");
         manageOrderbtn.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 manageOrderbtnActionPerformed(evt);
             }
         });
-        jPanel3.add(manageOrderbtn, new org.netbeans.lib.awtextra.AbsoluteConstraints(50, 130, 130, 50));
+        jPanel3.add(manageOrderbtn, new org.netbeans.lib.awtextra.AbsoluteConstraints(50, 130, 170, 30));
 
+        manageItemBtn.setBackground(new java.awt.Color(204, 204, 204));
+        manageItemBtn.setFont(new java.awt.Font("Segoe UI", 1, 12)); // NOI18N
         manageItemBtn.setText("Manage Items");
         manageItemBtn.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 manageItemBtnActionPerformed(evt);
             }
         });
-        jPanel3.add(manageItemBtn, new org.netbeans.lib.awtextra.AbsoluteConstraints(50, 210, 130, 50));
+        jPanel3.add(manageItemBtn, new org.netbeans.lib.awtextra.AbsoluteConstraints(50, 210, 170, 30));
 
+        manageInfoBtn.setBackground(new java.awt.Color(204, 204, 204));
+        manageInfoBtn.setFont(new java.awt.Font("Segoe UI", 1, 12)); // NOI18N
         manageInfoBtn.setText("Manage Info");
         manageInfoBtn.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 manageInfoBtnActionPerformed(evt);
             }
         });
-        jPanel3.add(manageInfoBtn, new org.netbeans.lib.awtextra.AbsoluteConstraints(50, 290, 130, 50));
+        jPanel3.add(manageInfoBtn, new org.netbeans.lib.awtextra.AbsoluteConstraints(50, 290, 170, 30));
 
         rightSystemAdminPanel.setBackground(new java.awt.Color(255, 255, 255));
         rightSystemAdminPanel.setPreferredSize(new java.awt.Dimension(1058, 840));
