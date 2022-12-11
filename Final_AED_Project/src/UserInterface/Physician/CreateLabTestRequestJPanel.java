@@ -7,7 +7,7 @@ package UserInterface.Physician;
 
 /**
  *
- * @author srushtidesai
+ * @author pushk
  */
 
 import Business.Doctor.Doctor;
