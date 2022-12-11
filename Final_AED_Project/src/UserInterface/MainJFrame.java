@@ -23,13 +23,13 @@ public class MainJFrame extends javax.swing.JFrame {
      */
     private DB4OUtil dB4OUtil = DB4OUtil.getInstance();
     private Ecosystem business;
-       
+
     
     public MainJFrame() {
         initComponents();
         business = dB4OUtil.retrieveSystem();
         
-        Image img = Toolkit.getDefaultToolkit().getImage("/Users/shivanivats/AED_GROUP/Team-28/HealthcareManagementPortal/src/UserInterface/Images/loginPage.jpg");
+        Image img = Toolkit.getDefaultToolkit().getImage("/Users/SARVESH SAWANT/Pictures/POSTGRE SIDDHI.png");
         Image scaledImage = img.getScaledInstance(500, 225 , Image.SCALE_SMOOTH);
         
         LoginJPanel systemAdminLoginJPanel = new LoginJPanel(CardLayoutJPanel,business, "System Admin");
