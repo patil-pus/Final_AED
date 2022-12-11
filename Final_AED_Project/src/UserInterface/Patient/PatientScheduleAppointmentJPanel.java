@@ -84,6 +84,8 @@ public class PatientScheduleAppointmentJPanel extends javax.swing.JPanel {
         jLabel4 = new javax.swing.JLabel();
         booknowbtn = new javax.swing.JButton();
 
+        jDateChooser2 = new com.toedter.calendar.JDateChooser();
+
         setBackground(new java.awt.Color(0, 51, 51));
         setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
 
@@ -159,7 +161,9 @@ public class PatientScheduleAppointmentJPanel extends javax.swing.JPanel {
                 booknowbtnActionPerformed(evt);
             }
         });
-        add(booknowbtn, new org.netbeans.lib.awtextra.AbsoluteConstraints(90, 510, 110, 30));
+
+        add(booknowbtn, new org.netbeans.lib.awtextra.AbsoluteConstraints(380, 520, 190, 40));
+        add(jDateChooser2, new org.netbeans.lib.awtextra.AbsoluteConstraints(498, 210, 120, -1));
     }// </editor-fold>//GEN-END:initComponents
 
     private void physicianNameComboActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_physicianNameComboActionPerformed
@@ -299,6 +303,9 @@ public class PatientScheduleAppointmentJPanel extends javax.swing.JPanel {
     private javax.swing.JButton booknowbtn;
     private javax.swing.JComboBox<Department> departmentlNameCombo;
     private javax.swing.JComboBox<Hospital> hospitalNameComboBox;
+
+    private com.toedter.calendar.JDateChooser jDateChooser2;
+
     private javax.swing.JLabel jLabel1;
     private javax.swing.JLabel jLabel2;
     private javax.swing.JLabel jLabel3;
