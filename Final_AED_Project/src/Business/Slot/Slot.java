@@ -9,9 +9,9 @@ package Business.Slot;
 import java.time.LocalDateTime;
 import java.util.Date;
 
-
+/*
  @author pranavkulkarni
-
+*/
 public class Slot {
     
     private String slotId;
