@@ -8,10 +8,9 @@ package Business.Patient;
 import java.awt.image.BufferedImage;
 import java.util.ArrayList;
 
-/**
- *
- * @author pranavkulkarni
- */
+
+  @author pranavkulkarni
+
 public class Patient {
     
    private String username;

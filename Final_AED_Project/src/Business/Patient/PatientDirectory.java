@@ -11,10 +11,10 @@ import Business.Hospital.Hospital;
 import Business.UserAccount.UserAccount;
 import java.util.ArrayList;
 
-/**
- *
- * @author pranavkulkarni
- */
+ @author pranavkulkarni
+
+
+
 public class PatientDirectory {
     
     private ArrayList<Patient> patientList;
