@@ -15,7 +15,7 @@ import javax.swing.JPanel;
 
 /**
  *
- * @author srushtidesai
+ * @author Atharva
  */
 public class MedicalCareWorkAreaJpanel extends javax.swing.JPanel {
 

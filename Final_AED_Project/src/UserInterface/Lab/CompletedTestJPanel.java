@@ -15,7 +15,9 @@ import javax.swing.table.DefaultTableModel;
 
 /**
  *
- * @author Saad Ghojaria
+
+ * @author pushk
+
  */
 public class CompletedTestJPanel extends javax.swing.JPanel {
 
