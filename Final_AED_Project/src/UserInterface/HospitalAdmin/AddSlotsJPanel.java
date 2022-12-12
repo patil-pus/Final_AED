@@ -27,7 +27,7 @@ import javax.swing.JPanel;
 
 /**
  *
- * @author srushtidesai
+ * @author pranavkulkarni
  */
 public class AddSlotsJPanel extends javax.swing.JPanel {
 

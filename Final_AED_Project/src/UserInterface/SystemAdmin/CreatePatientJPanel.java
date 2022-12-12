@@ -18,8 +18,9 @@ import javax.swing.JPanel;
 
 /**
  *
- * @author srushtidesai
+ * @author pushk
  */
+
 public class CreatePatientJPanel extends javax.swing.JPanel {
 
     JPanel CardLayoutJPanel;

@@ -16,8 +16,9 @@ import javax.swing.table.DefaultTableModel;
 
 /**
  *
- * @author Saad Ghojaria
+ * @author pushk
  */
+
 public class TestInformationJPanel extends javax.swing.JPanel {
     
     JPanel CardLayoutJPanel;

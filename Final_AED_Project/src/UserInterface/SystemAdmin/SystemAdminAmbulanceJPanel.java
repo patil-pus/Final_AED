@@ -20,8 +20,9 @@ import javax.swing.table.DefaultTableModel;
 
 /**
  *
- * @author srushtidesai
+ * @author pushk
  */
+
 
 public class SystemAdminAmbulanceJPanel extends javax.swing.JPanel {
 

@@ -19,8 +19,9 @@ import javax.swing.JPanel;
 
 /**
  *
- * @author srushtidesai
+ * @author pushk
  */
+
 public class AddManufacturerJPanel extends javax.swing.JPanel {
 
     JPanel CardLayoutJPanel;

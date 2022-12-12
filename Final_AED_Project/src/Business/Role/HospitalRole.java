@@ -12,7 +12,7 @@ import javax.swing.JPanel;
 
 /**
  *
- * @author shrutikasalian
+ * @author pushk
  */
 public class HospitalRole extends Role{
 

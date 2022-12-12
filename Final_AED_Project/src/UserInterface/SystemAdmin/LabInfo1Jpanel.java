@@ -13,8 +13,9 @@ import javax.swing.JPanel;
 
 /**
  *
- * @author Rakesh Lokam
+ * @author pushk
  */
+
 public class LabInfo1Jpanel extends javax.swing.JPanel {
 
     public JPanel CardLayoutJPanel;
