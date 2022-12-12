@@ -5,7 +5,6 @@
  */
 package UserInterface.SystemAdmin;
 
-import ui.Picture.AddManufacturerJPanel;
 import Business.Ecosystem;
 import Business.Manufacturer.Manufacturer;
 import Business.UserAccount.UserAccount;
