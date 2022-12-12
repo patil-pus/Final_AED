@@ -80,7 +80,7 @@ public class SystemAdminManufacturerNewJPanel extends javax.swing.JPanel {
         });
         jScrollPane1.setViewportView(manuTable);
 
-        add(jScrollPane1, new org.netbeans.lib.awtextra.AbsoluteConstraints(30, 130, 771, 230));
+        add(jScrollPane1, new org.netbeans.lib.awtextra.AbsoluteConstraints(80, 130, 771, 230));
 
         jLabel1.setBackground(new java.awt.Color(0, 0, 0));
         jLabel1.setFont(new java.awt.Font("Lucida Grande", 1, 36)); // NOI18N
@@ -96,7 +96,7 @@ public class SystemAdminManufacturerNewJPanel extends javax.swing.JPanel {
                 jButton1ActionPerformed(evt);
             }
         });
-        add(jButton1, new org.netbeans.lib.awtextra.AbsoluteConstraints(290, 380, 100, 30));
+        add(jButton1, new org.netbeans.lib.awtextra.AbsoluteConstraints(310, 380, 100, 30));
 
         jButton2.setBackground(new java.awt.Color(0, 0, 0));
         jButton2.setFont(new java.awt.Font("Lucida Grande", 3, 13)); // NOI18N
@@ -107,13 +107,13 @@ public class SystemAdminManufacturerNewJPanel extends javax.swing.JPanel {
                 jButton2ActionPerformed(evt);
             }
         });
-        add(jButton2, new org.netbeans.lib.awtextra.AbsoluteConstraints(540, 380, 100, 30));
+        add(jButton2, new org.netbeans.lib.awtextra.AbsoluteConstraints(580, 380, 100, 30));
 
         jButton3.setBackground(new java.awt.Color(0, 0, 0));
         jButton3.setFont(new java.awt.Font("Lucida Grande", 3, 13)); // NOI18N
         jButton3.setForeground(new java.awt.Color(255, 255, 255));
         jButton3.setText("Refresh");
-        add(jButton3, new org.netbeans.lib.awtextra.AbsoluteConstraints(160, 380, 100, 30));
+        add(jButton3, new org.netbeans.lib.awtextra.AbsoluteConstraints(190, 380, 100, 30));
 
         jButton4.setBackground(new java.awt.Color(0, 0, 0));
         jButton4.setFont(new java.awt.Font("Lucida Grande", 3, 13)); // NOI18N
@@ -124,7 +124,7 @@ public class SystemAdminManufacturerNewJPanel extends javax.swing.JPanel {
                 jButton4ActionPerformed(evt);
             }
         });
-        add(jButton4, new org.netbeans.lib.awtextra.AbsoluteConstraints(420, 380, 100, 30));
+        add(jButton4, new org.netbeans.lib.awtextra.AbsoluteConstraints(440, 380, 100, 30));
 
         backBtn.setBackground(new java.awt.Color(0, 0, 0));
         backBtn.setFont(new java.awt.Font("Lucida Grande", 1, 13)); // NOI18N
