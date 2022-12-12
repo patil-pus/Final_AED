@@ -66,22 +66,24 @@ public class ManagePhysicianJPanel extends javax.swing.JPanel {
         viewPhysicianBtn = new javax.swing.JButton();
         jButton1 = new javax.swing.JButton();
 
-        setBackground(new java.awt.Color(138, 194, 211));
+        setBackground(new java.awt.Color(0, 51, 51));
         setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
 
-        backBtn.setFont(new java.awt.Font("Lucida Grande", 3, 13)); // NOI18N
-        backBtn.setText("< Back");
+        backBtn.setBackground(new java.awt.Color(0, 0, 0));
+        backBtn.setFont(new java.awt.Font("Lucida Grande", 1, 13)); // NOI18N
+        backBtn.setForeground(new java.awt.Color(255, 255, 255));
+        backBtn.setText("Back");
         backBtn.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 backBtnActionPerformed(evt);
             }
         });
-        add(backBtn, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 40, 120, 30));
+        add(backBtn, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 20, 70, 30));
 
-        jLabel1.setFont(new java.awt.Font("Lucida Grande", 1, 36)); // NOI18N
+        jLabel1.setFont(new java.awt.Font("Lucida Grande", 1, 32)); // NOI18N
         jLabel1.setForeground(new java.awt.Color(255, 255, 255));
-        jLabel1.setText("MANAGE DOCTORS");
-        add(jLabel1, new org.netbeans.lib.awtextra.AbsoluteConstraints(250, 40, 380, -1));
+        jLabel1.setText("Manage Doctors");
+        add(jLabel1, new org.netbeans.lib.awtextra.AbsoluteConstraints(260, 100, 300, -1));
 
         physicianTable.setModel(new javax.swing.table.DefaultTableModel(
             new Object [][] {
@@ -96,8 +98,9 @@ public class ManagePhysicianJPanel extends javax.swing.JPanel {
         ));
         jScrollPane1.setViewportView(physicianTable);
 
-        add(jScrollPane1, new org.netbeans.lib.awtextra.AbsoluteConstraints(50, 150, 710, 131));
+        add(jScrollPane1, new org.netbeans.lib.awtextra.AbsoluteConstraints(50, 150, 710, 180));
 
+        createPhysiciansBtn.setBackground(new java.awt.Color(204, 204, 204));
         createPhysiciansBtn.setFont(new java.awt.Font("Lucida Grande", 3, 13)); // NOI18N
         createPhysiciansBtn.setText("Add ");
         createPhysiciansBtn.addActionListener(new java.awt.event.ActionListener() {
@@ -105,8 +108,9 @@ public class ManagePhysicianJPanel extends javax.swing.JPanel {
                 createPhysiciansBtnActionPerformed(evt);
             }
         });
-        add(createPhysiciansBtn, new org.netbeans.lib.awtextra.AbsoluteConstraints(330, 370, 210, 40));
+        add(createPhysiciansBtn, new org.netbeans.lib.awtextra.AbsoluteConstraints(280, 340, 100, 30));
 
+        deleteBtn.setBackground(new java.awt.Color(204, 204, 204));
         deleteBtn.setFont(new java.awt.Font("Lucida Grande", 3, 13)); // NOI18N
         deleteBtn.setText("Delete");
         deleteBtn.addActionListener(new java.awt.event.ActionListener() {
@@ -114,8 +118,9 @@ public class ManagePhysicianJPanel extends javax.swing.JPanel {
                 deleteBtnActionPerformed(evt);
             }
         });
-        add(deleteBtn, new org.netbeans.lib.awtextra.AbsoluteConstraints(330, 420, 210, 40));
+        add(deleteBtn, new org.netbeans.lib.awtextra.AbsoluteConstraints(400, 340, 100, 30));
 
+        viewPhysicianBtn.setBackground(new java.awt.Color(204, 204, 204));
         viewPhysicianBtn.setFont(new java.awt.Font("Lucida Grande", 3, 13)); // NOI18N
         viewPhysicianBtn.setText("View ");
         viewPhysicianBtn.addActionListener(new java.awt.event.ActionListener() {
@@ -123,8 +128,9 @@ public class ManagePhysicianJPanel extends javax.swing.JPanel {
                 viewPhysicianBtnActionPerformed(evt);
             }
         });
-        add(viewPhysicianBtn, new org.netbeans.lib.awtextra.AbsoluteConstraints(330, 470, 210, 40));
+        add(viewPhysicianBtn, new org.netbeans.lib.awtextra.AbsoluteConstraints(520, 340, 100, 30));
 
+        jButton1.setBackground(new java.awt.Color(204, 204, 204));
         jButton1.setFont(new java.awt.Font("Lucida Grande", 3, 13)); // NOI18N
         jButton1.setText("Refresh");
         jButton1.addActionListener(new java.awt.event.ActionListener() {
@@ -132,7 +138,7 @@ public class ManagePhysicianJPanel extends javax.swing.JPanel {
                 jButton1ActionPerformed(evt);
             }
         });
-        add(jButton1, new org.netbeans.lib.awtextra.AbsoluteConstraints(330, 319, 210, 40));
+        add(jButton1, new org.netbeans.lib.awtextra.AbsoluteConstraints(160, 340, 100, 30));
     }// </editor-fold>//GEN-END:initComponents
 
     private void backBtnActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_backBtnActionPerformed

@@ -106,9 +106,11 @@ public class ConfirmSOSRequest extends javax.swing.JPanel {
         jScrollPane1 = new javax.swing.JScrollPane();
         sosTable = new javax.swing.JTable();
 
-        setBackground(new java.awt.Color(138, 194, 211));
+        setBackground(new java.awt.Color(0, 51, 51));
         setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
 
+        jLabel2.setFont(new java.awt.Font("Segoe UI", 1, 12)); // NOI18N
+        jLabel2.setForeground(new java.awt.Color(255, 255, 255));
         jLabel2.setText("Location:");
         add(jLabel2, new org.netbeans.lib.awtextra.AbsoluteConstraints(300, 200, -1, -1));
 
@@ -119,18 +121,20 @@ public class ConfirmSOSRequest extends javax.swing.JPanel {
         });
         add(patientAddr, new org.netbeans.lib.awtextra.AbsoluteConstraints(360, 193, 193, -1));
 
-        Confirmbtn.setText("CONFIRM");
+        Confirmbtn.setBackground(new java.awt.Color(204, 204, 204));
+        Confirmbtn.setFont(new java.awt.Font("Segoe UI", 1, 12)); // NOI18N
+        Confirmbtn.setText("Confirm");
         Confirmbtn.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 ConfirmbtnActionPerformed(evt);
             }
         });
-        add(Confirmbtn, new org.netbeans.lib.awtextra.AbsoluteConstraints(393, 225, 119, 37));
+        add(Confirmbtn, new org.netbeans.lib.awtextra.AbsoluteConstraints(410, 230, 90, 20));
 
-        jLabel1.setFont(new java.awt.Font("Lucida Grande", 1, 24)); // NOI18N
+        jLabel1.setFont(new java.awt.Font("Lucida Grande", 1, 32)); // NOI18N
         jLabel1.setForeground(new java.awt.Color(255, 255, 255));
-        jLabel1.setText("CONFIRM SOS REQUEST");
-        add(jLabel1, new org.netbeans.lib.awtextra.AbsoluteConstraints(282, 82, 309, -1));
+        jLabel1.setText("Confirm SOS Request");
+        add(jLabel1, new org.netbeans.lib.awtextra.AbsoluteConstraints(260, 120, 370, -1));
 
         sosTable.setModel(new javax.swing.table.DefaultTableModel(
             new Object [][] {
