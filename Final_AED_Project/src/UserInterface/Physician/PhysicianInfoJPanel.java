@@ -107,10 +107,10 @@ public class PhysicianInfoJPanel extends javax.swing.JPanel {
         });
         add(backBtn, new org.netbeans.lib.awtextra.AbsoluteConstraints(20, 30, 70, 20));
 
-        jLabel1.setFont(new java.awt.Font("Lucida Grande", 1, 36)); // NOI18N
+        jLabel1.setFont(new java.awt.Font("Lucida Grande", 1, 32)); // NOI18N
         jLabel1.setForeground(new java.awt.Color(255, 255, 255));
         jLabel1.setText("View Doctor");
-        add(jLabel1, new org.netbeans.lib.awtextra.AbsoluteConstraints(30, 70, 300, 42));
+        add(jLabel1, new org.netbeans.lib.awtextra.AbsoluteConstraints(60, 80, 300, 42));
 
         jLabel2.setForeground(new java.awt.Color(255, 255, 255));
         jLabel2.setText("Department:");

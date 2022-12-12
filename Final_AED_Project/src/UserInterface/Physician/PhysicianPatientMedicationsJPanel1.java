@@ -116,7 +116,7 @@ public class PhysicianPatientMedicationsJPanel1 extends javax.swing.JPanel {
         jLabel4.setFont(new java.awt.Font("Lucida Grande", 1, 36)); // NOI18N
         jLabel4.setForeground(new java.awt.Color(255, 255, 255));
         jLabel4.setText("Patient Medications");
-        add(jLabel4, new org.netbeans.lib.awtextra.AbsoluteConstraints(220, 120, -1, 58));
+        add(jLabel4, new org.netbeans.lib.awtextra.AbsoluteConstraints(250, 140, -1, 58));
 
         jTable4.setModel(new javax.swing.table.DefaultTableModel(
             new Object [][] {
