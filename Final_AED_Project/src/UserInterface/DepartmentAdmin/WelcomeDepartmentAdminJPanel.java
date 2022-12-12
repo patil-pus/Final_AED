@@ -86,7 +86,7 @@ public class WelcomeDepartmentAdminJPanel extends javax.swing.JPanel {
         add(managePhysicianBtn, new org.netbeans.lib.awtextra.AbsoluteConstraints(40, 280, 230, 50));
 
         backBtn.setBackground(new java.awt.Color(0, 0, 0));
-        backBtn.setFont(new java.awt.Font("Lucida Grande", 3, 13)); // NOI18N
+        backBtn.setFont(new java.awt.Font("Lucida Grande", 1, 13)); // NOI18N
         backBtn.setForeground(new java.awt.Color(255, 255, 255));
         backBtn.setText("Back");
         backBtn.addActionListener(new java.awt.event.ActionListener() {

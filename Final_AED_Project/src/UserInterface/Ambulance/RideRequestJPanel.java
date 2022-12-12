@@ -109,9 +109,8 @@ public class RideRequestJPanel extends javax.swing.JPanel {
 
         add(jScrollPane1, new org.netbeans.lib.awtextra.AbsoluteConstraints(40, 60, 840, 320));
 
-        UpdateStatus.setBackground(new java.awt.Color(0, 0, 0));
+        UpdateStatus.setBackground(new java.awt.Color(204, 204, 204));
         UpdateStatus.setFont(new java.awt.Font("Segoe UI", 1, 12)); // NOI18N
-        UpdateStatus.setForeground(new java.awt.Color(255, 255, 255));
         UpdateStatus.setText("Update Status");
         UpdateStatus.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -120,9 +119,8 @@ public class RideRequestJPanel extends javax.swing.JPanel {
         });
         add(UpdateStatus, new org.netbeans.lib.awtextra.AbsoluteConstraints(160, 400, 110, -1));
 
-        RefreshBtn.setBackground(new java.awt.Color(0, 0, 0));
+        RefreshBtn.setBackground(new java.awt.Color(204, 204, 204));
         RefreshBtn.setFont(new java.awt.Font("Segoe UI", 1, 12)); // NOI18N
-        RefreshBtn.setForeground(new java.awt.Color(255, 255, 255));
         RefreshBtn.setText("Refresh");
         RefreshBtn.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {

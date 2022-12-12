@@ -24,7 +24,6 @@ import javax.swing.JPanel;
  *
  * @author pushk
  */
-
 public class LabSideNavWorkAreaJpanel extends javax.swing.JPanel {
 
     JPanel userProcessContainer;

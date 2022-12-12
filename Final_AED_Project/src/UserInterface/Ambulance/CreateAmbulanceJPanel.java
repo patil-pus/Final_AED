@@ -82,10 +82,10 @@ public class CreateAmbulanceJPanel extends javax.swing.JPanel {
         });
         add(backBtn, new org.netbeans.lib.awtextra.AbsoluteConstraints(20, 80, 70, -1));
 
-        jLabel1.setFont(new java.awt.Font("Lucida Grande", 1, 36)); // NOI18N
+        jLabel1.setFont(new java.awt.Font("Lucida Grande", 1, 32)); // NOI18N
         jLabel1.setForeground(new java.awt.Color(255, 255, 255));
         jLabel1.setText("Add New Ambulance");
-        add(jLabel1, new org.netbeans.lib.awtextra.AbsoluteConstraints(40, 140, -1, -1));
+        add(jLabel1, new org.netbeans.lib.awtextra.AbsoluteConstraints(30, 160, -1, -1));
 
         jLabel2.setFont(new java.awt.Font("Segoe UI", 1, 12)); // NOI18N
         jLabel2.setForeground(new java.awt.Color(255, 255, 255));
@@ -111,9 +111,8 @@ public class CreateAmbulanceJPanel extends javax.swing.JPanel {
         });
         add(baseLocationTxt, new org.netbeans.lib.awtextra.AbsoluteConstraints(130, 430, 221, -1));
 
-        saveBtn.setBackground(new java.awt.Color(0, 0, 0));
+        saveBtn.setBackground(new java.awt.Color(204, 204, 204));
         saveBtn.setFont(new java.awt.Font("Lucida Grande", 3, 13)); // NOI18N
-        saveBtn.setForeground(new java.awt.Color(255, 255, 255));
         saveBtn.setText("Save");
         saveBtn.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -145,9 +144,7 @@ public class CreateAmbulanceJPanel extends javax.swing.JPanel {
             }
         });
         add(licenseTxt, new org.netbeans.lib.awtextra.AbsoluteConstraints(130, 480, 221, -1));
-
-        jLabel3.setIcon(new javax.swing.ImageIcon(getClass().getResource("/ui/Picture/ambu.jpeg"))); // NOI18N
-        add(jLabel3, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 66, 850, -1));
+        add(jLabel3, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, -65, 990, 2640));
     }// </editor-fold>//GEN-END:initComponents
 
     private void backBtnActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_backBtnActionPerformed

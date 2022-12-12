@@ -20,7 +20,6 @@ import javax.swing.table.DefaultTableModel;
  *
  * @author pushk
  */
-
 public class SystemAdminPharmacyJPanel extends javax.swing.JPanel {
 
     JPanel CardLayoutJPanel;

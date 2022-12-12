@@ -21,7 +21,6 @@ import javax.swing.JPanel;
  *
  * @author pushk
  */
-
 public class CreatePharmacyJPanel extends javax.swing.JPanel {
 
     JPanel CardLayoutJPanel;
