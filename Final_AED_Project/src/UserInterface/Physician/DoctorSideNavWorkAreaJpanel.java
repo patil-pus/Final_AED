@@ -80,9 +80,10 @@ public class DoctorSideNavWorkAreaJpanel extends javax.swing.JPanel {
         jPanel3.setPreferredSize(new java.awt.Dimension(280, 840));
         jPanel3.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
 
-        jLabel3.setFont(new java.awt.Font("SansSerif", 1, 14)); // NOI18N
+        jLabel3.setFont(new java.awt.Font("SansSerif", 1, 24)); // NOI18N
+        jLabel3.setForeground(new java.awt.Color(255, 255, 255));
         jLabel3.setText("Doctor portal");
-        jPanel3.add(jLabel3, new org.netbeans.lib.awtextra.AbsoluteConstraints(80, 50, 120, 30));
+        jPanel3.add(jLabel3, new org.netbeans.lib.awtextra.AbsoluteConstraints(50, 40, 160, 40));
 
         appointmentsBtn.setBackground(new java.awt.Color(204, 204, 204));
         appointmentsBtn.setFont(new java.awt.Font("Lucida Grande", 3, 13)); // NOI18N
