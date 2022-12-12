@@ -67,7 +67,7 @@ public class CreatePatientJPanel extends javax.swing.JPanel {
         jLabel5 = new javax.swing.JLabel();
         jLabel11 = new javax.swing.JLabel();
 
-        setBackground(new java.awt.Color(138, 194, 211));
+        setBackground(new java.awt.Color(0, 51, 51));
         setPreferredSize(new java.awt.Dimension(850, 540));
         setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
 
@@ -88,34 +88,28 @@ public class CreatePatientJPanel extends javax.swing.JPanel {
         add(emailTxt, new org.netbeans.lib.awtextra.AbsoluteConstraints(560, 310, 221, -1));
 
         jLabel8.setFont(new java.awt.Font("Lucida Grande", 1, 13)); // NOI18N
-        jLabel8.setForeground(new java.awt.Color(255, 255, 255));
         jLabel8.setText("Age:");
         add(jLabel8, new org.netbeans.lib.awtextra.AbsoluteConstraints(520, 390, 30, 15));
 
         jLabel2.setFont(new java.awt.Font("Lucida Grande", 1, 13)); // NOI18N
-        jLabel2.setForeground(new java.awt.Color(255, 255, 255));
         jLabel2.setText("Patient Name:");
         add(jLabel2, new org.netbeans.lib.awtextra.AbsoluteConstraints(460, 240, 100, -1));
 
         jLabel9.setFont(new java.awt.Font("Lucida Grande", 1, 13)); // NOI18N
-        jLabel9.setForeground(new java.awt.Color(255, 255, 255));
         jLabel9.setText("Gender:");
         add(jLabel9, new org.netbeans.lib.awtextra.AbsoluteConstraints(500, 430, -1, -1));
 
         jLabel10.setFont(new java.awt.Font("Lucida Grande", 1, 13)); // NOI18N
-        jLabel10.setForeground(new java.awt.Color(255, 255, 255));
         jLabel10.setText("Blood Group:");
         add(jLabel10, new org.netbeans.lib.awtextra.AbsoluteConstraints(470, 470, -1, -1));
 
         jLabel4.setFont(new java.awt.Font("Lucida Grande", 1, 13)); // NOI18N
-        jLabel4.setForeground(new java.awt.Color(255, 255, 255));
         jLabel4.setText("Email id:");
         add(jLabel4, new org.netbeans.lib.awtextra.AbsoluteConstraints(500, 310, 60, 20));
         add(ageTxt, new org.netbeans.lib.awtextra.AbsoluteConstraints(560, 390, 221, -1));
         add(bloodGroupTxt, new org.netbeans.lib.awtextra.AbsoluteConstraints(560, 460, 221, -1));
 
         jLabel6.setFont(new java.awt.Font("Lucida Grande", 1, 13)); // NOI18N
-        jLabel6.setForeground(new java.awt.Color(255, 255, 255));
         jLabel6.setText("Contact number:");
         add(jLabel6, new org.netbeans.lib.awtextra.AbsoluteConstraints(440, 270, -1, 20));
 
@@ -123,15 +117,14 @@ public class CreatePatientJPanel extends javax.swing.JPanel {
         add(genderComboBox, new org.netbeans.lib.awtextra.AbsoluteConstraints(560, 430, 221, -1));
 
         jLabel7.setFont(new java.awt.Font("Lucida Grande", 1, 13)); // NOI18N
-        jLabel7.setForeground(new java.awt.Color(255, 255, 255));
         jLabel7.setText("Address:");
         add(jLabel7, new org.netbeans.lib.awtextra.AbsoluteConstraints(500, 350, -1, -1));
 
         jLabel1.setFont(new java.awt.Font("Lucida Grande", 1, 24)); // NOI18N
-        jLabel1.setForeground(new java.awt.Color(255, 255, 255));
-        jLabel1.setText("SIGN UP NEW PATIENT");
-        add(jLabel1, new org.netbeans.lib.awtextra.AbsoluteConstraints(530, 100, -1, -1));
+        jLabel1.setText("Sign up New Patient");
+        add(jLabel1, new org.netbeans.lib.awtextra.AbsoluteConstraints(530, 110, -1, -1));
 
+        saveBtn.setBackground(new java.awt.Color(204, 204, 204));
         saveBtn.setFont(new java.awt.Font("Lucida Grande", 3, 13)); // NOI18N
         saveBtn.setText("Save");
         saveBtn.addActionListener(new java.awt.event.ActionListener() {
@@ -139,7 +132,7 @@ public class CreatePatientJPanel extends javax.swing.JPanel {
                 saveBtnActionPerformed(evt);
             }
         });
-        add(saveBtn, new org.netbeans.lib.awtextra.AbsoluteConstraints(600, 500, 150, -1));
+        add(saveBtn, new org.netbeans.lib.awtextra.AbsoluteConstraints(620, 500, 70, -1));
 
         backBtn.setIcon(new javax.swing.ImageIcon(getClass().getResource("/ui/Picture/icons8-back-arrow-24.png"))); // NOI18N
         backBtn.addActionListener(new java.awt.event.ActionListener() {
@@ -147,17 +140,15 @@ public class CreatePatientJPanel extends javax.swing.JPanel {
                 backBtnActionPerformed(evt);
             }
         });
-        add(backBtn, new org.netbeans.lib.awtextra.AbsoluteConstraints(470, 100, -1, -1));
+        add(backBtn, new org.netbeans.lib.awtextra.AbsoluteConstraints(60, 100, -1, -1));
         add(passwordTxt, new org.netbeans.lib.awtextra.AbsoluteConstraints(560, 190, 221, -1));
         add(usernameTxt, new org.netbeans.lib.awtextra.AbsoluteConstraints(560, 150, 221, -1));
 
         jLabel3.setFont(new java.awt.Font("Lucida Grande", 1, 13)); // NOI18N
-        jLabel3.setForeground(new java.awt.Color(255, 255, 255));
         jLabel3.setText("Password:");
         add(jLabel3, new org.netbeans.lib.awtextra.AbsoluteConstraints(490, 190, -1, 20));
 
         jLabel5.setFont(new java.awt.Font("Lucida Grande", 1, 13)); // NOI18N
-        jLabel5.setForeground(new java.awt.Color(255, 255, 255));
         jLabel5.setText("Username:");
         add(jLabel5, new org.netbeans.lib.awtextra.AbsoluteConstraints(480, 150, -1, 20));
 

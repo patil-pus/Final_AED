@@ -115,10 +115,12 @@ public class CreatePrescriptionJPanel extends javax.swing.JPanel {
         jLabel1.setText("Create Prescription");
         add(jLabel1, new org.netbeans.lib.awtextra.AbsoluteConstraints(60, 70, -1, -1));
 
+        jLabel2.setFont(new java.awt.Font("Segoe UI", 1, 12)); // NOI18N
         jLabel2.setForeground(new java.awt.Color(255, 255, 255));
         jLabel2.setText("Prescribe Medicines:");
         add(jLabel2, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 240, -1, -1));
 
+        jLabel3.setFont(new java.awt.Font("Segoe UI", 1, 12)); // NOI18N
         jLabel3.setForeground(new java.awt.Color(255, 255, 255));
         jLabel3.setText("Select Pharmacy:");
         add(jLabel3, new org.netbeans.lib.awtextra.AbsoluteConstraints(20, 190, 128, -1));
@@ -151,6 +153,7 @@ public class CreatePrescriptionJPanel extends javax.swing.JPanel {
         });
         add(sendRequestBtn, new org.netbeans.lib.awtextra.AbsoluteConstraints(190, 340, 120, 30));
 
+        jLabel4.setFont(new java.awt.Font("Segoe UI", 1, 12)); // NOI18N
         jLabel4.setForeground(new java.awt.Color(255, 255, 255));
         jLabel4.setText("Patient ID:");
         add(jLabel4, new org.netbeans.lib.awtextra.AbsoluteConstraints(50, 150, 128, -1));

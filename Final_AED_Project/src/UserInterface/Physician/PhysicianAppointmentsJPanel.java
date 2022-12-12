@@ -66,6 +66,7 @@ public class PhysicianAppointmentsJPanel extends javax.swing.JPanel {
 
         jPanel1.setBackground(new java.awt.Color(0, 51, 51));
 
+        UpcomingAppointmentBtn.setBackground(new java.awt.Color(204, 204, 204));
         UpcomingAppointmentBtn.setFont(new java.awt.Font("Lucida Grande", 3, 13)); // NOI18N
         UpcomingAppointmentBtn.setText("Upcoming Appointments");
         UpcomingAppointmentBtn.addActionListener(new java.awt.event.ActionListener() {
@@ -110,8 +111,8 @@ public class PhysicianAppointmentsJPanel extends javax.swing.JPanel {
                         .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
                     .addGroup(jPanel1Layout.createSequentialGroup()
                         .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                            .addComponent(UpcomingAppointmentBtn, javax.swing.GroupLayout.PREFERRED_SIZE, 233, javax.swing.GroupLayout.PREFERRED_SIZE)
-                            .addComponent(ScheduleAppointmentBtn))
+                            .addComponent(ScheduleAppointmentBtn, javax.swing.GroupLayout.PREFERRED_SIZE, 233, javax.swing.GroupLayout.PREFERRED_SIZE)
+                            .addComponent(UpcomingAppointmentBtn, javax.swing.GroupLayout.PREFERRED_SIZE, 233, javax.swing.GroupLayout.PREFERRED_SIZE))
                         .addGap(0, 17, Short.MAX_VALUE))))
         );
         jPanel1Layout.setVerticalGroup(
@@ -119,11 +120,11 @@ public class PhysicianAppointmentsJPanel extends javax.swing.JPanel {
             .addGroup(jPanel1Layout.createSequentialGroup()
                 .addGap(18, 18, 18)
                 .addComponent(backBtn)
-                .addGap(109, 109, 109)
-                .addComponent(UpcomingAppointmentBtn, javax.swing.GroupLayout.PREFERRED_SIZE, 45, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addGap(28, 28, 28)
-                .addComponent(ScheduleAppointmentBtn, javax.swing.GroupLayout.PREFERRED_SIZE, 44, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 248, Short.MAX_VALUE)
+                .addGap(124, 124, 124)
+                .addComponent(UpcomingAppointmentBtn, javax.swing.GroupLayout.PREFERRED_SIZE, 36, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addGap(18, 18, 18)
+                .addComponent(ScheduleAppointmentBtn, javax.swing.GroupLayout.PREFERRED_SIZE, 34, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 262, Short.MAX_VALUE)
                 .addComponent(jLabel3))
         );
 

@@ -143,7 +143,7 @@ public class PatientSideNavWorkAreaJpanel extends javax.swing.JPanel {
         jLabel1.setIcon(new javax.swing.ImageIcon(getClass().getResource("/ui/Picture/BKG3_1.jpg"))); // NOI18N
         rightSystemAdminPanel.add(jLabel1, "card2");
 
-        systemAdminPanel.setBackground(new java.awt.Color(215, 81, 81));
+        systemAdminPanel.setBackground(new java.awt.Color(0, 51, 51));
         systemAdminPanel.setMinimumSize(new java.awt.Dimension(1338, 840));
 
         javax.swing.GroupLayout systemAdminPanelLayout = new javax.swing.GroupLayout(systemAdminPanel);
