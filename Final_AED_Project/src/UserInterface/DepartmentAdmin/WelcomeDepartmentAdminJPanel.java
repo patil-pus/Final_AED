@@ -19,7 +19,7 @@ import UserInterface.Patient.PatientInfoJPanel;
 
 /**
  *
- * @author Saad Ghojaria
+ * @author pranavkulkarni
  */
 public class WelcomeDepartmentAdminJPanel extends javax.swing.JPanel {
 

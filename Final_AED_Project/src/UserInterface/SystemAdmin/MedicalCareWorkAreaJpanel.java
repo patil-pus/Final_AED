@@ -15,8 +15,9 @@ import javax.swing.JPanel;
 
 /**
  *
- * @author srushtidesai
+ * @author pushk
  */
+
 public class MedicalCareWorkAreaJpanel extends javax.swing.JPanel {
 
     JPanel userProcessContainer;

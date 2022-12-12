@@ -17,8 +17,9 @@ import javax.swing.table.DefaultTableModel;
 
 /**
  *
- * @author shrutikasalian
+ * @author pushk
  */
+
 public class SystemAdminPatientPortalJPanel extends javax.swing.JPanel {
     
     JPanel CardLayoutJPanel;
