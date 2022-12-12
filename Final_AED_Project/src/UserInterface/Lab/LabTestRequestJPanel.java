@@ -65,16 +65,19 @@ public class LabTestRequestJPanel extends javax.swing.JPanel {
 
         jSplitPane1.setRightComponent(rightPanel);
 
-        leftPanel.setBackground(new java.awt.Color(138, 194, 211));
+        leftPanel.setBackground(new java.awt.Color(0, 51, 51));
 
-        backbtn.setFont(new java.awt.Font("Lucida Grande", 3, 13)); // NOI18N
-        backbtn.setText("< Back");
+        backbtn.setBackground(new java.awt.Color(0, 0, 0));
+        backbtn.setFont(new java.awt.Font("Lucida Grande", 1, 13)); // NOI18N
+        backbtn.setForeground(new java.awt.Color(255, 255, 255));
+        backbtn.setText("Back");
         backbtn.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 backbtnActionPerformed(evt);
             }
         });
 
+        completedbtn.setBackground(new java.awt.Color(204, 204, 204));
         completedbtn.setFont(new java.awt.Font("Lucida Grande", 3, 13)); // NOI18N
         completedbtn.setText("Completed Tests");
         completedbtn.addActionListener(new java.awt.event.ActionListener() {
@@ -83,6 +86,7 @@ public class LabTestRequestJPanel extends javax.swing.JPanel {
             }
         });
 
+        pendingbtn.setBackground(new java.awt.Color(204, 204, 204));
         pendingbtn.setFont(new java.awt.Font("Lucida Grande", 3, 13)); // NOI18N
         pendingbtn.setText("Pending Tests");
         pendingbtn.addActionListener(new java.awt.event.ActionListener() {
@@ -98,28 +102,28 @@ public class LabTestRequestJPanel extends javax.swing.JPanel {
         leftPanelLayout.setHorizontalGroup(
             leftPanelLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(leftPanelLayout.createSequentialGroup()
-                .addContainerGap()
                 .addGroup(leftPanelLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                    .addComponent(jLabel3)
-                    .addComponent(backbtn, javax.swing.GroupLayout.PREFERRED_SIZE, 105, javax.swing.GroupLayout.PREFERRED_SIZE))
-                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
-            .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, leftPanelLayout.createSequentialGroup()
-                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                .addGroup(leftPanelLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
-                    .addComponent(completedbtn, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                    .addComponent(pendingbtn, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
-                .addGap(30, 30, 30))
+                    .addGroup(leftPanelLayout.createSequentialGroup()
+                        .addContainerGap()
+                        .addComponent(jLabel3))
+                    .addGroup(leftPanelLayout.createSequentialGroup()
+                        .addGap(17, 17, 17)
+                        .addGroup(leftPanelLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
+                            .addComponent(backbtn)
+                            .addComponent(pendingbtn, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                            .addComponent(completedbtn, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))))
+                .addContainerGap(19, Short.MAX_VALUE))
         );
         leftPanelLayout.setVerticalGroup(
             leftPanelLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(leftPanelLayout.createSequentialGroup()
-                .addGap(20, 20, 20)
+                .addGap(17, 17, 17)
                 .addComponent(backbtn)
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 92, Short.MAX_VALUE)
-                .addComponent(completedbtn, javax.swing.GroupLayout.PREFERRED_SIZE, 45, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addGap(103, 103, 103)
+                .addComponent(completedbtn, javax.swing.GroupLayout.PREFERRED_SIZE, 36, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addGap(18, 18, 18)
-                .addComponent(pendingbtn, javax.swing.GroupLayout.PREFERRED_SIZE, 45, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addGap(61, 61, 61)
+                .addComponent(pendingbtn, javax.swing.GroupLayout.PREFERRED_SIZE, 34, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 278, Short.MAX_VALUE)
                 .addComponent(jLabel3)
                 .addContainerGap())
         );

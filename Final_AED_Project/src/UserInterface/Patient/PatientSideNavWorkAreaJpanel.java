@@ -72,17 +72,19 @@ public class PatientSideNavWorkAreaJpanel extends javax.swing.JPanel {
 
         setPreferredSize(new java.awt.Dimension(1800, 900));
 
-        jPanel3.setBackground(new java.awt.Color(204, 204, 255));
+        jPanel3.setBackground(new java.awt.Color(0, 51, 51));
         jPanel3.setMinimumSize(new java.awt.Dimension(280, 840));
         jPanel3.setPreferredSize(new java.awt.Dimension(280, 840));
         jPanel3.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
 
-        jLabel3.setFont(new java.awt.Font("SansSerif", 1, 14)); // NOI18N
+        jLabel3.setBackground(new java.awt.Color(255, 255, 255));
+        jLabel3.setFont(new java.awt.Font("SansSerif", 1, 18)); // NOI18N
+        jLabel3.setForeground(new java.awt.Color(255, 255, 255));
         jLabel3.setText("Patient dashboard ");
-        jPanel3.add(jLabel3, new org.netbeans.lib.awtextra.AbsoluteConstraints(70, 30, 140, 30));
+        jPanel3.add(jLabel3, new org.netbeans.lib.awtextra.AbsoluteConstraints(40, 40, 180, 30));
 
         historyBtn.setBackground(new java.awt.Color(204, 204, 204));
-        historyBtn.setFont(new java.awt.Font("Lucida Grande", 3, 13)); // NOI18N
+        historyBtn.setFont(new java.awt.Font("Lucida Grande", 3, 12)); // NOI18N
         historyBtn.setText("History");
         historyBtn.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -92,7 +94,7 @@ public class PatientSideNavWorkAreaJpanel extends javax.swing.JPanel {
         jPanel3.add(historyBtn, new org.netbeans.lib.awtextra.AbsoluteConstraints(30, 100, 200, 40));
 
         appointmentBtn.setBackground(new java.awt.Color(204, 204, 204));
-        appointmentBtn.setFont(new java.awt.Font("Lucida Grande", 3, 13)); // NOI18N
+        appointmentBtn.setFont(new java.awt.Font("Lucida Grande", 3, 12)); // NOI18N
         appointmentBtn.setText("Appointments");
         appointmentBtn.setMaximumSize(new java.awt.Dimension(200, 40));
         appointmentBtn.setMinimumSize(new java.awt.Dimension(200, 40));
@@ -105,7 +107,7 @@ public class PatientSideNavWorkAreaJpanel extends javax.swing.JPanel {
         jPanel3.add(appointmentBtn, new org.netbeans.lib.awtextra.AbsoluteConstraints(30, 160, -1, -1));
 
         reportsBtn.setBackground(new java.awt.Color(204, 204, 204));
-        reportsBtn.setFont(new java.awt.Font("Lucida Grande", 3, 13)); // NOI18N
+        reportsBtn.setFont(new java.awt.Font("Lucida Grande", 3, 12)); // NOI18N
         reportsBtn.setText("Reports");
         reportsBtn.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -115,7 +117,7 @@ public class PatientSideNavWorkAreaJpanel extends javax.swing.JPanel {
         jPanel3.add(reportsBtn, new org.netbeans.lib.awtextra.AbsoluteConstraints(30, 340, 200, 40));
 
         personalInfoBtn1.setBackground(new java.awt.Color(204, 204, 204));
-        personalInfoBtn1.setFont(new java.awt.Font("Lucida Grande", 3, 13)); // NOI18N
+        personalInfoBtn1.setFont(new java.awt.Font("Lucida Grande", 3, 12)); // NOI18N
         personalInfoBtn1.setText("Personal Information");
         personalInfoBtn1.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -125,7 +127,7 @@ public class PatientSideNavWorkAreaJpanel extends javax.swing.JPanel {
         jPanel3.add(personalInfoBtn1, new org.netbeans.lib.awtextra.AbsoluteConstraints(30, 220, 200, 40));
 
         reportsBtn1.setBackground(new java.awt.Color(204, 204, 204));
-        reportsBtn1.setFont(new java.awt.Font("Lucida Grande", 3, 13)); // NOI18N
+        reportsBtn1.setFont(new java.awt.Font("Lucida Grande", 3, 12)); // NOI18N
         reportsBtn1.setText("SOS Request");
         reportsBtn1.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -141,7 +143,7 @@ public class PatientSideNavWorkAreaJpanel extends javax.swing.JPanel {
         jLabel1.setIcon(new javax.swing.ImageIcon(getClass().getResource("/ui/Picture/BKG3_1.jpg"))); // NOI18N
         rightSystemAdminPanel.add(jLabel1, "card2");
 
-        systemAdminPanel.setBackground(new java.awt.Color(215, 81, 81));
+        systemAdminPanel.setBackground(new java.awt.Color(0, 51, 51));
         systemAdminPanel.setMinimumSize(new java.awt.Dimension(1338, 840));
 
         javax.swing.GroupLayout systemAdminPanelLayout = new javax.swing.GroupLayout(systemAdminPanel);

@@ -86,7 +86,7 @@ public class ManageItemsJPanel extends javax.swing.JPanel {
         setBackground(new java.awt.Color(0, 51, 51));
 
         jLabel1.setBackground(new java.awt.Color(255, 255, 255));
-        jLabel1.setFont(new java.awt.Font("Lucida Grande", 1, 36)); // NOI18N
+        jLabel1.setFont(new java.awt.Font("Lucida Grande", 1, 32)); // NOI18N
         jLabel1.setForeground(new java.awt.Color(255, 255, 255));
         jLabel1.setText("Item List");
 
@@ -113,9 +113,8 @@ public class ManageItemsJPanel extends javax.swing.JPanel {
             }
         });
 
-        btnAddItem.setBackground(new java.awt.Color(0, 0, 0));
-        btnAddItem.setFont(new java.awt.Font("Lucida Grande", 1, 13)); // NOI18N
-        btnAddItem.setForeground(new java.awt.Color(255, 255, 255));
+        btnAddItem.setBackground(new java.awt.Color(204, 204, 204));
+        btnAddItem.setFont(new java.awt.Font("Lucida Grande", 3, 13)); // NOI18N
         btnAddItem.setText("Add");
         btnAddItem.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -123,9 +122,8 @@ public class ManageItemsJPanel extends javax.swing.JPanel {
             }
         });
 
-        btnDeleteItem.setBackground(new java.awt.Color(0, 0, 0));
-        btnDeleteItem.setFont(new java.awt.Font("Lucida Grande", 1, 13)); // NOI18N
-        btnDeleteItem.setForeground(new java.awt.Color(255, 255, 255));
+        btnDeleteItem.setBackground(new java.awt.Color(204, 204, 204));
+        btnDeleteItem.setFont(new java.awt.Font("Lucida Grande", 3, 13)); // NOI18N
         btnDeleteItem.setText("Delete");
         btnDeleteItem.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -138,38 +136,37 @@ public class ManageItemsJPanel extends javax.swing.JPanel {
         layout.setHorizontalGroup(
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(layout.createSequentialGroup()
-                .addGap(26, 26, 26)
-                .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                    .addGroup(layout.createSequentialGroup()
-                        .addComponent(jButton1)
-                        .addGap(127, 127, 127)
-                        .addComponent(jLabel1))
-                    .addComponent(jScrollPane1, javax.swing.GroupLayout.PREFERRED_SIZE, 553, javax.swing.GroupLayout.PREFERRED_SIZE))
-                .addContainerGap(206, Short.MAX_VALUE))
-            .addGroup(layout.createSequentialGroup()
                 .addGap(40, 40, 40)
                 .addComponent(btnAddItem)
                 .addGap(35, 35, 35)
                 .addComponent(btnDeleteItem)
                 .addGap(0, 0, Short.MAX_VALUE))
+            .addGroup(layout.createSequentialGroup()
+                .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                    .addGroup(layout.createSequentialGroup()
+                        .addGap(26, 26, 26)
+                        .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                            .addComponent(jButton1)
+                            .addComponent(jScrollPane1, javax.swing.GroupLayout.PREFERRED_SIZE, 553, javax.swing.GroupLayout.PREFERRED_SIZE)))
+                    .addGroup(layout.createSequentialGroup()
+                        .addGap(236, 236, 236)
+                        .addComponent(jLabel1)))
+                .addContainerGap(206, Short.MAX_VALUE))
         );
         layout.setVerticalGroup(
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(layout.createSequentialGroup()
-                .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                    .addGroup(layout.createSequentialGroup()
-                        .addGap(36, 36, 36)
-                        .addComponent(jLabel1))
-                    .addGroup(layout.createSequentialGroup()
-                        .addGap(17, 17, 17)
-                        .addComponent(jButton1)))
-                .addGap(27, 27, 27)
+                .addGap(17, 17, 17)
+                .addComponent(jButton1)
+                .addGap(12, 12, 12)
+                .addComponent(jLabel1)
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
                 .addComponent(jScrollPane1, javax.swing.GroupLayout.PREFERRED_SIZE, 255, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addGap(18, 18, 18)
                 .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
                     .addComponent(btnAddItem)
                     .addComponent(btnDeleteItem))
-                .addContainerGap(253, Short.MAX_VALUE))
+                .addContainerGap(258, Short.MAX_VALUE))
         );
     }// </editor-fold>//GEN-END:initComponents
 

@@ -73,7 +73,7 @@ public class PharmacySideNavWorkAreaJpanel extends javax.swing.JPanel {
 
         setPreferredSize(new java.awt.Dimension(1800, 900));
 
-        systemAdminPanel.setBackground(new java.awt.Color(215, 81, 81));
+        systemAdminPanel.setBackground(new java.awt.Color(0, 51, 51));
         systemAdminPanel.setMinimumSize(new java.awt.Dimension(1338, 840));
 
         javax.swing.GroupLayout systemAdminPanelLayout = new javax.swing.GroupLayout(systemAdminPanel);
@@ -87,14 +87,15 @@ public class PharmacySideNavWorkAreaJpanel extends javax.swing.JPanel {
             .addGap(0, 2424, Short.MAX_VALUE)
         );
 
-        jPanel3.setBackground(new java.awt.Color(204, 204, 255));
+        jPanel3.setBackground(new java.awt.Color(0, 51, 51));
         jPanel3.setMinimumSize(new java.awt.Dimension(280, 840));
         jPanel3.setPreferredSize(new java.awt.Dimension(280, 840));
         jPanel3.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
 
-        jLabel3.setFont(new java.awt.Font("SansSerif", 1, 14)); // NOI18N
-        jLabel3.setText("Pharmacy !!");
-        jPanel3.add(jLabel3, new org.netbeans.lib.awtextra.AbsoluteConstraints(70, 30, 140, 30));
+        jLabel3.setFont(new java.awt.Font("SansSerif", 1, 18)); // NOI18N
+        jLabel3.setForeground(new java.awt.Color(255, 255, 255));
+        jLabel3.setText("Pharmacy Portal!");
+        jPanel3.add(jLabel3, new org.netbeans.lib.awtextra.AbsoluteConstraints(50, 40, 160, 30));
 
         pastPrescriptionsBtn.setBackground(new java.awt.Color(204, 204, 204));
         pastPrescriptionsBtn.setFont(new java.awt.Font("Lucida Grande", 3, 13)); // NOI18N

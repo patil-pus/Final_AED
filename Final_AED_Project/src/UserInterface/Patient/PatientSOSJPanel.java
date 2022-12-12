@@ -85,21 +85,24 @@ public class PatientSOSJPanel extends javax.swing.JPanel {
         BookSOSbtn = new javax.swing.JButton();
         jLabel3 = new javax.swing.JLabel();
 
-        setBackground(new java.awt.Color(138, 194, 211));
+        setBackground(new java.awt.Color(0, 51, 51));
         setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
 
-        jLabel1.setFont(new java.awt.Font("Lucida Grande", 1, 24)); // NOI18N
+        jLabel1.setFont(new java.awt.Font("Lucida Grande", 1, 34)); // NOI18N
         jLabel1.setForeground(new java.awt.Color(255, 255, 255));
-        jLabel1.setText("REQUEST FOR SOS");
-        add(jLabel1, new org.netbeans.lib.awtextra.AbsoluteConstraints(215, 86, -1, -1));
+        jLabel1.setText("Request for SOS");
+        add(jLabel1, new org.netbeans.lib.awtextra.AbsoluteConstraints(310, 60, -1, -1));
 
-        backBtn.setText("<back");
+        backBtn.setBackground(new java.awt.Color(0, 0, 0));
+        backBtn.setFont(new java.awt.Font("Segoe UI", 1, 12)); // NOI18N
+        backBtn.setForeground(new java.awt.Color(255, 255, 255));
+        backBtn.setText("Back");
         backBtn.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 backBtnActionPerformed(evt);
             }
         });
-        add(backBtn, new org.netbeans.lib.awtextra.AbsoluteConstraints(1, 592, -1, -1));
+        add(backBtn, new org.netbeans.lib.awtextra.AbsoluteConstraints(20, 30, -1, -1));
 
         sosTable.setModel(new javax.swing.table.DefaultTableModel(
             new Object [][] {
@@ -116,21 +119,26 @@ public class PatientSOSJPanel extends javax.swing.JPanel {
 
         add(jScrollPane1, new org.netbeans.lib.awtextra.AbsoluteConstraints(98, 133, 640, 260));
 
+        refreshBtn.setBackground(new java.awt.Color(204, 204, 204));
+        refreshBtn.setFont(new java.awt.Font("Segoe UI", 1, 12)); // NOI18N
         refreshBtn.setText("Refresh");
         refreshBtn.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 refreshBtnActionPerformed(evt);
             }
         });
-        add(refreshBtn, new org.netbeans.lib.awtextra.AbsoluteConstraints(647, 92, -1, -1));
+        add(refreshBtn, new org.netbeans.lib.awtextra.AbsoluteConstraints(660, 100, -1, -1));
 
-        BookSOSbtn.setText("SEND REQUEST FOR AMBULANCE");
+        BookSOSbtn.setBackground(new java.awt.Color(255, 51, 51));
+        BookSOSbtn.setFont(new java.awt.Font("Segoe UI", 1, 14)); // NOI18N
+        BookSOSbtn.setForeground(new java.awt.Color(255, 255, 255));
+        BookSOSbtn.setText("Send request for Ambulance");
         BookSOSbtn.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 BookSOSbtnActionPerformed(evt);
             }
         });
-        add(BookSOSbtn, new org.netbeans.lib.awtextra.AbsoluteConstraints(292, 411, 263, 62));
+        add(BookSOSbtn, new org.netbeans.lib.awtextra.AbsoluteConstraints(310, 410, 220, 40));
         add(jLabel3, new org.netbeans.lib.awtextra.AbsoluteConstraints(203, 121, -1, -1));
     }// </editor-fold>//GEN-END:initComponents
 

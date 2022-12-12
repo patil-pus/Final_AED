@@ -72,9 +72,8 @@ public class CreatePharmacyJPanel extends javax.swing.JPanel {
         jPanel1.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
 
         jLabel1.setFont(new java.awt.Font("Lucida Grande", 1, 24)); // NOI18N
-        jLabel1.setForeground(new java.awt.Color(255, 255, 255));
-        jLabel1.setText("SIGN UP NEW PHARMACY");
-        jPanel1.add(jLabel1, new org.netbeans.lib.awtextra.AbsoluteConstraints(600, 140, 320, 42));
+        jLabel1.setText("Sign up New Pharmacy");
+        jPanel1.add(jLabel1, new org.netbeans.lib.awtextra.AbsoluteConstraints(580, 150, 320, 42));
 
         passwordTxt.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -83,7 +82,7 @@ public class CreatePharmacyJPanel extends javax.swing.JPanel {
         });
         jPanel1.add(passwordTxt, new org.netbeans.lib.awtextra.AbsoluteConstraints(660, 250, 200, 30));
 
-        jLabel4.setForeground(new java.awt.Color(255, 255, 255));
+        jLabel4.setFont(new java.awt.Font("Segoe UI", 1, 12)); // NOI18N
         jLabel4.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
         jLabel4.setText("Contact Number:");
         jLabel4.setToolTipText("");
@@ -97,12 +96,12 @@ public class CreatePharmacyJPanel extends javax.swing.JPanel {
         });
         jPanel1.add(contactNumberTxt, new org.netbeans.lib.awtextra.AbsoluteConstraints(660, 290, 200, 30));
 
-        jLabel5.setForeground(new java.awt.Color(255, 255, 255));
+        jLabel5.setFont(new java.awt.Font("Segoe UI", 1, 12)); // NOI18N
         jLabel5.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
         jLabel5.setText("Email:");
         jLabel5.setToolTipText("");
         jLabel5.setVerticalAlignment(javax.swing.SwingConstants.BOTTOM);
-        jPanel1.add(jLabel5, new org.netbeans.lib.awtextra.AbsoluteConstraints(620, 340, -1, -1));
+        jPanel1.add(jLabel5, new org.netbeans.lib.awtextra.AbsoluteConstraints(610, 340, -1, -1));
 
         emailtxt.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -111,15 +110,15 @@ public class CreatePharmacyJPanel extends javax.swing.JPanel {
         });
         jPanel1.add(emailtxt, new org.netbeans.lib.awtextra.AbsoluteConstraints(660, 330, 200, 30));
 
-        jLabel6.setForeground(new java.awt.Color(255, 255, 255));
+        jLabel6.setFont(new java.awt.Font("Segoe UI", 1, 12)); // NOI18N
         jLabel6.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
         jLabel6.setText("Name:");
         jLabel6.setToolTipText("");
         jLabel6.setVerticalAlignment(javax.swing.SwingConstants.BOTTOM);
-        jPanel1.add(jLabel6, new org.netbeans.lib.awtextra.AbsoluteConstraints(620, 380, 40, -1));
+        jPanel1.add(jLabel6, new org.netbeans.lib.awtextra.AbsoluteConstraints(610, 380, 40, -1));
         jPanel1.add(nameTxt, new org.netbeans.lib.awtextra.AbsoluteConstraints(660, 370, 200, 30));
 
-        jLabel7.setForeground(new java.awt.Color(255, 255, 255));
+        jLabel7.setFont(new java.awt.Font("Segoe UI", 1, 12)); // NOI18N
         jLabel7.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
         jLabel7.setText("License Number:");
         jLabel7.setToolTipText("");
@@ -133,8 +132,9 @@ public class CreatePharmacyJPanel extends javax.swing.JPanel {
                 btnBackActionPerformed(evt);
             }
         });
-        jPanel1.add(btnBack, new org.netbeans.lib.awtextra.AbsoluteConstraints(550, 140, -1, -1));
+        jPanel1.add(btnBack, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 140, -1, -1));
 
+        btnSave.setBackground(new java.awt.Color(204, 204, 204));
         btnSave.setFont(new java.awt.Font("Lucida Grande", 3, 13)); // NOI18N
         btnSave.setText("Save");
         btnSave.addActionListener(new java.awt.event.ActionListener() {
@@ -142,7 +142,7 @@ public class CreatePharmacyJPanel extends javax.swing.JPanel {
                 btnSaveActionPerformed(evt);
             }
         });
-        jPanel1.add(btnSave, new org.netbeans.lib.awtextra.AbsoluteConstraints(690, 490, 140, -1));
+        jPanel1.add(btnSave, new org.netbeans.lib.awtextra.AbsoluteConstraints(720, 490, 70, 30));
 
         usernameTxt.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -151,21 +151,21 @@ public class CreatePharmacyJPanel extends javax.swing.JPanel {
         });
         jPanel1.add(usernameTxt, new org.netbeans.lib.awtextra.AbsoluteConstraints(660, 210, 200, 30));
 
-        jLabel8.setForeground(new java.awt.Color(255, 255, 255));
+        jLabel8.setFont(new java.awt.Font("Segoe UI", 1, 12)); // NOI18N
         jLabel8.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
         jLabel8.setText("Password:");
         jLabel8.setToolTipText("");
         jLabel8.setVerticalAlignment(javax.swing.SwingConstants.BOTTOM);
         jPanel1.add(jLabel8, new org.netbeans.lib.awtextra.AbsoluteConstraints(590, 260, -1, -1));
 
-        jLabel9.setForeground(new java.awt.Color(255, 255, 255));
+        jLabel9.setFont(new java.awt.Font("Segoe UI", 1, 12)); // NOI18N
         jLabel9.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
         jLabel9.setText("Username:");
         jLabel9.setToolTipText("");
         jLabel9.setVerticalAlignment(javax.swing.SwingConstants.BOTTOM);
         jPanel1.add(jLabel9, new org.netbeans.lib.awtextra.AbsoluteConstraints(590, 220, -1, -1));
 
-        jLabel10a.setForeground(new java.awt.Color(255, 255, 255));
+        jLabel10a.setFont(new java.awt.Font("Segoe UI", 1, 12)); // NOI18N
         jLabel10a.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
         jLabel10a.setText("Address:");
         jLabel10a.setToolTipText("");
@@ -173,8 +173,8 @@ public class CreatePharmacyJPanel extends javax.swing.JPanel {
         jPanel1.add(jLabel10a, new org.netbeans.lib.awtextra.AbsoluteConstraints(600, 460, -1, -1));
         jPanel1.add(addressTxt, new org.netbeans.lib.awtextra.AbsoluteConstraints(660, 450, 200, 30));
 
-        jLabel2.setBackground(new java.awt.Color(138, 194, 211));
-        jLabel2.setForeground(new java.awt.Color(255, 255, 255));
+        jLabel2.setBackground(new java.awt.Color(0, 51, 51));
+        jLabel2.setFont(new java.awt.Font("Segoe UI", 1, 12)); // NOI18N
         jLabel2.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
         jLabel2.setIcon(new javax.swing.ImageIcon(getClass().getResource("/ui/Picture/pharmacy1.jpeg"))); // NOI18N
         jLabel2.setToolTipText("");

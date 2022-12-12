@@ -85,17 +85,19 @@ public class HospitalManageDepartmentJPanel extends javax.swing.JPanel {
         refreshbtn = new javax.swing.JButton();
         jLabel1 = new javax.swing.JLabel();
 
-        setBackground(new java.awt.Color(138, 194, 211));
+        setBackground(new java.awt.Color(0, 51, 51));
         setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
 
-        btnBack.setFont(new java.awt.Font("Lucida Grande", 3, 13)); // NOI18N
-        btnBack.setText("< Back");
+        btnBack.setBackground(new java.awt.Color(0, 0, 0));
+        btnBack.setFont(new java.awt.Font("Lucida Grande", 1, 13)); // NOI18N
+        btnBack.setForeground(new java.awt.Color(255, 255, 255));
+        btnBack.setText("Back");
         btnBack.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 btnBackActionPerformed(evt);
             }
         });
-        add(btnBack, new org.netbeans.lib.awtextra.AbsoluteConstraints(20, 50, 100, 30));
+        add(btnBack, new org.netbeans.lib.awtextra.AbsoluteConstraints(20, 20, 70, -1));
 
         departmentTable.setModel(new javax.swing.table.DefaultTableModel(
             new Object [][] {
@@ -107,8 +109,9 @@ public class HospitalManageDepartmentJPanel extends javax.swing.JPanel {
         ));
         jScrollPane1.setViewportView(departmentTable);
 
-        add(jScrollPane1, new org.netbeans.lib.awtextra.AbsoluteConstraints(60, 140, 710, 156));
+        add(jScrollPane1, new org.netbeans.lib.awtextra.AbsoluteConstraints(20, 140, 740, 250));
 
+        Viewbtn.setBackground(new java.awt.Color(204, 204, 204));
         Viewbtn.setFont(new java.awt.Font("Lucida Grande", 3, 13)); // NOI18N
         Viewbtn.setText("View");
         Viewbtn.addActionListener(new java.awt.event.ActionListener() {
@@ -116,8 +119,9 @@ public class HospitalManageDepartmentJPanel extends javax.swing.JPanel {
                 ViewbtnActionPerformed(evt);
             }
         });
-        add(Viewbtn, new org.netbeans.lib.awtextra.AbsoluteConstraints(320, 420, 210, 40));
+        add(Viewbtn, new org.netbeans.lib.awtextra.AbsoluteConstraints(440, 410, 100, 30));
 
+        addBtn.setBackground(new java.awt.Color(204, 204, 204));
         addBtn.setFont(new java.awt.Font("Lucida Grande", 3, 13)); // NOI18N
         addBtn.setText("Add");
         addBtn.addActionListener(new java.awt.event.ActionListener() {
@@ -125,8 +129,9 @@ public class HospitalManageDepartmentJPanel extends javax.swing.JPanel {
                 addBtnActionPerformed(evt);
             }
         });
-        add(addBtn, new org.netbeans.lib.awtextra.AbsoluteConstraints(320, 370, 210, 40));
+        add(addBtn, new org.netbeans.lib.awtextra.AbsoluteConstraints(320, 410, 100, 30));
 
+        refreshbtn.setBackground(new java.awt.Color(204, 204, 204));
         refreshbtn.setFont(new java.awt.Font("Lucida Grande", 3, 13)); // NOI18N
         refreshbtn.setText("Refresh");
         refreshbtn.addActionListener(new java.awt.event.ActionListener() {
@@ -134,12 +139,12 @@ public class HospitalManageDepartmentJPanel extends javax.swing.JPanel {
                 refreshbtnActionPerformed(evt);
             }
         });
-        add(refreshbtn, new org.netbeans.lib.awtextra.AbsoluteConstraints(320, 320, 210, 40));
+        add(refreshbtn, new org.netbeans.lib.awtextra.AbsoluteConstraints(200, 410, 100, 30));
 
         jLabel1.setFont(new java.awt.Font("Lucida Grande", 1, 36)); // NOI18N
         jLabel1.setForeground(new java.awt.Color(255, 255, 255));
-        jLabel1.setText("MANAGE DEPARTMENT");
-        add(jLabel1, new org.netbeans.lib.awtextra.AbsoluteConstraints(240, 40, 440, -1));
+        jLabel1.setText("Manage Department");
+        add(jLabel1, new org.netbeans.lib.awtextra.AbsoluteConstraints(240, 80, 440, -1));
     }// </editor-fold>//GEN-END:initComponents
 
     private void btnBackActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnBackActionPerformed

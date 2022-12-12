@@ -98,22 +98,24 @@ public class PendingPrescriptionsJPanel extends javax.swing.JPanel {
         jButton1 = new javax.swing.JButton();
         jButton2 = new javax.swing.JButton();
 
-        setBackground(new java.awt.Color(138, 194, 211));
+        setBackground(new java.awt.Color(0, 51, 51));
         setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
 
-        jLabel1.setFont(new java.awt.Font("Lucida Grande", 1, 36)); // NOI18N
+        jLabel1.setFont(new java.awt.Font("Lucida Grande", 1, 32)); // NOI18N
         jLabel1.setForeground(new java.awt.Color(255, 255, 255));
-        jLabel1.setText("PENDING PRESCRIPTIONS");
-        add(jLabel1, new org.netbeans.lib.awtextra.AbsoluteConstraints(120, 30, -1, -1));
+        jLabel1.setText("Pending Prescriptions");
+        add(jLabel1, new org.netbeans.lib.awtextra.AbsoluteConstraints(40, 70, -1, -1));
 
-        backBtn.setFont(new java.awt.Font("Lucida Grande", 3, 13)); // NOI18N
-        backBtn.setText("< Back");
+        backBtn.setBackground(new java.awt.Color(0, 0, 0));
+        backBtn.setFont(new java.awt.Font("Lucida Grande", 1, 13)); // NOI18N
+        backBtn.setForeground(new java.awt.Color(255, 255, 255));
+        backBtn.setText("Back");
         backBtn.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 backBtnActionPerformed(evt);
             }
         });
-        add(backBtn, new org.netbeans.lib.awtextra.AbsoluteConstraints(6, 36, 100, -1));
+        add(backBtn, new org.netbeans.lib.awtextra.AbsoluteConstraints(20, 20, 70, -1));
 
         pharmacyTable.setModel(new javax.swing.table.DefaultTableModel(
             new Object [][] {
@@ -128,8 +130,9 @@ public class PendingPrescriptionsJPanel extends javax.swing.JPanel {
         ));
         jScrollPane1.setViewportView(pharmacyTable);
 
-        add(jScrollPane1, new org.netbeans.lib.awtextra.AbsoluteConstraints(60, 120, 550, 140));
+        add(jScrollPane1, new org.netbeans.lib.awtextra.AbsoluteConstraints(30, 130, 550, 140));
 
+        jButton1.setBackground(new java.awt.Color(204, 204, 204));
         jButton1.setFont(new java.awt.Font("Lucida Grande", 3, 13)); // NOI18N
         jButton1.setText("Picked Up");
         jButton1.addActionListener(new java.awt.event.ActionListener() {
@@ -137,8 +140,9 @@ public class PendingPrescriptionsJPanel extends javax.swing.JPanel {
                 jButton1ActionPerformed(evt);
             }
         });
-        add(jButton1, new org.netbeans.lib.awtextra.AbsoluteConstraints(480, 280, 129, 40));
+        add(jButton1, new org.netbeans.lib.awtextra.AbsoluteConstraints(310, 290, 150, 30));
 
+        jButton2.setBackground(new java.awt.Color(204, 204, 204));
         jButton2.setFont(new java.awt.Font("Lucida Grande", 3, 13)); // NOI18N
         jButton2.setText("Ready For Pickup");
         jButton2.addActionListener(new java.awt.event.ActionListener() {
@@ -146,7 +150,7 @@ public class PendingPrescriptionsJPanel extends javax.swing.JPanel {
                 jButton2ActionPerformed(evt);
             }
         });
-        add(jButton2, new org.netbeans.lib.awtextra.AbsoluteConstraints(50, 290, -1, 40));
+        add(jButton2, new org.netbeans.lib.awtextra.AbsoluteConstraints(140, 290, 150, 30));
     }// </editor-fold>//GEN-END:initComponents
 
     private void backBtnActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_backBtnActionPerformed

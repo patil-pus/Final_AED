@@ -85,20 +85,21 @@ public class SystemAdminAmbulanceJPanel extends javax.swing.JPanel {
         setBackground(new java.awt.Color(138, 194, 211));
         setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
 
-        backBtn.setFont(new java.awt.Font("Lucida Grande", 3, 13)); // NOI18N
-        backBtn.setText("< ");
+        backBtn.setBackground(new java.awt.Color(0, 0, 0));
+        backBtn.setFont(new java.awt.Font("Lucida Grande", 1, 13)); // NOI18N
+        backBtn.setForeground(new java.awt.Color(255, 255, 255));
+        backBtn.setText("Back");
         backBtn.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 backBtnActionPerformed(evt);
             }
         });
-        add(backBtn, new org.netbeans.lib.awtextra.AbsoluteConstraints(200, 70, 50, -1));
+        add(backBtn, new org.netbeans.lib.awtextra.AbsoluteConstraints(20, 10, 70, 30));
 
         jLabel1.setBackground(new java.awt.Color(255, 255, 255));
-        jLabel1.setFont(new java.awt.Font("Lucida Grande", 1, 36)); // NOI18N
-        jLabel1.setForeground(new java.awt.Color(255, 255, 255));
-        jLabel1.setText("MANAGE AMBULANCE ");
-        add(jLabel1, new org.netbeans.lib.awtextra.AbsoluteConstraints(250, 60, -1, -1));
+        jLabel1.setFont(new java.awt.Font("Lucida Grande", 1, 32)); // NOI18N
+        jLabel1.setText("Manage Ambulance");
+        add(jLabel1, new org.netbeans.lib.awtextra.AbsoluteConstraints(270, 80, -1, -1));
 
         ambulanceTable.setModel(new javax.swing.table.DefaultTableModel(
             new Object [][] {
@@ -115,44 +116,53 @@ public class SystemAdminAmbulanceJPanel extends javax.swing.JPanel {
 
         add(jScrollPane1, new org.netbeans.lib.awtextra.AbsoluteConstraints(80, 150, 770, 260));
 
+        refreshBtn.setBackground(new java.awt.Color(0, 0, 0));
         refreshBtn.setFont(new java.awt.Font("Lucida Grande", 3, 13)); // NOI18N
+        refreshBtn.setForeground(new java.awt.Color(255, 255, 255));
         refreshBtn.setText("Refresh");
         refreshBtn.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 refreshBtnActionPerformed(evt);
             }
         });
-        add(refreshBtn, new org.netbeans.lib.awtextra.AbsoluteConstraints(360, 430, 200, 40));
+        add(refreshBtn, new org.netbeans.lib.awtextra.AbsoluteConstraints(170, 430, 130, 30));
 
+        createAmbulanceBtn.setBackground(new java.awt.Color(0, 0, 0));
         createAmbulanceBtn.setFont(new java.awt.Font("Lucida Grande", 3, 13)); // NOI18N
+        createAmbulanceBtn.setForeground(new java.awt.Color(255, 255, 255));
         createAmbulanceBtn.setText("Add ");
         createAmbulanceBtn.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 createAmbulanceBtnActionPerformed(evt);
             }
         });
-        add(createAmbulanceBtn, new org.netbeans.lib.awtextra.AbsoluteConstraints(360, 480, 200, 40));
+        add(createAmbulanceBtn, new org.netbeans.lib.awtextra.AbsoluteConstraints(340, 430, 130, 30));
 
+        deleteBtn.setBackground(new java.awt.Color(0, 0, 0));
         deleteBtn.setFont(new java.awt.Font("Lucida Grande", 3, 13)); // NOI18N
+        deleteBtn.setForeground(new java.awt.Color(255, 255, 255));
         deleteBtn.setText("Delete");
         deleteBtn.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 deleteBtnActionPerformed(evt);
             }
         });
-        add(deleteBtn, new org.netbeans.lib.awtextra.AbsoluteConstraints(360, 530, 200, 40));
+        add(deleteBtn, new org.netbeans.lib.awtextra.AbsoluteConstraints(500, 430, 130, 30));
 
+        viewAmbulanceBtn.setBackground(new java.awt.Color(0, 0, 0));
         viewAmbulanceBtn.setFont(new java.awt.Font("Lucida Grande", 3, 13)); // NOI18N
+        viewAmbulanceBtn.setForeground(new java.awt.Color(255, 255, 255));
         viewAmbulanceBtn.setText("View");
         viewAmbulanceBtn.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 viewAmbulanceBtnActionPerformed(evt);
             }
         });
-        add(viewAmbulanceBtn, new org.netbeans.lib.awtextra.AbsoluteConstraints(360, 579, 200, 40));
+        add(viewAmbulanceBtn, new org.netbeans.lib.awtextra.AbsoluteConstraints(660, 430, 130, 30));
         add(jLabel2, new org.netbeans.lib.awtextra.AbsoluteConstraints(80, 110, -1, -1));
 
         jLabel3.setBackground(new java.awt.Color(138, 194, 211));
+        jLabel3.setForeground(new java.awt.Color(255, 255, 255));
         jLabel3.setIcon(new javax.swing.ImageIcon(getClass().getResource("/ui/Picture/cover1.jpeg"))); // NOI18N
         add(jLabel3, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, -50, 1180, 790));
     }// </editor-fold>//GEN-END:initComponents
