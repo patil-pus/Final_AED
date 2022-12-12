@@ -3,7 +3,7 @@
 <Form version="1.3" maxVersion="1.9" type="org.netbeans.modules.form.forminfo.JPanelFormInfo">
   <Properties>
     <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
-      <Color blue="d3" green="c2" red="8a" type="rgb"/>
+      <Color blue="33" green="33" red="0" type="rgb"/>
     </Property>
   </Properties>
   <AuxValues>
@@ -26,23 +26,26 @@
     <Component class="javax.swing.JLabel" name="jLabel1">
       <Properties>
         <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
-          <Font name="Lucida Grande" size="36" style="1"/>
+          <Font name="Lucida Grande" size="32" style="1"/>
         </Property>
         <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
           <Color blue="ff" green="ff" red="ff" type="rgb"/>
         </Property>
-        <Property name="text" type="java.lang.String" value="DEPARTMENT WORK AREA"/>
+        <Property name="text" type="java.lang.String" value="Department Work Area"/>
       </Properties>
       <Constraints>
         <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
-          <AbsoluteConstraints x="200" y="60" width="-1" height="46"/>
+          <AbsoluteConstraints x="30" y="100" width="-1" height="46"/>
         </Constraint>
       </Constraints>
     </Component>
     <Component class="javax.swing.JButton" name="deptInformation">
       <Properties>
+        <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+          <Color blue="cc" green="cc" red="cc" type="rgb"/>
+        </Property>
         <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
-          <Font name="Lucida Grande" size="13" style="3"/>
+          <Font name="Lucida Grande" size="13" style="1"/>
         </Property>
         <Property name="text" type="java.lang.String" value="Department Information"/>
       </Properties>
@@ -51,14 +54,17 @@
       </Events>
       <Constraints>
         <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
-          <AbsoluteConstraints x="324" y="240" width="230" height="50"/>
+          <AbsoluteConstraints x="40" y="190" width="230" height="50"/>
         </Constraint>
       </Constraints>
     </Component>
     <Component class="javax.swing.JButton" name="managePhysicianBtn">
       <Properties>
+        <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+          <Color blue="cc" green="cc" red="cc" type="rgb"/>
+        </Property>
         <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
-          <Font name="Lucida Grande" size="13" style="3"/>
+          <Font name="Lucida Grande" size="13" style="1"/>
         </Property>
         <Property name="text" type="java.lang.String" value="Manage Physicians"/>
       </Properties>
@@ -67,23 +73,29 @@
       </Events>
       <Constraints>
         <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
-          <AbsoluteConstraints x="320" y="310" width="240" height="50"/>
+          <AbsoluteConstraints x="40" y="280" width="230" height="50"/>
         </Constraint>
       </Constraints>
     </Component>
     <Component class="javax.swing.JButton" name="backBtn">
       <Properties>
+        <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+          <Color blue="0" green="0" red="0" type="rgb"/>
+        </Property>
         <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
           <Font name="Lucida Grande" size="13" style="3"/>
         </Property>
-        <Property name="text" type="java.lang.String" value="&lt; Back"/>
+        <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+          <Color blue="ff" green="ff" red="ff" type="rgb"/>
+        </Property>
+        <Property name="text" type="java.lang.String" value="Back"/>
       </Properties>
       <Events>
         <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="backBtnActionPerformed"/>
       </Events>
       <Constraints>
         <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
-          <AbsoluteConstraints x="20" y="70" width="110" height="-1"/>
+          <AbsoluteConstraints x="20" y="20" width="70" height="-1"/>
         </Constraint>
       </Constraints>
     </Component>
@@ -93,7 +105,7 @@
           <Color blue="cc" green="cc" red="cc" type="rgb"/>
         </Property>
         <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
-          <Font name="Lucida Grande" size="13" style="3"/>
+          <Font name="Lucida Grande" size="13" style="1"/>
         </Property>
         <Property name="text" type="java.lang.String" value="Logout"/>
       </Properties>
@@ -102,7 +114,7 @@
       </Events>
       <Constraints>
         <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
-          <AbsoluteConstraints x="320" y="380" width="240" height="40"/>
+          <AbsoluteConstraints x="100" y="360" width="110" height="30"/>
         </Constraint>
       </Constraints>
     </Component>

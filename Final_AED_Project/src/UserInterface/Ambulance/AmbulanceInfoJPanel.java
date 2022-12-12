@@ -76,7 +76,10 @@ public class AmbulanceInfoJPanel extends javax.swing.JPanel {
         setForeground(new java.awt.Color(255, 255, 255));
         setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
 
-        backBtn.setText("<back");
+        backBtn.setBackground(new java.awt.Color(0, 0, 0));
+        backBtn.setFont(new java.awt.Font("Segoe UI", 1, 12)); // NOI18N
+        backBtn.setForeground(new java.awt.Color(255, 255, 255));
+        backBtn.setText("Back");
         backBtn.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 backBtnActionPerformed(evt);
@@ -127,14 +130,24 @@ public class AmbulanceInfoJPanel extends javax.swing.JPanel {
         });
         add(licenseTxt, new org.netbeans.lib.awtextra.AbsoluteConstraints(331, 391, 221, -1));
 
+        saveBtn.setBackground(new java.awt.Color(0, 0, 0));
+        saveBtn.setFont(new java.awt.Font("Segoe UI", 1, 12)); // NOI18N
+        saveBtn.setForeground(new java.awt.Color(255, 255, 255));
         saveBtn.setText("Save");
         saveBtn.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 saveBtnActionPerformed(evt);
             }
         });
+<<<<<<< Updated upstream
         add(saveBtn, new org.netbeans.lib.awtextra.AbsoluteConstraints(412, 444, -1, -1));
+=======
+        add(saveBtn, new org.netbeans.lib.awtextra.AbsoluteConstraints(220, 390, 70, 20));
+>>>>>>> Stashed changes
 
+        UpdateBtn.setBackground(new java.awt.Color(0, 0, 0));
+        UpdateBtn.setFont(new java.awt.Font("Segoe UI", 1, 12)); // NOI18N
+        UpdateBtn.setForeground(new java.awt.Color(255, 255, 255));
         UpdateBtn.setText("Update");
         UpdateBtn.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {

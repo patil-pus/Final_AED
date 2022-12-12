@@ -73,7 +73,7 @@ public class PharmacySideNavWorkAreaJpanel extends javax.swing.JPanel {
 
         setPreferredSize(new java.awt.Dimension(1800, 900));
 
-        systemAdminPanel.setBackground(new java.awt.Color(215, 81, 81));
+        systemAdminPanel.setBackground(new java.awt.Color(0, 51, 51));
         systemAdminPanel.setMinimumSize(new java.awt.Dimension(1338, 840));
 
         javax.swing.GroupLayout systemAdminPanelLayout = new javax.swing.GroupLayout(systemAdminPanel);
@@ -87,7 +87,7 @@ public class PharmacySideNavWorkAreaJpanel extends javax.swing.JPanel {
             .addGap(0, 2424, Short.MAX_VALUE)
         );
 
-        jPanel3.setBackground(new java.awt.Color(204, 204, 255));
+        jPanel3.setBackground(new java.awt.Color(0, 51, 51));
         jPanel3.setMinimumSize(new java.awt.Dimension(280, 840));
         jPanel3.setPreferredSize(new java.awt.Dimension(280, 840));
         jPanel3.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
