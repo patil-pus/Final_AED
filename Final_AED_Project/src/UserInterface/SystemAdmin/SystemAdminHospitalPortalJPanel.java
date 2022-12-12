@@ -20,7 +20,6 @@ import javax.swing.table.DefaultTableModel;
  *
  * @author pushk
  */
-
 public class SystemAdminHospitalPortalJPanel extends javax.swing.JPanel {
 
     private JPanel CardLayoutJPanel;
@@ -100,7 +99,7 @@ public class SystemAdminHospitalPortalJPanel extends javax.swing.JPanel {
 
         jLabel1.setFont(new java.awt.Font("Lucida Grande", 1, 32)); // NOI18N
         jLabel1.setText("Hospital Portal");
-        add(jLabel1, new org.netbeans.lib.awtextra.AbsoluteConstraints(400, 100, -1, -1));
+        add(jLabel1, new org.netbeans.lib.awtextra.AbsoluteConstraints(320, 100, -1, -1));
 
         backBtn.setBackground(new java.awt.Color(0, 0, 0));
         backBtn.setFont(new java.awt.Font("Lucida Grande", 1, 13)); // NOI18N

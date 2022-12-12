@@ -23,7 +23,6 @@ import javax.swing.table.DefaultTableModel;
  * @author pushk
  */
 
-
 public class SystemAdminAmbulanceJPanel extends javax.swing.JPanel {
 
     /**
@@ -101,7 +100,7 @@ public class SystemAdminAmbulanceJPanel extends javax.swing.JPanel {
         jLabel1.setFont(new java.awt.Font("Lucida Grande", 1, 32)); // NOI18N
         jLabel1.setForeground(new java.awt.Color(255, 255, 255));
         jLabel1.setText("Manage Ambulance");
-        add(jLabel1, new org.netbeans.lib.awtextra.AbsoluteConstraints(270, 80, -1, -1));
+        add(jLabel1, new org.netbeans.lib.awtextra.AbsoluteConstraints(320, 90, -1, -1));
 
         ambulanceTable.setModel(new javax.swing.table.DefaultTableModel(
             new Object [][] {

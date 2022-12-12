@@ -19,7 +19,6 @@ import javax.swing.JPanel;
  *
  * @author pushk
  */
-
 public class CreateLabJPanel extends javax.swing.JPanel {
 
     /**

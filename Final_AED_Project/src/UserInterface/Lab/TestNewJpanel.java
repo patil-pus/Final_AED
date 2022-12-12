@@ -23,7 +23,6 @@ import javax.swing.JPanel;
  *
  * @author pushk
  */
-
 public class TestNewJpanel extends javax.swing.JPanel {
     
     JPanel CardLayoutJPanel;

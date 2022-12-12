@@ -71,7 +71,7 @@ public class HospitalSideNavWorkAreaJpanel extends javax.swing.JPanel {
             .addGap(0, 2424, Short.MAX_VALUE)
         );
 
-        jPanel3.setBackground(new java.awt.Color(204, 204, 255));
+        jPanel3.setBackground(new java.awt.Color(0, 0, 0));
         jPanel3.setMinimumSize(new java.awt.Dimension(280, 840));
         jPanel3.setPreferredSize(new java.awt.Dimension(280, 840));
         jPanel3.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
@@ -131,7 +131,7 @@ public class HospitalSideNavWorkAreaJpanel extends javax.swing.JPanel {
                 ManageRoomsActionPerformed(evt);
             }
         });
-        jPanel3.add(ManageRooms, new org.netbeans.lib.awtextra.AbsoluteConstraints(30, 260, 200, 40));
+        jPanel3.add(ManageRooms, new org.netbeans.lib.awtextra.AbsoluteConstraints(30, 270, 200, 40));
 
         rightSystemAdminPanel.setBackground(new java.awt.Color(255, 255, 255));
         rightSystemAdminPanel.setPreferredSize(new java.awt.Dimension(1058, 840));

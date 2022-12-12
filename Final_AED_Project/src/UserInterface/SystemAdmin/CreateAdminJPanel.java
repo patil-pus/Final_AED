@@ -8,7 +8,6 @@ package UserInterface.SystemAdmin;
  *
  * @author pushk
  */
-
 public class CreateAdminJPanel extends javax.swing.JPanel {
 
     /**
@@ -41,23 +40,19 @@ public class CreateAdminJPanel extends javax.swing.JPanel {
         setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
 
         jLabel5.setFont(new java.awt.Font("Lucida Grande", 1, 32)); // NOI18N
-        jLabel5.setForeground(new java.awt.Color(255, 255, 255));
         jLabel5.setText("Add Admin");
-        add(jLabel5, new org.netbeans.lib.awtextra.AbsoluteConstraints(90, 80, 250, 40));
+        add(jLabel5, new org.netbeans.lib.awtextra.AbsoluteConstraints(120, 80, 250, 40));
         add(jTextField2, new org.netbeans.lib.awtextra.AbsoluteConstraints(130, 230, 220, -1));
 
         jLabel2.setFont(new java.awt.Font("Segoe UI", 1, 12)); // NOI18N
-        jLabel2.setForeground(new java.awt.Color(255, 255, 255));
         jLabel2.setText("Admin Username");
         add(jLabel2, new org.netbeans.lib.awtextra.AbsoluteConstraints(20, 230, -1, 20));
 
         jLabel4.setFont(new java.awt.Font("Segoe UI", 1, 12)); // NOI18N
-        jLabel4.setForeground(new java.awt.Color(255, 255, 255));
         jLabel4.setText("Hospital Name");
         add(jLabel4, new org.netbeans.lib.awtextra.AbsoluteConstraints(30, 150, -1, -1));
 
         jLabel3.setFont(new java.awt.Font("Segoe UI", 1, 12)); // NOI18N
-        jLabel3.setForeground(new java.awt.Color(255, 255, 255));
         jLabel3.setText("Admin Name");
         add(jLabel3, new org.netbeans.lib.awtextra.AbsoluteConstraints(40, 190, 90, -1));
         add(jTextField1, new org.netbeans.lib.awtextra.AbsoluteConstraints(130, 190, 220, -1));

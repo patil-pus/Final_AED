@@ -19,7 +19,6 @@ import javax.swing.table.DefaultTableModel;
  *
  * @author pushk
  */
-
 public class LabOrderAreaJPanel extends javax.swing.JPanel {
 
     /**
