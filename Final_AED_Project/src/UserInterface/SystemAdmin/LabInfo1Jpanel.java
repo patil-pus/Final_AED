@@ -63,7 +63,7 @@ public class LabInfo1Jpanel extends javax.swing.JPanel {
         saveBtn = new javax.swing.JButton();
         jLabel5 = new javax.swing.JLabel();
 
-        setBackground(new java.awt.Color(138, 194, 211));
+        setBackground(new java.awt.Color(0, 51, 51));
         setPreferredSize(new java.awt.Dimension(850, 540));
         setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
 
@@ -74,7 +74,7 @@ public class LabInfo1Jpanel extends javax.swing.JPanel {
                 backBtnActionPerformed(evt);
             }
         });
-        add(backBtn, new org.netbeans.lib.awtextra.AbsoluteConstraints(450, 140, 40, 40));
+        add(backBtn, new org.netbeans.lib.awtextra.AbsoluteConstraints(50, 80, 40, 40));
 
         jLabel1.setFont(new java.awt.Font("Lucida Grande", 1, 36)); // NOI18N
         jLabel1.setForeground(new java.awt.Color(255, 255, 255));
