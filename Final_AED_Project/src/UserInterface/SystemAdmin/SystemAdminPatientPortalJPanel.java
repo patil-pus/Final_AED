@@ -154,8 +154,6 @@ public class SystemAdminPatientPortalJPanel extends javax.swing.JPanel {
             }
         });
         add(refreshBtn, new org.netbeans.lib.awtextra.AbsoluteConstraints(200, 410, 120, 30));
-
-        jLabel2.setIcon(new javax.swing.ImageIcon(getClass().getResource("/ui/Picture/cover1.jpeg"))); // NOI18N
         add(jLabel2, new org.netbeans.lib.awtextra.AbsoluteConstraints(-60, 0, 1020, 710));
     }// </editor-fold>//GEN-END:initComponents
 
