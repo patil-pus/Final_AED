@@ -12,8 +12,9 @@ import javax.swing.JPanel;
 
 /**
  *
- * @author srushtidesai
+ * @author pushk
  */
+
 public class LabTestRequestJPanel extends javax.swing.JPanel {
 
     /**

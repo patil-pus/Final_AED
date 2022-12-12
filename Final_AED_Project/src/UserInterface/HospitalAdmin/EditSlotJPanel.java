@@ -15,7 +15,7 @@ import javax.swing.text.DateFormatter;
 
 /**
  *
- * @author Saad Ghojaria
+ * @author pranavkulkarni
  */
 public class EditSlotJPanel extends javax.swing.JPanel {
 

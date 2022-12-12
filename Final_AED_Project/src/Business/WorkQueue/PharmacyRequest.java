@@ -10,7 +10,7 @@ import java.util.Date;
 
 /**
  *
- * @author Saad Ghojaria
+ * @author pranavkulkarni
  */
 public class PharmacyRequest extends WorkRequest {
     

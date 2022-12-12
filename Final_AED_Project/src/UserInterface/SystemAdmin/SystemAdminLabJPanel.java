@@ -20,8 +20,9 @@ import UserInterface.Lab.LabInfoJpanel;
 
 /**
  *
- * @author Saad Ghojaria
+ * @author pushk
  */
+
 
 public class SystemAdminLabJPanel extends javax.swing.JPanel {
 
