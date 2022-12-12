@@ -210,7 +210,7 @@
           <Color blue="d3" green="c2" red="8a" type="rgb"/>
         </Property>
         <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-          <Image iconType="3" name="/ui/Picture/cover1.jpeg"/>
+          <Image iconType="3" name="/ui/Picture/pharmacy.jpg"/>
         </Property>
       </Properties>
       <Constraints>

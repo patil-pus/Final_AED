@@ -155,7 +155,7 @@ public class SystemAdminPharmacyJPanel extends javax.swing.JPanel {
         add(refreshBtn, new org.netbeans.lib.awtextra.AbsoluteConstraints(200, 390, 80, 30));
 
         jLabel3.setBackground(new java.awt.Color(138, 194, 211));
-        jLabel3.setIcon(new javax.swing.ImageIcon(getClass().getResource("/ui/Picture/cover1.jpeg"))); // NOI18N
+        jLabel3.setIcon(new javax.swing.ImageIcon(getClass().getResource("/ui/Picture/pharmacy.jpg"))); // NOI18N
         add(jLabel3, new org.netbeans.lib.awtextra.AbsoluteConstraints(-20, -10, 1010, 680));
     }// </editor-fold>//GEN-END:initComponents
 
