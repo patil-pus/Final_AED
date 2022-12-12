@@ -117,7 +117,7 @@ public class MedicalCareWorkAreaJpanel extends javax.swing.JPanel {
         rightSystemAdminPanel.setLayout(new java.awt.CardLayout());
 
         jLabel1.setBackground(new java.awt.Color(248, 226, 205));
-        jLabel1.setIcon(new javax.swing.ImageIcon(getClass().getResource("/ui/loginpage.jpg"))); // NOI18N
+        jLabel1.setIcon(new javax.swing.ImageIcon(getClass().getResource("/ui/Picture/loginpage.jpg"))); // NOI18N
         jLabel1.setVerticalAlignment(javax.swing.SwingConstants.TOP);
         rightSystemAdminPanel.add(jLabel1, "card2");
 

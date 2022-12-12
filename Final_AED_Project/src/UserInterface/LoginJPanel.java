@@ -171,7 +171,7 @@ public class LoginJPanel extends javax.swing.JPanel {
 
         jLabel2.setBackground(new java.awt.Color(195, 195, 195));
         jLabel2.setFont(new java.awt.Font("Tahoma", 0, 12)); // NOI18N
-        jLabel2.setIcon(new javax.swing.ImageIcon(getClass().getResource("/ui/login.jpg"))); // NOI18N
+        jLabel2.setIcon(new javax.swing.ImageIcon(getClass().getResource("/ui/Picture/login.jpg"))); // NOI18N
         jLabel2.setAutoscrolls(true);
         jLabel2.setMaximumSize(new java.awt.Dimension(2147483647, 2147483647));
         jLabel2.setPreferredSize(new java.awt.Dimension(2000, 1200));

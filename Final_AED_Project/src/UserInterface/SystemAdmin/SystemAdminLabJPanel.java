@@ -161,7 +161,7 @@ public class SystemAdminLabJPanel extends javax.swing.JPanel {
         add(viewHospitalBtn, new org.netbeans.lib.awtextra.AbsoluteConstraints(220, 380, 110, 30));
 
         jLabel2.setBackground(new java.awt.Color(138, 194, 211));
-        jLabel2.setIcon(new javax.swing.ImageIcon(getClass().getResource("/UserInterface/SystemAdmin/labs.jpg"))); // NOI18N
+        jLabel2.setIcon(new javax.swing.ImageIcon(getClass().getResource("/ui/Picture/Lab1.png"))); // NOI18N
         add(jLabel2, new org.netbeans.lib.awtextra.AbsoluteConstraints(-20, -40, 1180, 790));
     }// </editor-fold>//GEN-END:initComponents
 
