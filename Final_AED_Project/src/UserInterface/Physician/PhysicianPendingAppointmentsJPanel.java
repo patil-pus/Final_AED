@@ -96,7 +96,7 @@ public class PhysicianPendingAppointmentsJPanel extends javax.swing.JPanel {
 
         jPanel4.setBackground(new java.awt.Color(0, 51, 51));
 
-        jLabel4.setFont(new java.awt.Font("Lucida Grande", 1, 36)); // NOI18N
+        jLabel4.setFont(new java.awt.Font("Lucida Grande", 1, 34)); // NOI18N
         jLabel4.setForeground(new java.awt.Color(255, 255, 255));
         jLabel4.setText("Pending ");
 
@@ -149,14 +149,14 @@ public class PhysicianPendingAppointmentsJPanel extends javax.swing.JPanel {
                         .addGap(67, 67, 67))
                     .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, jPanel4Layout.createSequentialGroup()
                         .addComponent(jLabel4)
-                        .addGap(316, 316, 316))))
+                        .addGap(297, 297, 297))))
         );
         jPanel4Layout.setVerticalGroup(
             jPanel4Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(jPanel4Layout.createSequentialGroup()
-                .addGap(84, 84, 84)
+                .addGap(90, 90, 90)
                 .addComponent(jLabel4, javax.swing.GroupLayout.PREFERRED_SIZE, 58, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addGap(18, 18, 18)
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
                 .addComponent(jScrollPane4, javax.swing.GroupLayout.PREFERRED_SIZE, 183, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
                 .addGroup(jPanel4Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)

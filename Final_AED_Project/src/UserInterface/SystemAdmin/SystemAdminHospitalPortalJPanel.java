@@ -110,7 +110,7 @@ public class SystemAdminHospitalPortalJPanel extends javax.swing.JPanel {
                 backBtnActionPerformed(evt);
             }
         });
-        add(backBtn, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 10, 80, -1));
+        add(backBtn, new org.netbeans.lib.awtextra.AbsoluteConstraints(20, 20, 80, -1));
 
         deleteBtn.setBackground(new java.awt.Color(0, 0, 0));
         deleteBtn.setFont(new java.awt.Font("Lucida Grande", 3, 13)); // NOI18N
@@ -157,7 +157,7 @@ public class SystemAdminHospitalPortalJPanel extends javax.swing.JPanel {
         add(refreshBtn, new org.netbeans.lib.awtextra.AbsoluteConstraints(200, 400, 110, 30));
 
         jLabel2.setBackground(new java.awt.Color(138, 194, 211));
-        jLabel2.setIcon(new javax.swing.ImageIcon(getClass().getResource("/ui/Picture/cover1.jpeg"))); // NOI18N
+        jLabel2.setIcon(new javax.swing.ImageIcon(getClass().getResource("/ui/Picture/hospital.jpg"))); // NOI18N
         add(jLabel2, new org.netbeans.lib.awtextra.AbsoluteConstraints(-30, -50, 1180, 790));
     }// </editor-fold>//GEN-END:initComponents
 
