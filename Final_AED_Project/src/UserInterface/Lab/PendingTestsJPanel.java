@@ -101,13 +101,13 @@ public class PendingTestsJPanel extends javax.swing.JPanel {
         DeleteTestbtn = new javax.swing.JButton();
         ProcessTestbtn = new javax.swing.JButton();
 
-        setBackground(new java.awt.Color(138, 194, 211));
+        setBackground(new java.awt.Color(0, 51, 51));
         setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
 
-        jLabel4.setFont(new java.awt.Font("Lucida Grande", 1, 36)); // NOI18N
+        jLabel4.setFont(new java.awt.Font("Lucida Grande", 1, 32)); // NOI18N
         jLabel4.setForeground(new java.awt.Color(255, 255, 255));
-        jLabel4.setText("PENDING TESTS");
-        add(jLabel4, new org.netbeans.lib.awtextra.AbsoluteConstraints(250, 30, -1, 58));
+        jLabel4.setText("Pending Tests");
+        add(jLabel4, new org.netbeans.lib.awtextra.AbsoluteConstraints(260, 100, -1, 58));
 
         pendingTestTbl.setModel(new javax.swing.table.DefaultTableModel(
             new Object [][] {
@@ -122,8 +122,9 @@ public class PendingTestsJPanel extends javax.swing.JPanel {
         ));
         jScrollPane4.setViewportView(pendingTestTbl);
 
-        add(jScrollPane4, new org.netbeans.lib.awtextra.AbsoluteConstraints(57, 170, 680, 160));
+        add(jScrollPane4, new org.netbeans.lib.awtextra.AbsoluteConstraints(57, 170, 730, 160));
 
+        DeleteTestbtn.setBackground(new java.awt.Color(204, 204, 204));
         DeleteTestbtn.setFont(new java.awt.Font("Lucida Grande", 3, 13)); // NOI18N
         DeleteTestbtn.setText("Delete ");
         DeleteTestbtn.addActionListener(new java.awt.event.ActionListener() {
@@ -131,8 +132,9 @@ public class PendingTestsJPanel extends javax.swing.JPanel {
                 DeleteTestbtnActionPerformed(evt);
             }
         });
-        add(DeleteTestbtn, new org.netbeans.lib.awtextra.AbsoluteConstraints(300, 430, 210, 40));
+        add(DeleteTestbtn, new org.netbeans.lib.awtextra.AbsoluteConstraints(430, 360, 170, 40));
 
+        ProcessTestbtn.setBackground(new java.awt.Color(204, 204, 204));
         ProcessTestbtn.setFont(new java.awt.Font("Lucida Grande", 3, 13)); // NOI18N
         ProcessTestbtn.setText("Process Test Request");
         ProcessTestbtn.addActionListener(new java.awt.event.ActionListener() {
@@ -140,7 +142,7 @@ public class PendingTestsJPanel extends javax.swing.JPanel {
                 ProcessTestbtnActionPerformed(evt);
             }
         });
-        add(ProcessTestbtn, new org.netbeans.lib.awtextra.AbsoluteConstraints(300, 370, 210, 40));
+        add(ProcessTestbtn, new org.netbeans.lib.awtextra.AbsoluteConstraints(220, 360, 170, 40));
     }// </editor-fold>//GEN-END:initComponents
 
     private void DeleteTestbtnActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_DeleteTestbtnActionPerformed

@@ -52,9 +52,10 @@ public class LabOrderAreaJPanel extends javax.swing.JPanel {
         jScrollPane1 = new javax.swing.JScrollPane();
         tblOrderList = new javax.swing.JTable();
 
-        setBackground(new java.awt.Color(138, 194, 211));
+        setBackground(new java.awt.Color(0, 51, 51));
         setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
 
+        requestTestJButton.setBackground(new java.awt.Color(204, 204, 204));
         requestTestJButton.setFont(new java.awt.Font("Lucida Grande", 3, 13)); // NOI18N
         requestTestJButton.setText("Place New Order");
         requestTestJButton.addActionListener(new java.awt.event.ActionListener() {
@@ -62,15 +63,17 @@ public class LabOrderAreaJPanel extends javax.swing.JPanel {
                 requestTestJButtonActionPerformed(evt);
             }
         });
-        add(requestTestJButton, new org.netbeans.lib.awtextra.AbsoluteConstraints(306, 400, 190, 40));
+        add(requestTestJButton, new org.netbeans.lib.awtextra.AbsoluteConstraints(340, 340, 140, 30));
 
+        jButton1.setBackground(new java.awt.Color(204, 204, 204));
         jButton1.setFont(new java.awt.Font("Lucida Grande", 3, 13)); // NOI18N
         jButton1.setText("Order Details");
-        add(jButton1, new org.netbeans.lib.awtextra.AbsoluteConstraints(307, 460, 190, 40));
+        add(jButton1, new org.netbeans.lib.awtextra.AbsoluteConstraints(510, 340, 140, 30));
 
+        refreshTestJButton.setBackground(new java.awt.Color(204, 204, 204));
         refreshTestJButton.setFont(new java.awt.Font("Lucida Grande", 3, 13)); // NOI18N
         refreshTestJButton.setText("Refresh");
-        add(refreshTestJButton, new org.netbeans.lib.awtextra.AbsoluteConstraints(310, 349, 190, 40));
+        add(refreshTestJButton, new org.netbeans.lib.awtextra.AbsoluteConstraints(170, 340, 140, 30));
 
         tblOrderList.setModel(new javax.swing.table.DefaultTableModel(
             new Object [][] {
@@ -93,7 +96,7 @@ public class LabOrderAreaJPanel extends javax.swing.JPanel {
         });
         jScrollPane1.setViewportView(tblOrderList);
 
-        add(jScrollPane1, new org.netbeans.lib.awtextra.AbsoluteConstraints(120, 100, 560, 210));
+        add(jScrollPane1, new org.netbeans.lib.awtextra.AbsoluteConstraints(120, 100, 590, 210));
     }// </editor-fold>//GEN-END:initComponents
 
     private void requestTestJButtonActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_requestTestJButtonActionPerformed

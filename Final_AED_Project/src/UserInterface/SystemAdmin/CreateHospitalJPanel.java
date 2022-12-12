@@ -64,7 +64,7 @@ public class CreateHospitalJPanel extends javax.swing.JPanel {
         jLabel5 = new javax.swing.JLabel();
         jLabel9 = new javax.swing.JLabel();
 
-        setBackground(new java.awt.Color(138, 194, 211));
+        setBackground(new java.awt.Color(0, 51, 51));
         setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
 
         adminTxt.addActionListener(new java.awt.event.ActionListener() {
@@ -83,32 +83,38 @@ public class CreateHospitalJPanel extends javax.swing.JPanel {
         });
         add(addressTxt, new org.netbeans.lib.awtextra.AbsoluteConstraints(530, 360, 221, -1));
 
+        jLabel8.setFont(new java.awt.Font("Segoe UI", 1, 12)); // NOI18N
         jLabel8.setForeground(new java.awt.Color(255, 255, 255));
         jLabel8.setText("License Number:");
         add(jLabel8, new org.netbeans.lib.awtextra.AbsoluteConstraints(420, 440, -1, 20));
 
+        jLabel2.setFont(new java.awt.Font("Segoe UI", 1, 12)); // NOI18N
         jLabel2.setForeground(new java.awt.Color(255, 255, 255));
         jLabel2.setText("Hospital Name:");
         add(jLabel2, new org.netbeans.lib.awtextra.AbsoluteConstraints(430, 280, -1, 20));
 
+        jLabel4.setFont(new java.awt.Font("Segoe UI", 1, 12)); // NOI18N
         jLabel4.setForeground(new java.awt.Color(255, 255, 255));
         jLabel4.setText("Address:");
         add(jLabel4, new org.netbeans.lib.awtextra.AbsoluteConstraints(470, 360, -1, 20));
         add(licenseTxt, new org.netbeans.lib.awtextra.AbsoluteConstraints(530, 440, 221, -1));
 
+        jLabel6.setFont(new java.awt.Font("Segoe UI", 1, 12)); // NOI18N
         jLabel6.setForeground(new java.awt.Color(255, 255, 255));
         jLabel6.setText("Contact number:");
         add(jLabel6, new org.netbeans.lib.awtextra.AbsoluteConstraints(420, 320, -1, 20));
 
+        jLabel7.setFont(new java.awt.Font("Segoe UI", 1, 12)); // NOI18N
         jLabel7.setForeground(new java.awt.Color(255, 255, 255));
         jLabel7.setText("Admin Name:");
         add(jLabel7, new org.netbeans.lib.awtextra.AbsoluteConstraints(440, 400, 90, 20));
 
         jLabel1.setFont(new java.awt.Font("Lucida Grande", 1, 24)); // NOI18N
         jLabel1.setForeground(new java.awt.Color(255, 255, 255));
-        jLabel1.setText("SIGN UP NEW HOSPITAL");
+        jLabel1.setText("Sign up New Hospital");
         add(jLabel1, new org.netbeans.lib.awtextra.AbsoluteConstraints(480, 140, -1, -1));
 
+        btnSave.setBackground(new java.awt.Color(204, 204, 204));
         btnSave.setFont(new java.awt.Font("Lucida Grande", 3, 13)); // NOI18N
         btnSave.setText("Save");
         btnSave.addActionListener(new java.awt.event.ActionListener() {
@@ -116,7 +122,7 @@ public class CreateHospitalJPanel extends javax.swing.JPanel {
                 btnSaveActionPerformed(evt);
             }
         });
-        add(btnSave, new org.netbeans.lib.awtextra.AbsoluteConstraints(565, 480, 160, -1));
+        add(btnSave, new org.netbeans.lib.awtextra.AbsoluteConstraints(600, 480, 80, 30));
 
         btnBack.setIcon(new javax.swing.ImageIcon(getClass().getResource("/ui/Picture/icons8-back-arrow-24.png"))); // NOI18N
         btnBack.addActionListener(new java.awt.event.ActionListener() {
@@ -124,14 +130,16 @@ public class CreateHospitalJPanel extends javax.swing.JPanel {
                 btnBackActionPerformed(evt);
             }
         });
-        add(btnBack, new org.netbeans.lib.awtextra.AbsoluteConstraints(450, 140, 30, -1));
+        add(btnBack, new org.netbeans.lib.awtextra.AbsoluteConstraints(60, 100, 30, -1));
         add(passwordTxt, new org.netbeans.lib.awtextra.AbsoluteConstraints(530, 240, 221, -1));
         add(usernameTxt, new org.netbeans.lib.awtextra.AbsoluteConstraints(530, 200, 221, -1));
 
+        jLabel3.setFont(new java.awt.Font("Segoe UI", 1, 12)); // NOI18N
         jLabel3.setForeground(new java.awt.Color(255, 255, 255));
         jLabel3.setText("Password:");
         add(jLabel3, new org.netbeans.lib.awtextra.AbsoluteConstraints(460, 240, -1, 20));
 
+        jLabel5.setFont(new java.awt.Font("Segoe UI", 1, 12)); // NOI18N
         jLabel5.setForeground(new java.awt.Color(255, 255, 255));
         jLabel5.setText("Username:");
         add(jLabel5, new org.netbeans.lib.awtextra.AbsoluteConstraints(460, 200, -1, 20));

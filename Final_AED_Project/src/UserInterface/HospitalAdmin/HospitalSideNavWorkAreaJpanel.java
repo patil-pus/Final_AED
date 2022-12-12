@@ -57,7 +57,7 @@ public class HospitalSideNavWorkAreaJpanel extends javax.swing.JPanel {
 
         setPreferredSize(new java.awt.Dimension(1800, 900));
 
-        systemAdminPanel.setBackground(new java.awt.Color(215, 81, 81));
+        systemAdminPanel.setBackground(new java.awt.Color(0, 51, 51));
         systemAdminPanel.setMinimumSize(new java.awt.Dimension(1338, 840));
 
         javax.swing.GroupLayout systemAdminPanelLayout = new javax.swing.GroupLayout(systemAdminPanel);

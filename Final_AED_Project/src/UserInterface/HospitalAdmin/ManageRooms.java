@@ -71,10 +71,10 @@ public class ManageRooms extends javax.swing.JPanel {
         jComboBox2 = new javax.swing.JComboBox<>();
         Refresh = new javax.swing.JButton();
 
-        setBackground(new java.awt.Color(138, 194, 211));
+        setBackground(new java.awt.Color(0, 51, 51));
         setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
 
-        jPanel1.setBackground(new java.awt.Color(79, 133, 151));
+        jPanel1.setBackground(new java.awt.Color(0, 51, 51));
 
         RoomsTable.setModel(new javax.swing.table.DefaultTableModel(
             new Object [][] {
@@ -103,28 +103,27 @@ public class ManageRooms extends javax.swing.JPanel {
             jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(jPanel1Layout.createSequentialGroup()
                 .addContainerGap()
-                .addComponent(jScrollPane1, javax.swing.GroupLayout.DEFAULT_SIZE, 510, Short.MAX_VALUE)
-                .addContainerGap())
+                .addComponent(jScrollPane1, javax.swing.GroupLayout.PREFERRED_SIZE, 504, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addContainerGap(42, Short.MAX_VALUE))
         );
         jPanel1Layout.setVerticalGroup(
             jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGroup(jPanel1Layout.createSequentialGroup()
-                .addContainerGap()
-                .addComponent(jScrollPane1, javax.swing.GroupLayout.DEFAULT_SIZE, 408, Short.MAX_VALUE)
-                .addContainerGap())
+            .addComponent(jScrollPane1, javax.swing.GroupLayout.DEFAULT_SIZE, 420, Short.MAX_VALUE)
         );
 
         add(jPanel1, new org.netbeans.lib.awtextra.AbsoluteConstraints(310, 120, -1, 420));
 
         jLabel1.setFont(new java.awt.Font("Lucida Grande", 1, 36)); // NOI18N
         jLabel1.setForeground(new java.awt.Color(255, 255, 255));
-        jLabel1.setText("MANAGE ROOMS");
-        add(jLabel1, new org.netbeans.lib.awtextra.AbsoluteConstraints(400, 70, -1, -1));
+        jLabel1.setText("Manage Rooms");
+        add(jLabel1, new org.netbeans.lib.awtextra.AbsoluteConstraints(270, 20, 270, 50));
 
+        jLabel2.setFont(new java.awt.Font("Segoe UI", 1, 12)); // NOI18N
         jLabel2.setForeground(new java.awt.Color(255, 255, 255));
         jLabel2.setText("Room Type:");
         add(jLabel2, new org.netbeans.lib.awtextra.AbsoluteConstraints(70, 170, 90, 20));
 
+        jLabel3.setFont(new java.awt.Font("Segoe UI", 1, 12)); // NOI18N
         jLabel3.setForeground(new java.awt.Color(255, 255, 255));
         jLabel3.setText("Number of rooms:");
         add(jLabel3, new org.netbeans.lib.awtextra.AbsoluteConstraints(30, 220, 140, 30));
@@ -144,6 +143,7 @@ public class ManageRooms extends javax.swing.JPanel {
         });
         add(jComboBox1, new org.netbeans.lib.awtextra.AbsoluteConstraints(150, 170, 130, -1));
 
+        jButton2.setBackground(new java.awt.Color(204, 204, 204));
         jButton2.setFont(new java.awt.Font("Lucida Grande", 3, 13)); // NOI18N
         jButton2.setText("Add");
         jButton2.addActionListener(new java.awt.event.ActionListener() {
@@ -151,8 +151,9 @@ public class ManageRooms extends javax.swing.JPanel {
                 jButton2ActionPerformed(evt);
             }
         });
-        add(jButton2, new org.netbeans.lib.awtextra.AbsoluteConstraints(110, 320, 120, -1));
+        add(jButton2, new org.netbeans.lib.awtextra.AbsoluteConstraints(180, 310, 80, -1));
 
+        UpdateQuan.setBackground(new java.awt.Color(204, 204, 204));
         UpdateQuan.setFont(new java.awt.Font("Lucida Grande", 3, 13)); // NOI18N
         UpdateQuan.setText("Update ");
         UpdateQuan.addActionListener(new java.awt.event.ActionListener() {
@@ -160,8 +161,9 @@ public class ManageRooms extends javax.swing.JPanel {
                 UpdateQuanActionPerformed(evt);
             }
         });
-        add(UpdateQuan, new org.netbeans.lib.awtextra.AbsoluteConstraints(300, 550, 120, -1));
+        add(UpdateQuan, new org.netbeans.lib.awtextra.AbsoluteConstraints(410, 550, 90, -1));
 
+        deletebtn.setBackground(new java.awt.Color(204, 204, 204));
         deletebtn.setFont(new java.awt.Font("Lucida Grande", 3, 13)); // NOI18N
         deletebtn.setText("Delete");
         deletebtn.addActionListener(new java.awt.event.ActionListener() {
@@ -169,8 +171,9 @@ public class ManageRooms extends javax.swing.JPanel {
                 deletebtnActionPerformed(evt);
             }
         });
-        add(deletebtn, new org.netbeans.lib.awtextra.AbsoluteConstraints(530, 550, 110, -1));
+        add(deletebtn, new org.netbeans.lib.awtextra.AbsoluteConstraints(520, 550, 90, -1));
 
+        jLabel4.setFont(new java.awt.Font("Segoe UI", 1, 12)); // NOI18N
         jLabel4.setForeground(new java.awt.Color(255, 255, 255));
         jLabel4.setText("Room Status:");
         add(jLabel4, new org.netbeans.lib.awtextra.AbsoluteConstraints(60, 270, -1, 30));
@@ -183,6 +186,7 @@ public class ManageRooms extends javax.swing.JPanel {
         });
         add(jComboBox2, new org.netbeans.lib.awtextra.AbsoluteConstraints(150, 270, 130, -1));
 
+        Refresh.setBackground(new java.awt.Color(204, 204, 204));
         Refresh.setFont(new java.awt.Font("Lucida Grande", 3, 13)); // NOI18N
         Refresh.setText("Refresh");
         Refresh.addActionListener(new java.awt.event.ActionListener() {
@@ -190,7 +194,7 @@ public class ManageRooms extends javax.swing.JPanel {
                 RefreshActionPerformed(evt);
             }
         });
-        add(Refresh, new org.netbeans.lib.awtextra.AbsoluteConstraints(721, 550, 120, -1));
+        add(Refresh, new org.netbeans.lib.awtextra.AbsoluteConstraints(630, 550, 90, -1));
     }// </editor-fold>//GEN-END:initComponents
 
     private void TxtroomsActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_TxtroomsActionPerformed

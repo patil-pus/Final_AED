@@ -63,57 +63,70 @@ public class CreateDepartmentJPanel extends javax.swing.JPanel {
         jLabel7 = new javax.swing.JLabel();
         jLabel8 = new javax.swing.JLabel();
 
-        setBackground(new java.awt.Color(138, 194, 211));
+        setBackground(new java.awt.Color(0, 51, 51));
         setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
 
+        jLabel2.setFont(new java.awt.Font("Segoe UI", 1, 12)); // NOI18N
         jLabel2.setForeground(new java.awt.Color(255, 255, 255));
         jLabel2.setText("Department Name: ");
-        add(jLabel2, new org.netbeans.lib.awtextra.AbsoluteConstraints(230, 200, -1, -1));
+        add(jLabel2, new org.netbeans.lib.awtextra.AbsoluteConstraints(50, 160, -1, -1));
 
         nameTxt.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 nameTxtActionPerformed(evt);
             }
         });
-        add(nameTxt, new org.netbeans.lib.awtextra.AbsoluteConstraints(430, 190, 118, -1));
+        add(nameTxt, new org.netbeans.lib.awtextra.AbsoluteConstraints(170, 150, 118, -1));
 
+        jLabel6.setFont(new java.awt.Font("Segoe UI", 1, 12)); // NOI18N
         jLabel6.setForeground(new java.awt.Color(255, 255, 255));
         jLabel6.setText("Department Admin Name: ");
-        add(jLabel6, new org.netbeans.lib.awtextra.AbsoluteConstraints(190, 240, -1, -1));
-        add(adminTxt, new org.netbeans.lib.awtextra.AbsoluteConstraints(430, 230, 118, -1));
+        add(jLabel6, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 200, -1, -1));
+        add(adminTxt, new org.netbeans.lib.awtextra.AbsoluteConstraints(170, 190, 118, -1));
 
-        jLabel1.setFont(new java.awt.Font("Lucida Grande", 1, 36)); // NOI18N
+        jLabel1.setFont(new java.awt.Font("Lucida Grande", 1, 32)); // NOI18N
         jLabel1.setForeground(new java.awt.Color(255, 255, 255));
-        jLabel1.setText("ADD DEPARTMENT");
-        add(jLabel1, new org.netbeans.lib.awtextra.AbsoluteConstraints(250, 50, 370, 42));
+        jLabel1.setText("Add Department");
+        add(jLabel1, new org.netbeans.lib.awtextra.AbsoluteConstraints(50, 70, 370, 42));
 
-        btnBack.setFont(new java.awt.Font("Lucida Grande", 3, 13)); // NOI18N
-        btnBack.setText("< Back");
+        btnBack.setBackground(new java.awt.Color(0, 0, 0));
+        btnBack.setFont(new java.awt.Font("Lucida Grande", 1, 13)); // NOI18N
+        btnBack.setForeground(new java.awt.Color(255, 255, 255));
+        btnBack.setText("Back");
         btnBack.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 btnBackActionPerformed(evt);
             }
         });
-        add(btnBack, new org.netbeans.lib.awtextra.AbsoluteConstraints(30, 51, 110, -1));
+        add(btnBack, new org.netbeans.lib.awtextra.AbsoluteConstraints(20, 10, 70, -1));
 
-        btnSave.setFont(new java.awt.Font("Lucida Grande", 3, 13)); // NOI18N
+        btnSave.setBackground(new java.awt.Color(204, 204, 204));
+        btnSave.setFont(new java.awt.Font("Lucida Grande", 1, 13)); // NOI18N
         btnSave.setText("Save");
         btnSave.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 btnSaveActionPerformed(evt);
             }
         });
-        add(btnSave, new org.netbeans.lib.awtextra.AbsoluteConstraints(350, 400, 110, -1));
-        add(password, new org.netbeans.lib.awtextra.AbsoluteConstraints(430, 310, 118, -1));
-        add(userName, new org.netbeans.lib.awtextra.AbsoluteConstraints(430, 270, 118, -1));
+        add(btnSave, new org.netbeans.lib.awtextra.AbsoluteConstraints(180, 320, 70, -1));
+        add(password, new org.netbeans.lib.awtextra.AbsoluteConstraints(170, 270, 118, -1));
 
+        userName.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                userNameActionPerformed(evt);
+            }
+        });
+        add(userName, new org.netbeans.lib.awtextra.AbsoluteConstraints(170, 230, 118, -1));
+
+        jLabel7.setFont(new java.awt.Font("Segoe UI", 1, 12)); // NOI18N
         jLabel7.setForeground(new java.awt.Color(255, 255, 255));
-        jLabel7.setText("Username");
-        add(jLabel7, new org.netbeans.lib.awtextra.AbsoluteConstraints(290, 280, -1, -1));
+        jLabel7.setText("Username:");
+        add(jLabel7, new org.netbeans.lib.awtextra.AbsoluteConstraints(100, 240, -1, -1));
 
+        jLabel8.setFont(new java.awt.Font("Segoe UI", 1, 12)); // NOI18N
         jLabel8.setForeground(new java.awt.Color(255, 255, 255));
-        jLabel8.setText("Password");
-        add(jLabel8, new org.netbeans.lib.awtextra.AbsoluteConstraints(290, 320, -1, -1));
+        jLabel8.setText("Password:");
+        add(jLabel8, new org.netbeans.lib.awtextra.AbsoluteConstraints(100, 280, -1, -1));
     }// </editor-fold>//GEN-END:initComponents
 
     private void nameTxtActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_nameTxtActionPerformed
@@ -164,6 +177,10 @@ public class CreateDepartmentJPanel extends javax.swing.JPanel {
         JOptionPane.showMessageDialog(null, "New Department added");
         
     }//GEN-LAST:event_btnSaveActionPerformed
+
+    private void userNameActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_userNameActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_userNameActionPerformed
 
 
     // Variables declaration - do not modify//GEN-BEGIN:variables

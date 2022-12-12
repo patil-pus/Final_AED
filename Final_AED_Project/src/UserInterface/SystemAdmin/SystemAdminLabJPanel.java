@@ -96,12 +96,11 @@ public class SystemAdminLabJPanel extends javax.swing.JPanel {
                 backBtnActionPerformed(evt);
             }
         });
-        add(backBtn, new org.netbeans.lib.awtextra.AbsoluteConstraints(300, 90, 30, 30));
+        add(backBtn, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 10, 30, 30));
 
         jLabel1.setFont(new java.awt.Font("Lucida Grande", 1, 36)); // NOI18N
-        jLabel1.setForeground(new java.awt.Color(255, 255, 255));
-        jLabel1.setText("LAB PORTAL ");
-        add(jLabel1, new org.netbeans.lib.awtextra.AbsoluteConstraints(340, 80, -1, -1));
+        jLabel1.setText("Lab Portal");
+        add(jLabel1, new org.netbeans.lib.awtextra.AbsoluteConstraints(380, 110, -1, -1));
 
         labTable.setModel(new javax.swing.table.DefaultTableModel(
             new Object [][] {
@@ -118,45 +117,53 @@ public class SystemAdminLabJPanel extends javax.swing.JPanel {
 
         add(jScrollPane1, new org.netbeans.lib.awtextra.AbsoluteConstraints(70, 170, 760, 190));
 
+        refreshBtn.setBackground(new java.awt.Color(0, 0, 0));
         refreshBtn.setFont(new java.awt.Font("Lucida Grande", 3, 13)); // NOI18N
+        refreshBtn.setForeground(new java.awt.Color(255, 255, 255));
         refreshBtn.setText("Refresh");
         refreshBtn.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 refreshBtnActionPerformed(evt);
             }
         });
-        add(refreshBtn, new org.netbeans.lib.awtextra.AbsoluteConstraints(350, 400, 190, 40));
+        add(refreshBtn, new org.netbeans.lib.awtextra.AbsoluteConstraints(740, 130, 90, 30));
 
+        createLabBtn.setBackground(new java.awt.Color(0, 0, 0));
         createLabBtn.setFont(new java.awt.Font("Lucida Grande", 3, 13)); // NOI18N
+        createLabBtn.setForeground(new java.awt.Color(255, 255, 255));
         createLabBtn.setText("Sign up New Lab");
         createLabBtn.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 createLabBtnActionPerformed(evt);
             }
         });
-        add(createLabBtn, new org.netbeans.lib.awtextra.AbsoluteConstraints(350, 460, 190, 40));
+        add(createLabBtn, new org.netbeans.lib.awtextra.AbsoluteConstraints(350, 380, 160, 30));
 
+        deleteBtn.setBackground(new java.awt.Color(0, 0, 0));
         deleteBtn.setFont(new java.awt.Font("Lucida Grande", 3, 13)); // NOI18N
+        deleteBtn.setForeground(new java.awt.Color(255, 255, 255));
         deleteBtn.setText("Delete Existing Lab");
         deleteBtn.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 deleteBtnActionPerformed(evt);
             }
         });
-        add(deleteBtn, new org.netbeans.lib.awtextra.AbsoluteConstraints(350, 520, 190, 40));
+        add(deleteBtn, new org.netbeans.lib.awtextra.AbsoluteConstraints(530, 380, 160, 30));
 
+        viewHospitalBtn.setBackground(new java.awt.Color(0, 0, 0));
         viewHospitalBtn.setFont(new java.awt.Font("Lucida Grande", 3, 13)); // NOI18N
+        viewHospitalBtn.setForeground(new java.awt.Color(255, 255, 255));
         viewHospitalBtn.setText("View Details");
         viewHospitalBtn.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 viewHospitalBtnActionPerformed(evt);
             }
         });
-        add(viewHospitalBtn, new org.netbeans.lib.awtextra.AbsoluteConstraints(350, 580, 190, 40));
+        add(viewHospitalBtn, new org.netbeans.lib.awtextra.AbsoluteConstraints(220, 380, 110, 30));
 
         jLabel2.setBackground(new java.awt.Color(138, 194, 211));
-        jLabel2.setIcon(new javax.swing.ImageIcon(getClass().getResource("/ui/Picture/cover1.jpeg"))); // NOI18N
-        add(jLabel2, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, -50, 1180, 790));
+        jLabel2.setIcon(new javax.swing.ImageIcon(getClass().getResource("/UserInterface/SystemAdmin/labs.jpg"))); // NOI18N
+        add(jLabel2, new org.netbeans.lib.awtextra.AbsoluteConstraints(-20, -40, 1180, 790));
     }// </editor-fold>//GEN-END:initComponents
 
     private void backBtnActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_backBtnActionPerformed

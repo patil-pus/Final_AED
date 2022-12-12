@@ -53,7 +53,7 @@ public class MedicalCareWorkAreaJpanel extends javax.swing.JPanel {
 
         setPreferredSize(new java.awt.Dimension(1800, 900));
 
-        jPanel3.setBackground(new java.awt.Color(13, 37, 70));
+        jPanel3.setBackground(new java.awt.Color(0, 51, 51));
         jPanel3.setMinimumSize(new java.awt.Dimension(280, 840));
         jPanel3.setPreferredSize(new java.awt.Dimension(280, 840));
         jPanel3.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
