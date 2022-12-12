@@ -163,7 +163,7 @@ public class PatientScheduleAppointmentJPanel extends javax.swing.JPanel {
             }
         });
         add(booknowbtn, new org.netbeans.lib.awtextra.AbsoluteConstraints(730, 510, 140, 30));
-        add(jDateChooser1, new org.netbeans.lib.awtextra.AbsoluteConstraints(390, 200, 190, -1));
+        add(jDateChooser1, new org.netbeans.lib.awtextra.AbsoluteConstraints(420, 210, -1, -1));
     }// </editor-fold>//GEN-END:initComponents
 
     private void physicianNameComboActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_physicianNameComboActionPerformed

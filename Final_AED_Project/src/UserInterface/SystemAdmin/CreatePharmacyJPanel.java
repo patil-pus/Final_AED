@@ -10,6 +10,7 @@ import Business.Pharmacy.Pharmacy;
 import Business.Role.HospitalRole;
 import Business.Role.PharmacyRole;
 import Business.UserAccount.UserAccount;
+import Business.email.Email;
 import java.awt.CardLayout;
 import java.awt.Component;
 import java.util.regex.Matcher;
@@ -254,7 +255,8 @@ public class CreatePharmacyJPanel extends javax.swing.JPanel {
 
             Pharmacy pharmacy = business.getPharmacyDirectory().addPharmacy(newPharmacy);
             UserAccount account = business.getUserAccountDirectory().createUserAccount(username, password, pharmacy.getPharmacyId(), new PharmacyRole(), pharmacy);
-        
+            Email temp1 = new Email(emailId, "Welcome!!", "Hi  Your account was updated successfully for role Pharmacy !");
+                        temp1.sendEmail();
             JOptionPane.showMessageDialog(null, "New Pharmacy added");
         }
         }
