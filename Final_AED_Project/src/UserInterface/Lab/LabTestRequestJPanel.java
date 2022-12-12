@@ -65,10 +65,10 @@ public class LabTestRequestJPanel extends javax.swing.JPanel {
 
         jSplitPane1.setRightComponent(rightPanel);
 
-        leftPanel.setBackground(new java.awt.Color(0, 51, 51));
+        leftPanel.setBackground(new java.awt.Color(248, 226, 205));
 
         backbtn.setBackground(new java.awt.Color(0, 0, 0));
-        backbtn.setFont(new java.awt.Font("Lucida Grande", 1, 13)); // NOI18N
+        backbtn.setFont(new java.awt.Font("Segoe UI", 1, 12)); // NOI18N
         backbtn.setForeground(new java.awt.Color(255, 255, 255));
         backbtn.setText("Back");
         backbtn.addActionListener(new java.awt.event.ActionListener() {
@@ -77,8 +77,9 @@ public class LabTestRequestJPanel extends javax.swing.JPanel {
             }
         });
 
-        completedbtn.setBackground(new java.awt.Color(204, 204, 204));
+        completedbtn.setBackground(new java.awt.Color(0, 0, 0));
         completedbtn.setFont(new java.awt.Font("Lucida Grande", 3, 13)); // NOI18N
+        completedbtn.setForeground(new java.awt.Color(255, 255, 255));
         completedbtn.setText("Completed Tests");
         completedbtn.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -86,8 +87,9 @@ public class LabTestRequestJPanel extends javax.swing.JPanel {
             }
         });
 
-        pendingbtn.setBackground(new java.awt.Color(204, 204, 204));
+        pendingbtn.setBackground(new java.awt.Color(0, 0, 0));
         pendingbtn.setFont(new java.awt.Font("Lucida Grande", 3, 13)); // NOI18N
+        pendingbtn.setForeground(new java.awt.Color(255, 255, 255));
         pendingbtn.setText("Pending Tests");
         pendingbtn.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -112,7 +114,7 @@ public class LabTestRequestJPanel extends javax.swing.JPanel {
                             .addComponent(backbtn)
                             .addComponent(pendingbtn, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
                             .addComponent(completedbtn, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))))
-                .addContainerGap(19, Short.MAX_VALUE))
+                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
         );
         leftPanelLayout.setVerticalGroup(
             leftPanelLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
@@ -123,7 +125,7 @@ public class LabTestRequestJPanel extends javax.swing.JPanel {
                 .addComponent(completedbtn, javax.swing.GroupLayout.PREFERRED_SIZE, 36, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addGap(18, 18, 18)
                 .addComponent(pendingbtn, javax.swing.GroupLayout.PREFERRED_SIZE, 34, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 278, Short.MAX_VALUE)
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 280, Short.MAX_VALUE)
                 .addComponent(jLabel3)
                 .addContainerGap())
         );

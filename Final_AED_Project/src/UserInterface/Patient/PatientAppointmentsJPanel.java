@@ -62,10 +62,11 @@ public class PatientAppointmentsJPanel extends javax.swing.JPanel {
 
         jSplitPane1.setRightComponent(rightJPanel);
 
-        jPanel1.setBackground(new java.awt.Color(0, 51, 51));
+        jPanel1.setBackground(new java.awt.Color(248, 226, 205));
 
-        UpcomingAppointmentBtn.setBackground(new java.awt.Color(204, 204, 204));
+        UpcomingAppointmentBtn.setBackground(new java.awt.Color(0, 0, 0));
         UpcomingAppointmentBtn.setFont(new java.awt.Font("Lucida Grande", 3, 13)); // NOI18N
+        UpcomingAppointmentBtn.setForeground(new java.awt.Color(255, 255, 255));
         UpcomingAppointmentBtn.setText("Upcoming Appointments");
         UpcomingAppointmentBtn.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -73,8 +74,9 @@ public class PatientAppointmentsJPanel extends javax.swing.JPanel {
             }
         });
 
-        ScheduleAppointmentBtn.setBackground(new java.awt.Color(204, 204, 204));
+        ScheduleAppointmentBtn.setBackground(new java.awt.Color(0, 0, 0));
         ScheduleAppointmentBtn.setFont(new java.awt.Font("Lucida Grande", 3, 13)); // NOI18N
+        ScheduleAppointmentBtn.setForeground(new java.awt.Color(255, 255, 255));
         ScheduleAppointmentBtn.setText("Schedule an Appointment");
         ScheduleAppointmentBtn.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -83,7 +85,7 @@ public class PatientAppointmentsJPanel extends javax.swing.JPanel {
         });
 
         backBtn.setBackground(new java.awt.Color(0, 0, 0));
-        backBtn.setFont(new java.awt.Font("Lucida Grande", 1, 13)); // NOI18N
+        backBtn.setFont(new java.awt.Font("Segoe UI", 1, 12)); // NOI18N
         backBtn.setForeground(new java.awt.Color(255, 255, 255));
         backBtn.setText("Back");
         backBtn.addActionListener(new java.awt.event.ActionListener() {
@@ -103,8 +105,8 @@ public class PatientAppointmentsJPanel extends javax.swing.JPanel {
             .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, jPanel1Layout.createSequentialGroup()
                 .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
                 .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                    .addComponent(ScheduleAppointmentBtn)
-                    .addComponent(UpcomingAppointmentBtn))
+                    .addComponent(ScheduleAppointmentBtn, javax.swing.GroupLayout.Alignment.TRAILING)
+                    .addComponent(UpcomingAppointmentBtn, javax.swing.GroupLayout.Alignment.TRAILING, javax.swing.GroupLayout.PREFERRED_SIZE, 194, javax.swing.GroupLayout.PREFERRED_SIZE))
                 .addContainerGap())
         );
         jPanel1Layout.setVerticalGroup(
@@ -113,10 +115,10 @@ public class PatientAppointmentsJPanel extends javax.swing.JPanel {
                 .addGap(15, 15, 15)
                 .addComponent(backBtn)
                 .addGap(117, 117, 117)
-                .addComponent(UpcomingAppointmentBtn, javax.swing.GroupLayout.PREFERRED_SIZE, 33, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addGap(18, 18, 18)
+                .addComponent(UpcomingAppointmentBtn, javax.swing.GroupLayout.PREFERRED_SIZE, 39, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addGap(27, 27, 27)
                 .addComponent(ScheduleAppointmentBtn, javax.swing.GroupLayout.PREFERRED_SIZE, 39, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addContainerGap(270, Short.MAX_VALUE))
+                .addContainerGap(257, Short.MAX_VALUE))
         );
 
         jSplitPane1.setLeftComponent(jPanel1);

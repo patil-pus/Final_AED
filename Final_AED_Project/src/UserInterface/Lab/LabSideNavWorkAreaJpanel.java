@@ -65,13 +65,12 @@ public class LabSideNavWorkAreaJpanel extends javax.swing.JPanel {
         jLabel3 = new javax.swing.JLabel();
         manageTestsBtn = new javax.swing.JButton();
         labInfoBtn = new javax.swing.JButton();
-        jButton1 = new javax.swing.JButton();
         rightSystemAdminPanel = new javax.swing.JPanel();
         jLabel1 = new javax.swing.JLabel();
 
         setPreferredSize(new java.awt.Dimension(1800, 900));
 
-        systemAdminPanel.setBackground(new java.awt.Color(0, 51, 51));
+        systemAdminPanel.setBackground(new java.awt.Color(248, 226, 205));
         systemAdminPanel.setMinimumSize(new java.awt.Dimension(1338, 840));
 
         javax.swing.GroupLayout systemAdminPanelLayout = new javax.swing.GroupLayout(systemAdminPanel);
@@ -82,20 +81,21 @@ public class LabSideNavWorkAreaJpanel extends javax.swing.JPanel {
         );
         systemAdminPanelLayout.setVerticalGroup(
             systemAdminPanelLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGap(0, 2424, Short.MAX_VALUE)
+            .addGap(0, 1068, Short.MAX_VALUE)
         );
 
-        jPanel3.setBackground(new java.awt.Color(0, 51, 51));
+        jPanel3.setBackground(new java.awt.Color(248, 226, 205));
         jPanel3.setMinimumSize(new java.awt.Dimension(280, 840));
         jPanel3.setPreferredSize(new java.awt.Dimension(280, 840));
         jPanel3.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
 
-        jLabel3.setFont(new java.awt.Font("SansSerif", 1, 14)); // NOI18N
-        jLabel3.setText("Hospital Admin!");
-        jPanel3.add(jLabel3, new org.netbeans.lib.awtextra.AbsoluteConstraints(80, 30, 120, 30));
+        jLabel3.setFont(new java.awt.Font("SansSerif", 1, 25)); // NOI18N
+        jLabel3.setText("Lab Portal!");
+        jPanel3.add(jLabel3, new org.netbeans.lib.awtextra.AbsoluteConstraints(60, 130, 150, 30));
 
-        manageTestsBtn.setBackground(new java.awt.Color(204, 204, 204));
+        manageTestsBtn.setBackground(new java.awt.Color(0, 0, 0));
         manageTestsBtn.setFont(new java.awt.Font("Lucida Grande", 3, 13)); // NOI18N
+        manageTestsBtn.setForeground(new java.awt.Color(255, 255, 255));
         manageTestsBtn.setText("Manage Tests");
         manageTestsBtn.setMaximumSize(new java.awt.Dimension(200, 40));
         manageTestsBtn.setMinimumSize(new java.awt.Dimension(200, 40));
@@ -105,32 +105,24 @@ public class LabSideNavWorkAreaJpanel extends javax.swing.JPanel {
                 manageTestsBtnActionPerformed(evt);
             }
         });
-        jPanel3.add(manageTestsBtn, new org.netbeans.lib.awtextra.AbsoluteConstraints(30, 90, -1, -1));
+        jPanel3.add(manageTestsBtn, new org.netbeans.lib.awtextra.AbsoluteConstraints(30, 180, -1, -1));
 
-        labInfoBtn.setBackground(new java.awt.Color(204, 204, 204));
+        labInfoBtn.setBackground(new java.awt.Color(0, 0, 0));
         labInfoBtn.setFont(new java.awt.Font("Lucida Grande", 3, 13)); // NOI18N
+        labInfoBtn.setForeground(new java.awt.Color(255, 255, 255));
         labInfoBtn.setText("Lab Information");
         labInfoBtn.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 labInfoBtnActionPerformed(evt);
             }
         });
-        jPanel3.add(labInfoBtn, new org.netbeans.lib.awtextra.AbsoluteConstraints(30, 150, 200, 40));
-
-        jButton1.setFont(new java.awt.Font("Lucida Grande", 3, 13)); // NOI18N
-        jButton1.setText("Place Order");
-        jButton1.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                jButton1ActionPerformed(evt);
-            }
-        });
-        jPanel3.add(jButton1, new org.netbeans.lib.awtextra.AbsoluteConstraints(30, 210, 200, 40));
+        jPanel3.add(labInfoBtn, new org.netbeans.lib.awtextra.AbsoluteConstraints(30, 240, 200, 40));
 
         rightSystemAdminPanel.setBackground(new java.awt.Color(255, 255, 255));
         rightSystemAdminPanel.setPreferredSize(new java.awt.Dimension(1058, 840));
         rightSystemAdminPanel.setLayout(new java.awt.CardLayout());
 
-        jLabel1.setIcon(new javax.swing.ImageIcon(getClass().getResource("/ui/Picture/BKG3_1.jpg"))); // NOI18N
+        jLabel1.setIcon(new javax.swing.ImageIcon(getClass().getResource("/ui/Picture/Lab1.png"))); // NOI18N
         rightSystemAdminPanel.add(jLabel1, "card2");
 
         javax.swing.GroupLayout layout = new javax.swing.GroupLayout(this);
@@ -151,7 +143,7 @@ public class LabSideNavWorkAreaJpanel extends javax.swing.JPanel {
         );
         layout.setVerticalGroup(
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addComponent(rightSystemAdminPanel, javax.swing.GroupLayout.DEFAULT_SIZE, 2446, Short.MAX_VALUE)
+            .addComponent(rightSystemAdminPanel, javax.swing.GroupLayout.DEFAULT_SIZE, 1080, Short.MAX_VALUE)
             .addGroup(layout.createSequentialGroup()
                 .addComponent(jPanel3, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
                 .addContainerGap())
@@ -179,17 +171,8 @@ public class LabSideNavWorkAreaJpanel extends javax.swing.JPanel {
         layout.next(rightSystemAdminPanel);
     }//GEN-LAST:event_manageTestsBtnActionPerformed
 
-    private void jButton1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton1ActionPerformed
-        // TODO add your handling code here:
-        LabOrderAreaJPanel labOrderAreaJPanel = new LabOrderAreaJPanel(rightSystemAdminPanel, account, business);
-        rightSystemAdminPanel.add("LabOrderAreaJPanel", labOrderAreaJPanel);
-        CardLayout layout = (CardLayout) rightSystemAdminPanel.getLayout();
-        layout.next(rightSystemAdminPanel); 
-    }//GEN-LAST:event_jButton1ActionPerformed
-
 
     // Variables declaration - do not modify//GEN-BEGIN:variables
-    private javax.swing.JButton jButton1;
     private javax.swing.JLabel jLabel1;
     private javax.swing.JLabel jLabel3;
     private javax.swing.JPanel jPanel3;

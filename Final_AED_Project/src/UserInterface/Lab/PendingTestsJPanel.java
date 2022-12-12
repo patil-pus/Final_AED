@@ -100,14 +100,14 @@ public class PendingTestsJPanel extends javax.swing.JPanel {
         DeleteTestbtn = new javax.swing.JButton();
         ProcessTestbtn = new javax.swing.JButton();
 
-        setBackground(new java.awt.Color(0, 51, 51));
+        setBackground(new java.awt.Color(248, 226, 205));
         setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
 
         jLabel4.setFont(new java.awt.Font("Lucida Grande", 1, 32)); // NOI18N
-        jLabel4.setForeground(new java.awt.Color(255, 255, 255));
         jLabel4.setText("Pending Tests");
         add(jLabel4, new org.netbeans.lib.awtextra.AbsoluteConstraints(260, 100, -1, 58));
 
+        pendingTestTbl.setBackground(new java.awt.Color(215, 215, 215));
         pendingTestTbl.setModel(new javax.swing.table.DefaultTableModel(
             new Object [][] {
                 {null, null, null, null},
@@ -123,8 +123,9 @@ public class PendingTestsJPanel extends javax.swing.JPanel {
 
         add(jScrollPane4, new org.netbeans.lib.awtextra.AbsoluteConstraints(57, 170, 730, 160));
 
-        DeleteTestbtn.setBackground(new java.awt.Color(204, 204, 204));
+        DeleteTestbtn.setBackground(new java.awt.Color(0, 0, 0));
         DeleteTestbtn.setFont(new java.awt.Font("Lucida Grande", 3, 13)); // NOI18N
+        DeleteTestbtn.setForeground(new java.awt.Color(255, 255, 255));
         DeleteTestbtn.setText("Delete ");
         DeleteTestbtn.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -133,8 +134,9 @@ public class PendingTestsJPanel extends javax.swing.JPanel {
         });
         add(DeleteTestbtn, new org.netbeans.lib.awtextra.AbsoluteConstraints(430, 360, 170, 40));
 
-        ProcessTestbtn.setBackground(new java.awt.Color(204, 204, 204));
+        ProcessTestbtn.setBackground(new java.awt.Color(0, 0, 0));
         ProcessTestbtn.setFont(new java.awt.Font("Lucida Grande", 3, 13)); // NOI18N
+        ProcessTestbtn.setForeground(new java.awt.Color(255, 255, 255));
         ProcessTestbtn.setText("Process Test Request");
         ProcessTestbtn.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {

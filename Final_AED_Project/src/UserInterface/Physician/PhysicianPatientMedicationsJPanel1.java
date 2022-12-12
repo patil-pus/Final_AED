@@ -110,14 +110,14 @@ public class PhysicianPatientMedicationsJPanel1 extends javax.swing.JPanel {
         jScrollPane4 = new javax.swing.JScrollPane();
         jTable4 = new javax.swing.JTable();
 
-        setBackground(new java.awt.Color(0, 51, 51));
+        setBackground(new java.awt.Color(248, 226, 205));
         setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
 
-        jLabel4.setFont(new java.awt.Font("Lucida Grande", 1, 34)); // NOI18N
-        jLabel4.setForeground(new java.awt.Color(255, 255, 255));
+        jLabel4.setFont(new java.awt.Font("Lucida Grande", 1, 32)); // NOI18N
         jLabel4.setText("Patient Medications");
         add(jLabel4, new org.netbeans.lib.awtextra.AbsoluteConstraints(250, 140, -1, 58));
 
+        jTable4.setBackground(new java.awt.Color(215, 215, 215));
         jTable4.setModel(new javax.swing.table.DefaultTableModel(
             new Object [][] {
                 {null, null, null, null, null},
@@ -131,7 +131,7 @@ public class PhysicianPatientMedicationsJPanel1 extends javax.swing.JPanel {
         ));
         jScrollPane4.setViewportView(jTable4);
 
-        add(jScrollPane4, new org.netbeans.lib.awtextra.AbsoluteConstraints(90, 210, 630, 120));
+        add(jScrollPane4, new org.netbeans.lib.awtextra.AbsoluteConstraints(70, 210, 630, 120));
     }// </editor-fold>//GEN-END:initComponents
 
 

@@ -57,12 +57,11 @@ public class UpdateStatusJPanel extends javax.swing.JPanel {
         UPDATE = new javax.swing.JButton();
         backbtn = new javax.swing.JButton();
 
-        setBackground(new java.awt.Color(0, 51, 51));
+        setBackground(new java.awt.Color(248, 226, 205));
         setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
 
         jLabel1.setBackground(new java.awt.Color(255, 255, 255));
-        jLabel1.setFont(new java.awt.Font("Segoe UI", 1, 12)); // NOI18N
-        jLabel1.setForeground(new java.awt.Color(255, 255, 255));
+        jLabel1.setFont(new java.awt.Font("Segoe UI", 1, 13)); // NOI18N
         jLabel1.setText("Status:");
         add(jLabel1, new org.netbeans.lib.awtextra.AbsoluteConstraints(80, 160, 80, 20));
 
@@ -74,16 +73,16 @@ public class UpdateStatusJPanel extends javax.swing.JPanel {
         add(ReqStatus, new org.netbeans.lib.awtextra.AbsoluteConstraints(140, 160, 140, 20));
 
         jLabel2.setBackground(new java.awt.Color(255, 255, 255));
-        jLabel2.setFont(new java.awt.Font("Segoe UI", 1, 12)); // NOI18N
-        jLabel2.setForeground(new java.awt.Color(255, 255, 255));
+        jLabel2.setFont(new java.awt.Font("Segoe UI", 1, 13)); // NOI18N
         jLabel2.setText("Request ID:");
         add(jLabel2, new org.netbeans.lib.awtextra.AbsoluteConstraints(50, 110, -1, 40));
 
         idLabel.setFont(new java.awt.Font("Lucida Grande", 0, 14)); // NOI18N
-        add(idLabel, new org.netbeans.lib.awtextra.AbsoluteConstraints(400, 200, 60, 60));
+        add(idLabel, new org.netbeans.lib.awtextra.AbsoluteConstraints(140, 120, 140, 30));
 
-        UPDATE.setBackground(new java.awt.Color(204, 204, 204));
+        UPDATE.setBackground(new java.awt.Color(0, 0, 0));
         UPDATE.setFont(new java.awt.Font("Segoe UI", 1, 12)); // NOI18N
+        UPDATE.setForeground(new java.awt.Color(255, 255, 255));
         UPDATE.setText("Update");
         UPDATE.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -139,7 +138,7 @@ public class UpdateStatusJPanel extends javax.swing.JPanel {
 
     private void backbtnActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_backbtnActionPerformed
         RideRequestJPanel  rideRequestJPanel = new  RideRequestJPanel(CardLayoutJPanel,business, useraccount, ambulance);
-        CardLayoutJPanel.add("UpdateRoom", rideRequestJPanel);
+        CardLayoutJPanel.add("UpdateRoomStatus", rideRequestJPanel);
         CardLayout layout = (CardLayout) CardLayoutJPanel.getLayout();
         layout.next(CardLayoutJPanel);
     }//GEN-LAST:event_backbtnActionPerformed

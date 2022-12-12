@@ -196,7 +196,7 @@ public class SystemAdminLabJPanel extends javax.swing.JPanel {
         }
 
         LabDirectory labDirectory = business.getLabDirectory();
-
+        //JOptionPane.showMessageDialog(null, selected.getLabID()+ selected.getType(), "Warning", JOptionPane.WARNING_MESSAGE);
         business.getLabDirectory().deleteLab(selected.getLabID(), selected.getType(), business);
 
         populateTable();

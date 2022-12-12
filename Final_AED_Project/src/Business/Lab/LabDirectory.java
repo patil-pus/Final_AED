@@ -129,7 +129,7 @@ public class LabDirectory {
      
     public void deleteLab(String labId, String type, Ecosystem system){
         
-        if(type.equals("pathology")) {
+        if(type.equals("Pathology Lab")) {
             for(Lab lab: pathologyLabs){
             
                 if(lab.getLabID().equals(labId)){
@@ -138,7 +138,7 @@ public class LabDirectory {
             }
          }
          
-         if(type.equals("neurology")) {
+         if(type.equals("Neurology Lab")) {
             for(Lab lab: neurologyLabs){
             
                 if(lab.getLabID().equals(labId)){
@@ -147,7 +147,7 @@ public class LabDirectory {
             }
          }
          
-         if(type.equals("orthopedic")) {
+         if(type.equals("Orthopedic Lab")) {
             for(Lab lab: orthopedicLabs){
             
                 if(lab.getLabID().equals(labId)){

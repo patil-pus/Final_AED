@@ -52,9 +52,10 @@ public class orderItemsManu extends javax.swing.JPanel {
         jScrollPane1 = new javax.swing.JScrollPane();
         manuTable = new javax.swing.JTable();
 
-        setBackground(new java.awt.Color(0, 51, 51));
+        setBackground(new java.awt.Color(248, 226, 205));
         setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
 
+        manuTable.setBackground(new java.awt.Color(215, 215, 215));
         manuTable.setModel(new javax.swing.table.DefaultTableModel(
             new Object [][] {
                 {null, null, null, null},

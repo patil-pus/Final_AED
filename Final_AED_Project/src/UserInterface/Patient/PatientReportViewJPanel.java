@@ -46,7 +46,7 @@ public class PatientReportViewJPanel extends javax.swing.JPanel {
         jButton1 = new javax.swing.JButton();
         jLabel1 = new javax.swing.JLabel();
 
-        setBackground(new java.awt.Color(0, 51, 51));
+        setBackground(new java.awt.Color(248, 226, 205));
         setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
 
         jButton1.setBackground(new java.awt.Color(0, 0, 0));
@@ -58,7 +58,7 @@ public class PatientReportViewJPanel extends javax.swing.JPanel {
                 jButton1ActionPerformed(evt);
             }
         });
-        add(jButton1, new org.netbeans.lib.awtextra.AbsoluteConstraints(20, 20, 70, -1));
+        add(jButton1, new org.netbeans.lib.awtextra.AbsoluteConstraints(20, 20, 70, 30));
         add(jLabel1, new org.netbeans.lib.awtextra.AbsoluteConstraints(176, 6, 417, 545));
     }// </editor-fold>//GEN-END:initComponents
 

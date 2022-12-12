@@ -73,31 +73,33 @@ public class PhysicianInfoJPanel extends javax.swing.JPanel {
         contactNumberTxt = new javax.swing.JTextField();
         deptTxt = new javax.swing.JTextField();
 
-        setBackground(new java.awt.Color(0, 51, 51));
+        setBackground(new java.awt.Color(248, 226, 205));
         setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
 
-        UpdateBtn.setBackground(new java.awt.Color(204, 204, 204));
+        UpdateBtn.setBackground(new java.awt.Color(0, 0, 0));
         UpdateBtn.setFont(new java.awt.Font("Lucida Grande", 3, 13)); // NOI18N
+        UpdateBtn.setForeground(new java.awt.Color(255, 255, 255));
         UpdateBtn.setText("Update");
         UpdateBtn.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 UpdateBtnActionPerformed(evt);
             }
         });
-        add(UpdateBtn, new org.netbeans.lib.awtextra.AbsoluteConstraints(120, 390, 80, 20));
+        add(UpdateBtn, new org.netbeans.lib.awtextra.AbsoluteConstraints(120, 380, 80, 30));
 
-        saveBtn.setBackground(new java.awt.Color(204, 204, 204));
+        saveBtn.setBackground(new java.awt.Color(0, 0, 0));
         saveBtn.setFont(new java.awt.Font("Lucida Grande", 3, 13)); // NOI18N
+        saveBtn.setForeground(new java.awt.Color(255, 255, 255));
         saveBtn.setText("Save");
         saveBtn.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 saveBtnActionPerformed(evt);
             }
         });
-        add(saveBtn, new org.netbeans.lib.awtextra.AbsoluteConstraints(210, 390, 80, 20));
+        add(saveBtn, new org.netbeans.lib.awtextra.AbsoluteConstraints(210, 380, 80, 30));
 
         backBtn.setBackground(new java.awt.Color(0, 0, 0));
-        backBtn.setFont(new java.awt.Font("Lucida Grande", 1, 13)); // NOI18N
+        backBtn.setFont(new java.awt.Font("Segoe UI", 1, 12)); // NOI18N
         backBtn.setForeground(new java.awt.Color(255, 255, 255));
         backBtn.setText("Back");
         backBtn.addActionListener(new java.awt.event.ActionListener() {
@@ -105,60 +107,53 @@ public class PhysicianInfoJPanel extends javax.swing.JPanel {
                 backBtnActionPerformed(evt);
             }
         });
-        add(backBtn, new org.netbeans.lib.awtextra.AbsoluteConstraints(20, 30, 70, 20));
+        add(backBtn, new org.netbeans.lib.awtextra.AbsoluteConstraints(20, 20, 60, -1));
 
         jLabel1.setFont(new java.awt.Font("Lucida Grande", 1, 32)); // NOI18N
-        jLabel1.setForeground(new java.awt.Color(255, 255, 255));
         jLabel1.setText("View Doctor");
         add(jLabel1, new org.netbeans.lib.awtextra.AbsoluteConstraints(60, 80, 300, 42));
 
-        jLabel2.setFont(new java.awt.Font("Segoe UI", 1, 12)); // NOI18N
-        jLabel2.setForeground(new java.awt.Color(255, 255, 255));
+        jLabel2.setFont(new java.awt.Font("Segoe UI", 1, 13)); // NOI18N
         jLabel2.setText("Department:");
         add(jLabel2, new org.netbeans.lib.awtextra.AbsoluteConstraints(40, 140, -1, -1));
 
-        jLabel4.setFont(new java.awt.Font("Segoe UI", 1, 12)); // NOI18N
-        jLabel4.setForeground(new java.awt.Color(255, 255, 255));
-        jLabel4.setText("Contact Number");
+        jLabel4.setFont(new java.awt.Font("Segoe UI", 1, 13)); // NOI18N
+        jLabel4.setText("Contact Number:");
         add(jLabel4, new org.netbeans.lib.awtextra.AbsoluteConstraints(20, 180, -1, -1));
 
-        jLabel5.setFont(new java.awt.Font("Segoe UI", 1, 12)); // NOI18N
-        jLabel5.setForeground(new java.awt.Color(255, 255, 255));
-        jLabel5.setText("Email");
+        jLabel5.setFont(new java.awt.Font("Segoe UI", 1, 13)); // NOI18N
+        jLabel5.setText("Email:");
         add(jLabel5, new org.netbeans.lib.awtextra.AbsoluteConstraints(80, 220, -1, -1));
 
-        jLabel6.setFont(new java.awt.Font("Segoe UI", 1, 12)); // NOI18N
-        jLabel6.setForeground(new java.awt.Color(255, 255, 255));
-        jLabel6.setText("Name");
+        jLabel6.setFont(new java.awt.Font("Segoe UI", 1, 13)); // NOI18N
+        jLabel6.setText("Name:");
         add(jLabel6, new org.netbeans.lib.awtextra.AbsoluteConstraints(80, 260, -1, -1));
 
-        jLabel7.setFont(new java.awt.Font("Segoe UI", 1, 12)); // NOI18N
-        jLabel7.setForeground(new java.awt.Color(255, 255, 255));
-        jLabel7.setText("License Number");
-        add(jLabel7, new org.netbeans.lib.awtextra.AbsoluteConstraints(30, 300, -1, -1));
+        jLabel7.setFont(new java.awt.Font("Segoe UI", 1, 13)); // NOI18N
+        jLabel7.setText("License Number:");
+        add(jLabel7, new org.netbeans.lib.awtextra.AbsoluteConstraints(20, 300, -1, -1));
 
-        jLabel10.setFont(new java.awt.Font("Segoe UI", 1, 12)); // NOI18N
-        jLabel10.setForeground(new java.awt.Color(255, 255, 255));
-        jLabel10.setText("Gender");
+        jLabel10.setFont(new java.awt.Font("Segoe UI", 1, 13)); // NOI18N
+        jLabel10.setText("Gender:");
         add(jLabel10, new org.netbeans.lib.awtextra.AbsoluteConstraints(70, 340, -1, -1));
-        add(genderTxt, new org.netbeans.lib.awtextra.AbsoluteConstraints(120, 340, 157, -1));
-        add(licenseTxt, new org.netbeans.lib.awtextra.AbsoluteConstraints(120, 300, 157, -1));
-        add(nameTxt, new org.netbeans.lib.awtextra.AbsoluteConstraints(120, 260, 157, -1));
+        add(genderTxt, new org.netbeans.lib.awtextra.AbsoluteConstraints(130, 340, 157, -1));
+        add(licenseTxt, new org.netbeans.lib.awtextra.AbsoluteConstraints(130, 300, 157, -1));
+        add(nameTxt, new org.netbeans.lib.awtextra.AbsoluteConstraints(130, 260, 157, -1));
 
         emailtxt.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 emailtxtActionPerformed(evt);
             }
         });
-        add(emailtxt, new org.netbeans.lib.awtextra.AbsoluteConstraints(120, 220, 157, -1));
+        add(emailtxt, new org.netbeans.lib.awtextra.AbsoluteConstraints(130, 220, 157, -1));
 
         contactNumberTxt.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 contactNumberTxtActionPerformed(evt);
             }
         });
-        add(contactNumberTxt, new org.netbeans.lib.awtextra.AbsoluteConstraints(120, 180, 157, -1));
-        add(deptTxt, new org.netbeans.lib.awtextra.AbsoluteConstraints(120, 140, 157, -1));
+        add(contactNumberTxt, new org.netbeans.lib.awtextra.AbsoluteConstraints(130, 180, 157, 20));
+        add(deptTxt, new org.netbeans.lib.awtextra.AbsoluteConstraints(130, 140, 157, 20));
     }// </editor-fold>//GEN-END:initComponents
 
     private void UpdateBtnActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_UpdateBtnActionPerformed

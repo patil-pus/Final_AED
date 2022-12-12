@@ -112,21 +112,19 @@ public class CreateLabTestRequestJPanel extends javax.swing.JPanel {
         testListComboBox = new javax.swing.JComboBox<>();
         sendRequestBtn1 = new javax.swing.JButton();
 
-        setBackground(new java.awt.Color(0, 51, 51));
+        setBackground(new java.awt.Color(248, 226, 205));
         setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
 
         jLabel1.setFont(new java.awt.Font("Lucida Grande", 1, 32)); // NOI18N
-        jLabel1.setForeground(new java.awt.Color(255, 255, 255));
         jLabel1.setText("Create Lab Request");
         add(jLabel1, new org.netbeans.lib.awtextra.AbsoluteConstraints(30, 70, 530, 42));
 
-        jLabel4.setFont(new java.awt.Font("Segoe UI", 1, 12)); // NOI18N
-        jLabel4.setForeground(new java.awt.Color(255, 255, 255));
+        jLabel4.setFont(new java.awt.Font("Segoe UI", 1, 13)); // NOI18N
         jLabel4.setText("Patient ID:");
         add(jLabel4, new org.netbeans.lib.awtextra.AbsoluteConstraints(20, 140, 70, 30));
 
         backBtn.setBackground(new java.awt.Color(0, 0, 0));
-        backBtn.setFont(new java.awt.Font("Lucida Grande", 1, 13)); // NOI18N
+        backBtn.setFont(new java.awt.Font("Segoe UI", 1, 12)); // NOI18N
         backBtn.setForeground(new java.awt.Color(255, 255, 255));
         backBtn.setText("Back");
         backBtn.addActionListener(new java.awt.event.ActionListener() {
@@ -136,10 +134,14 @@ public class CreateLabTestRequestJPanel extends javax.swing.JPanel {
         });
         add(backBtn, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 10, 70, -1));
 
-        add(patientjComboBox, new org.netbeans.lib.awtextra.AbsoluteConstraints(90, 140, 232, -1));
+        patientjComboBox.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                patientjComboBoxActionPerformed(evt);
+            }
+        });
+        add(patientjComboBox, new org.netbeans.lib.awtextra.AbsoluteConstraints(100, 140, 232, -1));
 
-        jLabel3.setFont(new java.awt.Font("Segoe UI", 1, 12)); // NOI18N
-        jLabel3.setForeground(new java.awt.Color(255, 255, 255));
+        jLabel3.setFont(new java.awt.Font("Segoe UI", 1, 13)); // NOI18N
         jLabel3.setText("Select Lab:");
         add(jLabel3, new org.netbeans.lib.awtextra.AbsoluteConstraints(20, 180, 128, -1));
 
@@ -148,10 +150,9 @@ public class CreateLabTestRequestJPanel extends javax.swing.JPanel {
                 labListComboBoxActionPerformed(evt);
             }
         });
-        add(labListComboBox, new org.netbeans.lib.awtextra.AbsoluteConstraints(90, 180, 232, -1));
+        add(labListComboBox, new org.netbeans.lib.awtextra.AbsoluteConstraints(100, 180, 232, -1));
 
-        jLabel5.setFont(new java.awt.Font("Segoe UI", 1, 12)); // NOI18N
-        jLabel5.setForeground(new java.awt.Color(255, 255, 255));
+        jLabel5.setFont(new java.awt.Font("Segoe UI", 1, 13)); // NOI18N
         jLabel5.setText("Select Test:");
         add(jLabel5, new org.netbeans.lib.awtextra.AbsoluteConstraints(20, 220, 128, -1));
 
@@ -160,10 +161,11 @@ public class CreateLabTestRequestJPanel extends javax.swing.JPanel {
                 testListComboBoxActionPerformed(evt);
             }
         });
-        add(testListComboBox, new org.netbeans.lib.awtextra.AbsoluteConstraints(90, 220, 232, -1));
+        add(testListComboBox, new org.netbeans.lib.awtextra.AbsoluteConstraints(100, 220, 232, -1));
 
-        sendRequestBtn1.setBackground(new java.awt.Color(204, 204, 204));
+        sendRequestBtn1.setBackground(new java.awt.Color(0, 0, 0));
         sendRequestBtn1.setFont(new java.awt.Font("Lucida Grande", 3, 13)); // NOI18N
+        sendRequestBtn1.setForeground(new java.awt.Color(255, 255, 255));
         sendRequestBtn1.setText("Send Request");
         sendRequestBtn1.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -225,6 +227,10 @@ public class CreateLabTestRequestJPanel extends javax.swing.JPanel {
         
 
     }//GEN-LAST:event_sendRequestBtn1ActionPerformed
+
+    private void patientjComboBoxActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_patientjComboBoxActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_patientjComboBoxActionPerformed
     
     // Variables declaration - do not modify//GEN-BEGIN:variables
     private javax.swing.JButton backBtn;

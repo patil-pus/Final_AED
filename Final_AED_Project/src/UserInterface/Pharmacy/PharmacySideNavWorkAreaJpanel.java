@@ -73,32 +73,32 @@ public class PharmacySideNavWorkAreaJpanel extends javax.swing.JPanel {
 
         setPreferredSize(new java.awt.Dimension(1800, 900));
 
-        systemAdminPanel.setBackground(new java.awt.Color(0, 51, 51));
+        systemAdminPanel.setBackground(new java.awt.Color(248, 226, 205));
         systemAdminPanel.setMinimumSize(new java.awt.Dimension(1338, 840));
 
         javax.swing.GroupLayout systemAdminPanelLayout = new javax.swing.GroupLayout(systemAdminPanel);
         systemAdminPanel.setLayout(systemAdminPanelLayout);
         systemAdminPanelLayout.setHorizontalGroup(
             systemAdminPanelLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGap(0, 1780, Short.MAX_VALUE)
+            .addGap(0, 1788, Short.MAX_VALUE)
         );
         systemAdminPanelLayout.setVerticalGroup(
             systemAdminPanelLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGap(0, 2424, Short.MAX_VALUE)
+            .addGap(0, 888, Short.MAX_VALUE)
         );
 
-        jPanel3.setBackground(new java.awt.Color(0, 51, 51));
+        jPanel3.setBackground(new java.awt.Color(248, 226, 205));
         jPanel3.setMinimumSize(new java.awt.Dimension(280, 840));
         jPanel3.setPreferredSize(new java.awt.Dimension(280, 840));
         jPanel3.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
 
         jLabel3.setFont(new java.awt.Font("SansSerif", 1, 18)); // NOI18N
-        jLabel3.setForeground(new java.awt.Color(255, 255, 255));
         jLabel3.setText("Pharmacy Portal!");
         jPanel3.add(jLabel3, new org.netbeans.lib.awtextra.AbsoluteConstraints(50, 40, 160, 30));
 
-        pastPrescriptionsBtn.setBackground(new java.awt.Color(204, 204, 204));
+        pastPrescriptionsBtn.setBackground(new java.awt.Color(0, 0, 0));
         pastPrescriptionsBtn.setFont(new java.awt.Font("Lucida Grande", 3, 13)); // NOI18N
+        pastPrescriptionsBtn.setForeground(new java.awt.Color(255, 255, 255));
         pastPrescriptionsBtn.setText("Past Prescriptions");
         pastPrescriptionsBtn.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -107,8 +107,9 @@ public class PharmacySideNavWorkAreaJpanel extends javax.swing.JPanel {
         });
         jPanel3.add(pastPrescriptionsBtn, new org.netbeans.lib.awtextra.AbsoluteConstraints(30, 100, 200, 40));
 
-        prescriptionsBtn.setBackground(new java.awt.Color(204, 204, 204));
+        prescriptionsBtn.setBackground(new java.awt.Color(0, 0, 0));
         prescriptionsBtn.setFont(new java.awt.Font("Lucida Grande", 3, 13)); // NOI18N
+        prescriptionsBtn.setForeground(new java.awt.Color(255, 255, 255));
         prescriptionsBtn.setText("Prescriptions");
         prescriptionsBtn.setMaximumSize(new java.awt.Dimension(200, 40));
         prescriptionsBtn.setMinimumSize(new java.awt.Dimension(200, 40));
@@ -124,7 +125,8 @@ public class PharmacySideNavWorkAreaJpanel extends javax.swing.JPanel {
         rightSystemAdminPanel.setPreferredSize(new java.awt.Dimension(1058, 840));
         rightSystemAdminPanel.setLayout(new java.awt.CardLayout());
 
-        jLabel1.setIcon(new javax.swing.ImageIcon(getClass().getResource("/ui/Picture/BKG3_1.jpg"))); // NOI18N
+        jLabel1.setIcon(new javax.swing.ImageIcon(getClass().getResource("/ui/Picture/specialty-pharmacy.jpg"))); // NOI18N
+        jLabel1.setVerticalAlignment(javax.swing.SwingConstants.TOP);
         rightSystemAdminPanel.add(jLabel1, "card2");
 
         javax.swing.GroupLayout layout = new javax.swing.GroupLayout(this);
@@ -136,7 +138,7 @@ public class PharmacySideNavWorkAreaJpanel extends javax.swing.JPanel {
                 .addComponent(jPanel3, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addGap(0, 0, 0)
                 .addComponent(rightSystemAdminPanel, javax.swing.GroupLayout.PREFERRED_SIZE, 1303, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addContainerGap(207, Short.MAX_VALUE))
+                .addContainerGap(211, Short.MAX_VALUE))
             .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                 .addGroup(layout.createSequentialGroup()
                     .addContainerGap()
@@ -145,12 +147,13 @@ public class PharmacySideNavWorkAreaJpanel extends javax.swing.JPanel {
         );
         layout.setVerticalGroup(
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addComponent(rightSystemAdminPanel, javax.swing.GroupLayout.DEFAULT_SIZE, 2446, Short.MAX_VALUE)
-            .addGroup(layout.createSequentialGroup()
-                .addComponent(jPanel3, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+            .addComponent(rightSystemAdminPanel, javax.swing.GroupLayout.DEFAULT_SIZE, 900, Short.MAX_VALUE)
+            .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, layout.createSequentialGroup()
+                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                .addComponent(jPanel3, javax.swing.GroupLayout.PREFERRED_SIZE, 860, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addContainerGap())
             .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                .addGroup(layout.createSequentialGroup()
+                .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, layout.createSequentialGroup()
                     .addContainerGap()
                     .addComponent(systemAdminPanel, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
                     .addContainerGap()))

@@ -64,11 +64,10 @@ public class UpdateRoom extends javax.swing.JPanel {
         UpdateBtn = new javax.swing.JButton();
         jButton1 = new javax.swing.JButton();
 
-        setBackground(new java.awt.Color(0, 51, 51));
+        setBackground(new java.awt.Color(248, 226, 205));
         setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
 
-        jLabel4.setFont(new java.awt.Font("Segoe UI", 1, 12)); // NOI18N
-        jLabel4.setForeground(new java.awt.Color(255, 255, 255));
+        jLabel4.setFont(new java.awt.Font("Segoe UI", 1, 13)); // NOI18N
         jLabel4.setText("Update Rooms:");
         add(jLabel4, new org.netbeans.lib.awtextra.AbsoluteConstraints(50, 190, -1, 30));
 
@@ -90,14 +89,14 @@ public class UpdateRoom extends javax.swing.JPanel {
         });
         add(UpdateSave, new org.netbeans.lib.awtextra.AbsoluteConstraints(210, 240, 80, -1));
 
-        jLabel1.setFont(new java.awt.Font("Segoe UI", 1, 12)); // NOI18N
-        jLabel1.setForeground(new java.awt.Color(255, 255, 255));
+        jLabel1.setFont(new java.awt.Font("Segoe UI", 1, 13)); // NOI18N
         jLabel1.setText("Room Status:");
         add(jLabel1, new org.netbeans.lib.awtextra.AbsoluteConstraints(60, 150, -1, 30));
         add(RoomStatus, new org.netbeans.lib.awtextra.AbsoluteConstraints(160, 150, 160, -1));
 
-        UpdateBtn.setBackground(new java.awt.Color(204, 204, 204));
+        UpdateBtn.setBackground(new java.awt.Color(0, 0, 0));
         UpdateBtn.setFont(new java.awt.Font("Lucida Grande", 3, 13)); // NOI18N
+        UpdateBtn.setForeground(new java.awt.Color(255, 255, 255));
         UpdateBtn.setText("Update");
         UpdateBtn.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -107,7 +106,7 @@ public class UpdateRoom extends javax.swing.JPanel {
         add(UpdateBtn, new org.netbeans.lib.awtextra.AbsoluteConstraints(110, 240, 80, -1));
 
         jButton1.setBackground(new java.awt.Color(0, 0, 0));
-        jButton1.setFont(new java.awt.Font("Lucida Grande", 1, 13)); // NOI18N
+        jButton1.setFont(new java.awt.Font("Segoe UI", 1, 12)); // NOI18N
         jButton1.setForeground(new java.awt.Color(255, 255, 255));
         jButton1.setText("Back");
         jButton1.addActionListener(new java.awt.event.ActionListener() {
@@ -115,7 +114,7 @@ public class UpdateRoom extends javax.swing.JPanel {
                 jButton1ActionPerformed(evt);
             }
         });
-        add(jButton1, new org.netbeans.lib.awtextra.AbsoluteConstraints(20, 20, 70, 20));
+        add(jButton1, new org.netbeans.lib.awtextra.AbsoluteConstraints(20, 20, -1, 20));
     }// </editor-fold>//GEN-END:initComponents
 
     private void TxtUpdateActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_TxtUpdateActionPerformed

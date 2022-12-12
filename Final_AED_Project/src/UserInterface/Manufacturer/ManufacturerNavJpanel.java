@@ -71,7 +71,6 @@ public class ManufacturerNavJpanel extends javax.swing.JPanel {
         systemAdminPanel = new javax.swing.JPanel();
         jPanel3 = new javax.swing.JPanel();
         jLabel3 = new javax.swing.JLabel();
-        manageOrderbtn = new javax.swing.JButton();
         manageItemBtn = new javax.swing.JButton();
         manageInfoBtn = new javax.swing.JButton();
         rightSystemAdminPanel = new javax.swing.JPanel();
@@ -81,7 +80,7 @@ public class ManufacturerNavJpanel extends javax.swing.JPanel {
 
         jPanel1.setPreferredSize(new java.awt.Dimension(1800, 900));
 
-        systemAdminPanel.setBackground(new java.awt.Color(0, 51, 51));
+        systemAdminPanel.setBackground(new java.awt.Color(248, 226, 205));
         systemAdminPanel.setMinimumSize(new java.awt.Dimension(1338, 840));
 
         javax.swing.GroupLayout systemAdminPanelLayout = new javax.swing.GroupLayout(systemAdminPanel);
@@ -92,27 +91,18 @@ public class ManufacturerNavJpanel extends javax.swing.JPanel {
         );
         systemAdminPanelLayout.setVerticalGroup(
             systemAdminPanelLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGap(0, 1037, Short.MAX_VALUE)
+            .addGap(0, 1029, Short.MAX_VALUE)
         );
 
-        jPanel3.setBackground(new java.awt.Color(0, 51, 51));
+        jPanel3.setBackground(new java.awt.Color(248, 226, 205));
         jPanel3.setMinimumSize(new java.awt.Dimension(280, 840));
         jPanel3.setPreferredSize(new java.awt.Dimension(280, 840));
         jPanel3.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
         jPanel3.add(jLabel3, new org.netbeans.lib.awtextra.AbsoluteConstraints(90, 60, 60, 30));
 
-        manageOrderbtn.setBackground(new java.awt.Color(204, 204, 204));
-        manageOrderbtn.setFont(new java.awt.Font("Segoe UI", 1, 12)); // NOI18N
-        manageOrderbtn.setText("Manage Orders");
-        manageOrderbtn.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                manageOrderbtnActionPerformed(evt);
-            }
-        });
-        jPanel3.add(manageOrderbtn, new org.netbeans.lib.awtextra.AbsoluteConstraints(50, 130, 170, 30));
-
-        manageItemBtn.setBackground(new java.awt.Color(204, 204, 204));
+        manageItemBtn.setBackground(new java.awt.Color(0, 0, 0));
         manageItemBtn.setFont(new java.awt.Font("Segoe UI", 1, 12)); // NOI18N
+        manageItemBtn.setForeground(new java.awt.Color(255, 255, 255));
         manageItemBtn.setText("Manage Items");
         manageItemBtn.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -121,9 +111,10 @@ public class ManufacturerNavJpanel extends javax.swing.JPanel {
         });
         jPanel3.add(manageItemBtn, new org.netbeans.lib.awtextra.AbsoluteConstraints(50, 210, 170, 30));
 
-        manageInfoBtn.setBackground(new java.awt.Color(204, 204, 204));
+        manageInfoBtn.setBackground(new java.awt.Color(0, 0, 0));
         manageInfoBtn.setFont(new java.awt.Font("Segoe UI", 1, 12)); // NOI18N
-        manageInfoBtn.setText("Manage Info");
+        manageInfoBtn.setForeground(new java.awt.Color(255, 255, 255));
+        manageInfoBtn.setText("View Manufacturers");
         manageInfoBtn.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 manageInfoBtnActionPerformed(evt);
@@ -135,7 +126,7 @@ public class ManufacturerNavJpanel extends javax.swing.JPanel {
         rightSystemAdminPanel.setPreferredSize(new java.awt.Dimension(1058, 840));
         rightSystemAdminPanel.setLayout(new java.awt.CardLayout());
 
-        jLabel1.setIcon(new javax.swing.ImageIcon(getClass().getResource("/ui/Picture/BKG3_1.jpg"))); // NOI18N
+        jLabel1.setIcon(new javax.swing.ImageIcon(getClass().getResource("/ui/Picture/manufacture.jpg"))); // NOI18N
         rightSystemAdminPanel.add(jLabel1, "card2");
 
         javax.swing.GroupLayout jPanel1Layout = new javax.swing.GroupLayout(jPanel1);
@@ -171,14 +162,6 @@ public class ManufacturerNavJpanel extends javax.swing.JPanel {
         add(jPanel1, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, -1, -1));
     }// </editor-fold>//GEN-END:initComponents
 
-    private void manageOrderbtnActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_manageOrderbtnActionPerformed
-        // TODO add your handling code here:
-        ManageOrderJPanel mojp = new ManageOrderJPanel(rightSystemAdminPanel, business,userAccount);
-        rightSystemAdminPanel.add("ManageOrderJPanel",mojp);
-        CardLayout layout=(CardLayout)rightSystemAdminPanel.getLayout();
-        layout.next(rightSystemAdminPanel);
-    }//GEN-LAST:event_manageOrderbtnActionPerformed
-
     private void manageItemBtnActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_manageItemBtnActionPerformed
         // TODO add your handling code here:
         ManageItemsJPanel mcjp = new ManageItemsJPanel(rightSystemAdminPanel, business,userAccount);
@@ -203,7 +186,6 @@ public class ManufacturerNavJpanel extends javax.swing.JPanel {
     private javax.swing.JPanel jPanel3;
     private javax.swing.JButton manageInfoBtn;
     private javax.swing.JButton manageItemBtn;
-    private javax.swing.JButton manageOrderbtn;
     private javax.swing.JPanel rightSystemAdminPanel;
     private javax.swing.JPanel systemAdminPanel;
     // End of variables declaration//GEN-END:variables

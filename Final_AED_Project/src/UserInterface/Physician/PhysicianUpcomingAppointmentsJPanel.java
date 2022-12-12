@@ -99,14 +99,14 @@ public class PhysicianUpcomingAppointmentsJPanel extends javax.swing.JPanel {
         completeBtn = new javax.swing.JButton();
         jButton1 = new javax.swing.JButton();
 
-        jPanel4.setBackground(new java.awt.Color(0, 51, 51));
+        jPanel4.setBackground(new java.awt.Color(248, 226, 205));
         jPanel4.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
 
-        jLabel4.setFont(new java.awt.Font("Lucida Grande", 1, 36)); // NOI18N
-        jLabel4.setForeground(new java.awt.Color(255, 255, 255));
+        jLabel4.setFont(new java.awt.Font("Lucida Grande", 1, 32)); // NOI18N
         jLabel4.setText("Upcoming Appointment");
-        jPanel4.add(jLabel4, new org.netbeans.lib.awtextra.AbsoluteConstraints(220, 20, -1, 58));
+        jPanel4.add(jLabel4, new org.netbeans.lib.awtextra.AbsoluteConstraints(210, 40, -1, 58));
 
+        jTable4.setBackground(new java.awt.Color(215, 215, 215));
         jTable4.setModel(new javax.swing.table.DefaultTableModel(
             new Object [][] {
                 {null, null, null, null},
@@ -122,8 +122,9 @@ public class PhysicianUpcomingAppointmentsJPanel extends javax.swing.JPanel {
 
         jPanel4.add(jScrollPane4, new org.netbeans.lib.awtextra.AbsoluteConstraints(20, 170, 730, 183));
 
-        jButton5.setBackground(new java.awt.Color(204, 204, 204));
+        jButton5.setBackground(new java.awt.Color(0, 0, 0));
         jButton5.setFont(new java.awt.Font("Lucida Grande", 3, 13)); // NOI18N
+        jButton5.setForeground(new java.awt.Color(255, 255, 255));
         jButton5.setText("Cancel Appointment");
         jButton5.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -132,8 +133,9 @@ public class PhysicianUpcomingAppointmentsJPanel extends javax.swing.JPanel {
         });
         jPanel4.add(jButton5, new org.netbeans.lib.awtextra.AbsoluteConstraints(220, 370, 180, 30));
 
-        completeBtn.setBackground(new java.awt.Color(204, 204, 204));
+        completeBtn.setBackground(new java.awt.Color(0, 0, 0));
         completeBtn.setFont(new java.awt.Font("Lucida Grande", 3, 13)); // NOI18N
+        completeBtn.setForeground(new java.awt.Color(255, 255, 255));
         completeBtn.setText("Complete Appointment");
         completeBtn.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -142,8 +144,9 @@ public class PhysicianUpcomingAppointmentsJPanel extends javax.swing.JPanel {
         });
         jPanel4.add(completeBtn, new org.netbeans.lib.awtextra.AbsoluteConstraints(30, 370, 180, 30));
 
-        jButton1.setBackground(new java.awt.Color(204, 204, 204));
+        jButton1.setBackground(new java.awt.Color(0, 0, 0));
         jButton1.setFont(new java.awt.Font("Lucida Grande", 3, 13)); // NOI18N
+        jButton1.setForeground(new java.awt.Color(255, 255, 255));
         jButton1.setText("Refresh");
         jButton1.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {

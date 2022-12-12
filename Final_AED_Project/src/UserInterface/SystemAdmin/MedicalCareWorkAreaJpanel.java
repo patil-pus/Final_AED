@@ -52,13 +52,14 @@ public class MedicalCareWorkAreaJpanel extends javax.swing.JPanel {
 
         setPreferredSize(new java.awt.Dimension(1800, 900));
 
-        jPanel3.setBackground(new java.awt.Color(0, 0, 0));
+        jPanel3.setBackground(new java.awt.Color(248, 226, 205));
         jPanel3.setMinimumSize(new java.awt.Dimension(280, 840));
         jPanel3.setPreferredSize(new java.awt.Dimension(280, 840));
         jPanel3.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
 
-        hospitalPortalBtn.setBackground(new java.awt.Color(204, 204, 204));
+        hospitalPortalBtn.setBackground(new java.awt.Color(0, 0, 0));
         hospitalPortalBtn.setFont(new java.awt.Font("Lucida Grande", 3, 13)); // NOI18N
+        hospitalPortalBtn.setForeground(new java.awt.Color(255, 255, 255));
         hospitalPortalBtn.setText("Manage Hospital ");
         hospitalPortalBtn.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -67,8 +68,9 @@ public class MedicalCareWorkAreaJpanel extends javax.swing.JPanel {
         });
         jPanel3.add(hospitalPortalBtn, new org.netbeans.lib.awtextra.AbsoluteConstraints(40, 110, 200, 40));
 
-        manageManu.setBackground(new java.awt.Color(204, 204, 204));
+        manageManu.setBackground(new java.awt.Color(0, 0, 0));
         manageManu.setFont(new java.awt.Font("Lucida Grande", 3, 13)); // NOI18N
+        manageManu.setForeground(new java.awt.Color(255, 255, 255));
         manageManu.setText("Manage Manufacturer");
         manageManu.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -77,8 +79,9 @@ public class MedicalCareWorkAreaJpanel extends javax.swing.JPanel {
         });
         jPanel3.add(manageManu, new org.netbeans.lib.awtextra.AbsoluteConstraints(40, 220, 200, 40));
 
-        labbtn.setBackground(new java.awt.Color(204, 204, 204));
+        labbtn.setBackground(new java.awt.Color(0, 0, 0));
         labbtn.setFont(new java.awt.Font("Lucida Grande", 3, 13)); // NOI18N
+        labbtn.setForeground(new java.awt.Color(255, 255, 255));
         labbtn.setText("Manage Labs");
         labbtn.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -87,8 +90,9 @@ public class MedicalCareWorkAreaJpanel extends javax.swing.JPanel {
         });
         jPanel3.add(labbtn, new org.netbeans.lib.awtextra.AbsoluteConstraints(40, 330, 200, 40));
 
-        pharmacyBtn1.setBackground(new java.awt.Color(204, 204, 204));
+        pharmacyBtn1.setBackground(new java.awt.Color(0, 0, 0));
         pharmacyBtn1.setFont(new java.awt.Font("Lucida Grande", 3, 13)); // NOI18N
+        pharmacyBtn1.setForeground(new java.awt.Color(255, 255, 255));
         pharmacyBtn1.setText("Pharmacy Portal");
         pharmacyBtn1.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -97,8 +101,9 @@ public class MedicalCareWorkAreaJpanel extends javax.swing.JPanel {
         });
         jPanel3.add(pharmacyBtn1, new org.netbeans.lib.awtextra.AbsoluteConstraints(40, 440, 200, 40));
 
-        manageAMBULANCE1.setBackground(new java.awt.Color(204, 204, 204));
+        manageAMBULANCE1.setBackground(new java.awt.Color(0, 0, 0));
         manageAMBULANCE1.setFont(new java.awt.Font("Lucida Grande", 3, 13)); // NOI18N
+        manageAMBULANCE1.setForeground(new java.awt.Color(255, 255, 255));
         manageAMBULANCE1.setText("Manage Ambulance");
         manageAMBULANCE1.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -111,8 +116,9 @@ public class MedicalCareWorkAreaJpanel extends javax.swing.JPanel {
         rightSystemAdminPanel.setPreferredSize(new java.awt.Dimension(1058, 840));
         rightSystemAdminPanel.setLayout(new java.awt.CardLayout());
 
-        jLabel1.setBackground(new java.awt.Color(138, 194, 211));
-        jLabel1.setIcon(new javax.swing.ImageIcon(getClass().getResource("/ui/Picture/homepageimage.jpg"))); // NOI18N
+        jLabel1.setBackground(new java.awt.Color(248, 226, 205));
+        jLabel1.setIcon(new javax.swing.ImageIcon(getClass().getResource("/ui/loginpage.jpg"))); // NOI18N
+        jLabel1.setVerticalAlignment(javax.swing.SwingConstants.TOP);
         rightSystemAdminPanel.add(jLabel1, "card2");
 
         javax.swing.GroupLayout layout = new javax.swing.GroupLayout(this);

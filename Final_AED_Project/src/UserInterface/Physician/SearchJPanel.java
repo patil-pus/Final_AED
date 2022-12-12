@@ -94,10 +94,10 @@ public class SearchJPanel extends javax.swing.JPanel {
 
         setBackground(new java.awt.Color(0, 153, 153));
 
-        jPanel1.setBackground(new java.awt.Color(0, 51, 51));
+        jPanel1.setBackground(new java.awt.Color(248, 226, 205));
 
         backBtn.setBackground(new java.awt.Color(0, 0, 0));
-        backBtn.setFont(new java.awt.Font("Lucida Grande", 1, 13)); // NOI18N
+        backBtn.setFont(new java.awt.Font("Segoe UI", 1, 12)); // NOI18N
         backBtn.setForeground(new java.awt.Color(255, 255, 255));
         backBtn.setText("Back");
         backBtn.addActionListener(new java.awt.event.ActionListener() {
@@ -106,8 +106,9 @@ public class SearchJPanel extends javax.swing.JPanel {
             }
         });
 
-        patientDetails.setBackground(new java.awt.Color(204, 204, 204));
+        patientDetails.setBackground(new java.awt.Color(0, 0, 0));
         patientDetails.setFont(new java.awt.Font("Lucida Grande", 3, 13)); // NOI18N
+        patientDetails.setForeground(new java.awt.Color(255, 255, 255));
         patientDetails.setText("Patient Details");
         patientDetails.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -115,8 +116,9 @@ public class SearchJPanel extends javax.swing.JPanel {
             }
         });
 
-        testResult.setBackground(new java.awt.Color(204, 204, 204));
+        testResult.setBackground(new java.awt.Color(0, 0, 0));
         testResult.setFont(new java.awt.Font("Lucida Grande", 3, 13)); // NOI18N
+        testResult.setForeground(new java.awt.Color(255, 255, 255));
         testResult.setText("Patient Test Results");
         testResult.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -124,8 +126,9 @@ public class SearchJPanel extends javax.swing.JPanel {
             }
         });
 
-        testResult1.setBackground(new java.awt.Color(204, 204, 204));
+        testResult1.setBackground(new java.awt.Color(0, 0, 0));
         testResult1.setFont(new java.awt.Font("Lucida Grande", 3, 13)); // NOI18N
+        testResult1.setForeground(new java.awt.Color(255, 255, 255));
         testResult1.setText("Patient Medications");
         testResult1.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -166,7 +169,7 @@ public class SearchJPanel extends javax.swing.JPanel {
                 .addComponent(testResult, javax.swing.GroupLayout.PREFERRED_SIZE, 39, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addGap(18, 18, 18)
                 .addComponent(testResult1, javax.swing.GroupLayout.PREFERRED_SIZE, 36, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addContainerGap(212, Short.MAX_VALUE))
+                .addContainerGap(214, Short.MAX_VALUE))
         );
 
         jSplitPane1.setLeftComponent(jPanel1);

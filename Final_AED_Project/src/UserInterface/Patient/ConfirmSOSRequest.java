@@ -106,11 +106,10 @@ public class ConfirmSOSRequest extends javax.swing.JPanel {
         jScrollPane1 = new javax.swing.JScrollPane();
         sosTable = new javax.swing.JTable();
 
-        setBackground(new java.awt.Color(0, 51, 51));
+        setBackground(new java.awt.Color(248, 226, 205));
         setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
 
-        jLabel2.setFont(new java.awt.Font("Segoe UI", 1, 12)); // NOI18N
-        jLabel2.setForeground(new java.awt.Color(255, 255, 255));
+        jLabel2.setFont(new java.awt.Font("Segoe UI", 1, 13)); // NOI18N
         jLabel2.setText("Location:");
         add(jLabel2, new org.netbeans.lib.awtextra.AbsoluteConstraints(300, 200, -1, -1));
 
@@ -119,23 +118,24 @@ public class ConfirmSOSRequest extends javax.swing.JPanel {
                 patientAddrActionPerformed(evt);
             }
         });
-        add(patientAddr, new org.netbeans.lib.awtextra.AbsoluteConstraints(360, 193, 193, -1));
+        add(patientAddr, new org.netbeans.lib.awtextra.AbsoluteConstraints(370, 200, 193, -1));
 
-        Confirmbtn.setBackground(new java.awt.Color(204, 204, 204));
+        Confirmbtn.setBackground(new java.awt.Color(0, 0, 0));
         Confirmbtn.setFont(new java.awt.Font("Segoe UI", 1, 12)); // NOI18N
+        Confirmbtn.setForeground(new java.awt.Color(255, 255, 255));
         Confirmbtn.setText("Confirm");
         Confirmbtn.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 ConfirmbtnActionPerformed(evt);
             }
         });
-        add(Confirmbtn, new org.netbeans.lib.awtextra.AbsoluteConstraints(410, 230, 90, 20));
+        add(Confirmbtn, new org.netbeans.lib.awtextra.AbsoluteConstraints(410, 230, 90, 30));
 
         jLabel1.setFont(new java.awt.Font("Lucida Grande", 1, 32)); // NOI18N
-        jLabel1.setForeground(new java.awt.Color(255, 255, 255));
         jLabel1.setText("Confirm SOS Request");
         add(jLabel1, new org.netbeans.lib.awtextra.AbsoluteConstraints(260, 120, 370, -1));
 
+        sosTable.setBackground(new java.awt.Color(215, 215, 215));
         sosTable.setModel(new javax.swing.table.DefaultTableModel(
             new Object [][] {
                 {null, null, null, null, null, null},

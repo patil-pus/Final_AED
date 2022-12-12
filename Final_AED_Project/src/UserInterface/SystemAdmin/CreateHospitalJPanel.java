@@ -71,41 +71,41 @@ public class CreateHospitalJPanel extends javax.swing.JPanel {
                 adminTxtActionPerformed(evt);
             }
         });
-        add(adminTxt, new org.netbeans.lib.awtextra.AbsoluteConstraints(230, 390, 221, -1));
-        add(nameTxt, new org.netbeans.lib.awtextra.AbsoluteConstraints(230, 270, 221, -1));
-        add(contactNumberTxt, new org.netbeans.lib.awtextra.AbsoluteConstraints(230, 310, 221, -1));
+        add(adminTxt, new org.netbeans.lib.awtextra.AbsoluteConstraints(140, 390, 221, -1));
+        add(nameTxt, new org.netbeans.lib.awtextra.AbsoluteConstraints(140, 270, 221, -1));
+        add(contactNumberTxt, new org.netbeans.lib.awtextra.AbsoluteConstraints(140, 310, 221, -1));
 
         addressTxt.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 addressTxtActionPerformed(evt);
             }
         });
-        add(addressTxt, new org.netbeans.lib.awtextra.AbsoluteConstraints(230, 350, 221, -1));
+        add(addressTxt, new org.netbeans.lib.awtextra.AbsoluteConstraints(140, 350, 221, -1));
 
-        jLabel8.setFont(new java.awt.Font("Segoe UI", 1, 12)); // NOI18N
+        jLabel8.setFont(new java.awt.Font("Segoe UI", 1, 13)); // NOI18N
         jLabel8.setText("License Number:");
-        add(jLabel8, new org.netbeans.lib.awtextra.AbsoluteConstraints(110, 430, -1, 20));
+        add(jLabel8, new org.netbeans.lib.awtextra.AbsoluteConstraints(20, 430, -1, 20));
 
-        jLabel2.setFont(new java.awt.Font("Segoe UI", 1, 12)); // NOI18N
+        jLabel2.setFont(new java.awt.Font("Segoe UI", 1, 13)); // NOI18N
         jLabel2.setText("Hospital Name:");
-        add(jLabel2, new org.netbeans.lib.awtextra.AbsoluteConstraints(120, 270, -1, 20));
+        add(jLabel2, new org.netbeans.lib.awtextra.AbsoluteConstraints(30, 270, -1, 20));
 
-        jLabel4.setFont(new java.awt.Font("Segoe UI", 1, 12)); // NOI18N
+        jLabel4.setFont(new java.awt.Font("Segoe UI", 1, 13)); // NOI18N
         jLabel4.setText("Address:");
-        add(jLabel4, new org.netbeans.lib.awtextra.AbsoluteConstraints(160, 350, -1, 20));
-        add(licenseTxt, new org.netbeans.lib.awtextra.AbsoluteConstraints(230, 430, 221, -1));
+        add(jLabel4, new org.netbeans.lib.awtextra.AbsoluteConstraints(70, 350, -1, 20));
+        add(licenseTxt, new org.netbeans.lib.awtextra.AbsoluteConstraints(140, 430, 221, -1));
 
-        jLabel6.setFont(new java.awt.Font("Segoe UI", 1, 12)); // NOI18N
+        jLabel6.setFont(new java.awt.Font("Segoe UI", 1, 13)); // NOI18N
         jLabel6.setText("Contact number:");
-        add(jLabel6, new org.netbeans.lib.awtextra.AbsoluteConstraints(110, 310, -1, 20));
+        add(jLabel6, new org.netbeans.lib.awtextra.AbsoluteConstraints(20, 310, -1, 20));
 
-        jLabel7.setFont(new java.awt.Font("Segoe UI", 1, 12)); // NOI18N
+        jLabel7.setFont(new java.awt.Font("Segoe UI", 1, 13)); // NOI18N
         jLabel7.setText("Admin Name:");
-        add(jLabel7, new org.netbeans.lib.awtextra.AbsoluteConstraints(130, 390, 90, 20));
+        add(jLabel7, new org.netbeans.lib.awtextra.AbsoluteConstraints(40, 390, 90, 20));
 
         jLabel1.setFont(new java.awt.Font("Lucida Grande", 1, 32)); // NOI18N
         jLabel1.setText("Sign up New Hospital");
-        add(jLabel1, new org.netbeans.lib.awtextra.AbsoluteConstraints(150, 110, -1, -1));
+        add(jLabel1, new org.netbeans.lib.awtextra.AbsoluteConstraints(50, 120, -1, -1));
 
         btnSave.setBackground(new java.awt.Color(0, 0, 0));
         btnSave.setFont(new java.awt.Font("Lucida Grande", 3, 13)); // NOI18N
@@ -116,7 +116,7 @@ public class CreateHospitalJPanel extends javax.swing.JPanel {
                 btnSaveActionPerformed(evt);
             }
         });
-        add(btnSave, new org.netbeans.lib.awtextra.AbsoluteConstraints(290, 470, 80, 30));
+        add(btnSave, new org.netbeans.lib.awtextra.AbsoluteConstraints(200, 470, 80, 30));
 
         btnBack.setIcon(new javax.swing.ImageIcon(getClass().getResource("/ui/Picture/icons8-back-arrow-24.png"))); // NOI18N
         btnBack.addActionListener(new java.awt.event.ActionListener() {
@@ -124,21 +124,21 @@ public class CreateHospitalJPanel extends javax.swing.JPanel {
                 btnBackActionPerformed(evt);
             }
         });
-        add(btnBack, new org.netbeans.lib.awtextra.AbsoluteConstraints(60, 10, 30, -1));
-        add(passwordTxt, new org.netbeans.lib.awtextra.AbsoluteConstraints(230, 230, 221, -1));
-        add(usernameTxt, new org.netbeans.lib.awtextra.AbsoluteConstraints(230, 190, 221, -1));
+        add(btnBack, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 10, 30, -1));
+        add(passwordTxt, new org.netbeans.lib.awtextra.AbsoluteConstraints(140, 230, 221, -1));
+        add(usernameTxt, new org.netbeans.lib.awtextra.AbsoluteConstraints(140, 190, 221, -1));
 
-        jLabel3.setFont(new java.awt.Font("Segoe UI", 1, 12)); // NOI18N
+        jLabel3.setFont(new java.awt.Font("Segoe UI", 1, 13)); // NOI18N
         jLabel3.setText("Password:");
-        add(jLabel3, new org.netbeans.lib.awtextra.AbsoluteConstraints(150, 230, -1, 20));
+        add(jLabel3, new org.netbeans.lib.awtextra.AbsoluteConstraints(60, 230, -1, 20));
 
-        jLabel5.setFont(new java.awt.Font("Segoe UI", 1, 12)); // NOI18N
+        jLabel5.setFont(new java.awt.Font("Segoe UI", 1, 13)); // NOI18N
         jLabel5.setText("Username:");
-        add(jLabel5, new org.netbeans.lib.awtextra.AbsoluteConstraints(150, 190, -1, 20));
+        add(jLabel5, new org.netbeans.lib.awtextra.AbsoluteConstraints(60, 190, -1, 20));
 
         jLabel9.setBackground(new java.awt.Color(255, 255, 255));
         jLabel9.setIcon(new javax.swing.ImageIcon(getClass().getResource("/UserInterface/SystemAdmin/newhospi.jpg"))); // NOI18N
-        add(jLabel9, new org.netbeans.lib.awtextra.AbsoluteConstraints(50, -140, 1770, 950));
+        add(jLabel9, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, -80, 1770, 950));
     }// </editor-fold>//GEN-END:initComponents
 
     private void addressTxtActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_addressTxtActionPerformed

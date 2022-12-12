@@ -78,41 +78,50 @@ public class AmbulanceWorkAreaJPanel extends javax.swing.JPanel {
             .addGap(0, 2424, Short.MAX_VALUE)
         );
 
-        jPanel3.setBackground(new java.awt.Color(204, 204, 255));
+        jPanel3.setBackground(new java.awt.Color(248, 226, 205));
         jPanel3.setMinimumSize(new java.awt.Dimension(280, 840));
         jPanel3.setPreferredSize(new java.awt.Dimension(280, 840));
         jPanel3.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
 
+        rideRequestBtn.setBackground(new java.awt.Color(0, 0, 0));
+        rideRequestBtn.setFont(new java.awt.Font("Segoe UI", 3, 12)); // NOI18N
+        rideRequestBtn.setForeground(new java.awt.Color(255, 255, 255));
         rideRequestBtn.setText("Ride Requests");
         rideRequestBtn.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 rideRequestBtnActionPerformed(evt);
             }
         });
-        jPanel3.add(rideRequestBtn, new org.netbeans.lib.awtextra.AbsoluteConstraints(60, 160, -1, -1));
+        jPanel3.add(rideRequestBtn, new org.netbeans.lib.awtextra.AbsoluteConstraints(80, 160, -1, 30));
 
+        ambulanceinfoBtn.setBackground(new java.awt.Color(0, 0, 0));
+        ambulanceinfoBtn.setFont(new java.awt.Font("Segoe UI", 3, 12)); // NOI18N
+        ambulanceinfoBtn.setForeground(new java.awt.Color(255, 255, 255));
         ambulanceinfoBtn.setText("Ambulance Information");
         ambulanceinfoBtn.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 ambulanceinfoBtnActionPerformed(evt);
             }
         });
-        jPanel3.add(ambulanceinfoBtn, new org.netbeans.lib.awtextra.AbsoluteConstraints(30, 220, -1, -1));
+        jPanel3.add(ambulanceinfoBtn, new org.netbeans.lib.awtextra.AbsoluteConstraints(50, 210, -1, 30));
 
-        logOutBtn.setBackground(new java.awt.Color(204, 204, 204));
+        logOutBtn.setBackground(new java.awt.Color(0, 0, 0));
+        logOutBtn.setFont(new java.awt.Font("Segoe UI", 3, 12)); // NOI18N
+        logOutBtn.setForeground(new java.awt.Color(255, 255, 255));
         logOutBtn.setText("Logout");
         logOutBtn.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 logOutBtnActionPerformed(evt);
             }
         });
-        jPanel3.add(logOutBtn, new org.netbeans.lib.awtextra.AbsoluteConstraints(80, 280, -1, -1));
+        jPanel3.add(logOutBtn, new org.netbeans.lib.awtextra.AbsoluteConstraints(100, 260, 80, 30));
 
         rightSystemAdminPanel.setBackground(new java.awt.Color(255, 255, 255));
         rightSystemAdminPanel.setPreferredSize(new java.awt.Dimension(1058, 840));
         rightSystemAdminPanel.setLayout(new java.awt.CardLayout());
 
-        jLabel1.setIcon(new javax.swing.ImageIcon(getClass().getResource("/ui/Picture/BKG3_1.jpg"))); // NOI18N
+        jLabel1.setIcon(new javax.swing.ImageIcon(getClass().getResource("/ui/Picture/ambug.jpg"))); // NOI18N
+        jLabel1.setVerticalAlignment(javax.swing.SwingConstants.TOP);
         rightSystemAdminPanel.add(jLabel1, "card2");
 
         javax.swing.GroupLayout jPanel2Layout = new javax.swing.GroupLayout(jPanel2);
@@ -135,7 +144,7 @@ public class AmbulanceWorkAreaJPanel extends javax.swing.JPanel {
             jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addComponent(rightSystemAdminPanel, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
             .addGroup(jPanel2Layout.createSequentialGroup()
-                .addComponent(jPanel3, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                .addComponent(jPanel3, javax.swing.GroupLayout.DEFAULT_SIZE, 894, Short.MAX_VALUE)
                 .addContainerGap())
             .addGroup(jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                 .addGroup(jPanel2Layout.createSequentialGroup()

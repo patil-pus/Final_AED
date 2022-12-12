@@ -57,16 +57,16 @@ public class WelcomeDepartmentAdminJPanel extends javax.swing.JPanel {
         backBtn = new javax.swing.JButton();
         logOutBtn = new javax.swing.JButton();
 
-        setBackground(new java.awt.Color(0, 51, 51));
+        setBackground(new java.awt.Color(248, 226, 205));
         setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
 
         jLabel1.setFont(new java.awt.Font("Lucida Grande", 1, 32)); // NOI18N
-        jLabel1.setForeground(new java.awt.Color(255, 255, 255));
         jLabel1.setText("Department Work Area");
         add(jLabel1, new org.netbeans.lib.awtextra.AbsoluteConstraints(30, 100, -1, 46));
 
-        deptInformation.setBackground(new java.awt.Color(204, 204, 204));
+        deptInformation.setBackground(new java.awt.Color(0, 0, 0));
         deptInformation.setFont(new java.awt.Font("Lucida Grande", 1, 13)); // NOI18N
+        deptInformation.setForeground(new java.awt.Color(255, 255, 255));
         deptInformation.setText("Department Information");
         deptInformation.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -75,8 +75,9 @@ public class WelcomeDepartmentAdminJPanel extends javax.swing.JPanel {
         });
         add(deptInformation, new org.netbeans.lib.awtextra.AbsoluteConstraints(40, 190, 230, 50));
 
-        managePhysicianBtn.setBackground(new java.awt.Color(204, 204, 204));
+        managePhysicianBtn.setBackground(new java.awt.Color(0, 0, 0));
         managePhysicianBtn.setFont(new java.awt.Font("Lucida Grande", 1, 13)); // NOI18N
+        managePhysicianBtn.setForeground(new java.awt.Color(255, 255, 255));
         managePhysicianBtn.setText("Manage Physicians");
         managePhysicianBtn.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -86,7 +87,7 @@ public class WelcomeDepartmentAdminJPanel extends javax.swing.JPanel {
         add(managePhysicianBtn, new org.netbeans.lib.awtextra.AbsoluteConstraints(40, 280, 230, 50));
 
         backBtn.setBackground(new java.awt.Color(0, 0, 0));
-        backBtn.setFont(new java.awt.Font("Lucida Grande", 1, 13)); // NOI18N
+        backBtn.setFont(new java.awt.Font("Segoe UI", 1, 12)); // NOI18N
         backBtn.setForeground(new java.awt.Color(255, 255, 255));
         backBtn.setText("Back");
         backBtn.addActionListener(new java.awt.event.ActionListener() {
@@ -94,10 +95,11 @@ public class WelcomeDepartmentAdminJPanel extends javax.swing.JPanel {
                 backBtnActionPerformed(evt);
             }
         });
-        add(backBtn, new org.netbeans.lib.awtextra.AbsoluteConstraints(20, 20, 70, -1));
+        add(backBtn, new org.netbeans.lib.awtextra.AbsoluteConstraints(20, 20, 60, 20));
 
-        logOutBtn.setBackground(new java.awt.Color(204, 204, 204));
+        logOutBtn.setBackground(new java.awt.Color(0, 0, 0));
         logOutBtn.setFont(new java.awt.Font("Lucida Grande", 1, 13)); // NOI18N
+        logOutBtn.setForeground(new java.awt.Color(255, 255, 255));
         logOutBtn.setText("Logout");
         logOutBtn.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {

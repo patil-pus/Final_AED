@@ -16,7 +16,7 @@ import javax.swing.JPanel;
 
 /**
  *
- * @author pranavkulkarni
+ * @author Atharva
  */
 public class HospitalSideNavWorkAreaJpanel extends javax.swing.JPanel {
 
@@ -57,7 +57,7 @@ public class HospitalSideNavWorkAreaJpanel extends javax.swing.JPanel {
 
         setPreferredSize(new java.awt.Dimension(1800, 900));
 
-        systemAdminPanel.setBackground(new java.awt.Color(0, 51, 51));
+        systemAdminPanel.setBackground(new java.awt.Color(215, 81, 81));
         systemAdminPanel.setMinimumSize(new java.awt.Dimension(1338, 840));
 
         javax.swing.GroupLayout systemAdminPanelLayout = new javax.swing.GroupLayout(systemAdminPanel);
@@ -68,30 +68,32 @@ public class HospitalSideNavWorkAreaJpanel extends javax.swing.JPanel {
         );
         systemAdminPanelLayout.setVerticalGroup(
             systemAdminPanelLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGap(0, 2424, Short.MAX_VALUE)
+            .addGap(0, 1088, Short.MAX_VALUE)
         );
 
-        jPanel3.setBackground(new java.awt.Color(0, 0, 0));
+        jPanel3.setBackground(new java.awt.Color(248, 226, 205));
         jPanel3.setMinimumSize(new java.awt.Dimension(280, 840));
         jPanel3.setPreferredSize(new java.awt.Dimension(280, 840));
         jPanel3.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
 
-        jLabel3.setFont(new java.awt.Font("SansSerif", 1, 14)); // NOI18N
+        jLabel3.setFont(new java.awt.Font("SansSerif", 1, 20)); // NOI18N
         jLabel3.setText("Hospital Admin!");
-        jPanel3.add(jLabel3, new org.netbeans.lib.awtextra.AbsoluteConstraints(80, 30, 120, 30));
+        jPanel3.add(jLabel3, new org.netbeans.lib.awtextra.AbsoluteConstraints(50, 160, 170, 30));
 
-        manageDoctorsbtn.setBackground(new java.awt.Color(204, 204, 204));
+        manageDoctorsbtn.setBackground(new java.awt.Color(0, 0, 0));
         manageDoctorsbtn.setFont(new java.awt.Font("Lucida Grande", 3, 13)); // NOI18N
+        manageDoctorsbtn.setForeground(new java.awt.Color(255, 255, 255));
         manageDoctorsbtn.setText("Manage Doctors");
         manageDoctorsbtn.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 manageDoctorsbtnActionPerformed(evt);
             }
         });
-        jPanel3.add(manageDoctorsbtn, new org.netbeans.lib.awtextra.AbsoluteConstraints(30, 150, 200, 40));
+        jPanel3.add(manageDoctorsbtn, new org.netbeans.lib.awtextra.AbsoluteConstraints(30, 280, 200, 40));
 
-        editHospitalInfo.setBackground(new java.awt.Color(204, 204, 204));
+        editHospitalInfo.setBackground(new java.awt.Color(0, 0, 0));
         editHospitalInfo.setFont(new java.awt.Font("Lucida Grande", 3, 13)); // NOI18N
+        editHospitalInfo.setForeground(new java.awt.Color(255, 255, 255));
         editHospitalInfo.setText("Edit Information");
         editHospitalInfo.setMaximumSize(new java.awt.Dimension(200, 40));
         editHospitalInfo.setMinimumSize(new java.awt.Dimension(200, 40));
@@ -101,43 +103,46 @@ public class HospitalSideNavWorkAreaJpanel extends javax.swing.JPanel {
                 editHospitalInfoActionPerformed(evt);
             }
         });
-        jPanel3.add(editHospitalInfo, new org.netbeans.lib.awtextra.AbsoluteConstraints(30, 330, -1, -1));
+        jPanel3.add(editHospitalInfo, new org.netbeans.lib.awtextra.AbsoluteConstraints(30, 460, -1, -1));
 
-        manageDepartments.setBackground(new java.awt.Color(204, 204, 204));
+        manageDepartments.setBackground(new java.awt.Color(0, 0, 0));
         manageDepartments.setFont(new java.awt.Font("Lucida Grande", 3, 13)); // NOI18N
+        manageDepartments.setForeground(new java.awt.Color(255, 255, 255));
         manageDepartments.setText("Manage Departments");
         manageDepartments.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 manageDepartmentsActionPerformed(evt);
             }
         });
-        jPanel3.add(manageDepartments, new org.netbeans.lib.awtextra.AbsoluteConstraints(30, 90, 200, 40));
+        jPanel3.add(manageDepartments, new org.netbeans.lib.awtextra.AbsoluteConstraints(30, 220, 200, 40));
 
-        managePatientsBtn1.setBackground(new java.awt.Color(204, 204, 204));
+        managePatientsBtn1.setBackground(new java.awt.Color(0, 0, 0));
         managePatientsBtn1.setFont(new java.awt.Font("Lucida Grande", 3, 13)); // NOI18N
+        managePatientsBtn1.setForeground(new java.awt.Color(255, 255, 255));
         managePatientsBtn1.setText("Manage Patients");
         managePatientsBtn1.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 managePatientsBtn1ActionPerformed(evt);
             }
         });
-        jPanel3.add(managePatientsBtn1, new org.netbeans.lib.awtextra.AbsoluteConstraints(30, 210, 200, 40));
+        jPanel3.add(managePatientsBtn1, new org.netbeans.lib.awtextra.AbsoluteConstraints(30, 340, 200, 40));
 
-        ManageRooms.setBackground(new java.awt.Color(204, 204, 204));
+        ManageRooms.setBackground(new java.awt.Color(0, 0, 0));
         ManageRooms.setFont(new java.awt.Font("Lucida Grande", 3, 13)); // NOI18N
+        ManageRooms.setForeground(new java.awt.Color(255, 255, 255));
         ManageRooms.setText("Manage Rooms");
         ManageRooms.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 ManageRoomsActionPerformed(evt);
             }
         });
-        jPanel3.add(ManageRooms, new org.netbeans.lib.awtextra.AbsoluteConstraints(30, 270, 200, 40));
+        jPanel3.add(ManageRooms, new org.netbeans.lib.awtextra.AbsoluteConstraints(30, 400, 200, 40));
 
         rightSystemAdminPanel.setBackground(new java.awt.Color(255, 255, 255));
         rightSystemAdminPanel.setPreferredSize(new java.awt.Dimension(1058, 840));
         rightSystemAdminPanel.setLayout(new java.awt.CardLayout());
 
-        jLabel1.setIcon(new javax.swing.ImageIcon(getClass().getResource("/ui/Picture/BKG3_1.jpg"))); // NOI18N
+        jLabel1.setIcon(new javax.swing.ImageIcon(getClass().getResource("/ui/Picture/greys1.jpg"))); // NOI18N
         rightSystemAdminPanel.add(jLabel1, "card2");
 
         javax.swing.GroupLayout layout = new javax.swing.GroupLayout(this);
@@ -149,7 +154,7 @@ public class HospitalSideNavWorkAreaJpanel extends javax.swing.JPanel {
                 .addComponent(jPanel3, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addGap(0, 0, 0)
                 .addComponent(rightSystemAdminPanel, javax.swing.GroupLayout.PREFERRED_SIZE, 1303, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addContainerGap(207, Short.MAX_VALUE))
+                .addContainerGap(211, Short.MAX_VALUE))
             .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                 .addGroup(layout.createSequentialGroup()
                     .addContainerGap()
@@ -158,12 +163,12 @@ public class HospitalSideNavWorkAreaJpanel extends javax.swing.JPanel {
         );
         layout.setVerticalGroup(
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addComponent(rightSystemAdminPanel, javax.swing.GroupLayout.DEFAULT_SIZE, 2446, Short.MAX_VALUE)
+            .addComponent(rightSystemAdminPanel, javax.swing.GroupLayout.DEFAULT_SIZE, 1100, Short.MAX_VALUE)
             .addGroup(layout.createSequentialGroup()
-                .addComponent(jPanel3, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                .addComponent(jPanel3, javax.swing.GroupLayout.DEFAULT_SIZE, 1094, Short.MAX_VALUE)
                 .addContainerGap())
             .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                .addGroup(layout.createSequentialGroup()
+                .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, layout.createSequentialGroup()
                     .addContainerGap()
                     .addComponent(systemAdminPanel, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
                     .addContainerGap()))

@@ -60,11 +60,11 @@ public class TestNewJpanel extends javax.swing.JPanel {
         choosebtn = new javax.swing.JButton();
         completeTRbtn = new javax.swing.JButton();
 
-        setBackground(new java.awt.Color(0, 51, 51));
+        setBackground(new java.awt.Color(248, 226, 205));
         setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
 
         backBtn.setBackground(new java.awt.Color(0, 0, 0));
-        backBtn.setFont(new java.awt.Font("Lucida Grande", 1, 13)); // NOI18N
+        backBtn.setFont(new java.awt.Font("Segoe UI", 1, 12)); // NOI18N
         backBtn.setForeground(new java.awt.Color(255, 255, 255));
         backBtn.setText("Back");
         backBtn.addActionListener(new java.awt.event.ActionListener() {
@@ -75,14 +75,12 @@ public class TestNewJpanel extends javax.swing.JPanel {
         add(backBtn, new org.netbeans.lib.awtextra.AbsoluteConstraints(30, 50, -1, -1));
 
         jLabel4.setFont(new java.awt.Font("Lucida Grande", 1, 32)); // NOI18N
-        jLabel4.setForeground(new java.awt.Color(255, 255, 255));
         jLabel4.setText("Upload Test Result");
         add(jLabel4, new org.netbeans.lib.awtextra.AbsoluteConstraints(60, 110, -1, 58));
 
-        jLabel1.setFont(new java.awt.Font("Segoe UI", 1, 12)); // NOI18N
-        jLabel1.setForeground(new java.awt.Color(255, 255, 255));
+        jLabel1.setFont(new java.awt.Font("Segoe UI", 1, 13)); // NOI18N
         jLabel1.setText("Upload Result: ");
-        add(jLabel1, new org.netbeans.lib.awtextra.AbsoluteConstraints(70, 220, 116, 30));
+        add(jLabel1, new org.netbeans.lib.awtextra.AbsoluteConstraints(60, 210, 100, 30));
 
         choosebtn.setFont(new java.awt.Font("Lucida Grande", 3, 10)); // NOI18N
         choosebtn.setText("Choose");
@@ -91,10 +89,11 @@ public class TestNewJpanel extends javax.swing.JPanel {
                 choosebtnActionPerformed(evt);
             }
         });
-        add(choosebtn, new org.netbeans.lib.awtextra.AbsoluteConstraints(160, 220, 70, 20));
+        add(choosebtn, new org.netbeans.lib.awtextra.AbsoluteConstraints(160, 210, 70, 20));
 
-        completeTRbtn.setBackground(new java.awt.Color(204, 204, 204));
+        completeTRbtn.setBackground(new java.awt.Color(0, 0, 0));
         completeTRbtn.setFont(new java.awt.Font("Lucida Grande", 3, 13)); // NOI18N
+        completeTRbtn.setForeground(new java.awt.Color(255, 255, 255));
         completeTRbtn.setText("Complete Test Request");
         completeTRbtn.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {

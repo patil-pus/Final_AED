@@ -9,6 +9,7 @@ import Business.Ecosystem;
 import Business.Patient.Patient;
 import Business.Role.PatientRole;
 import Business.UserAccount.UserAccount;
+import Business.email.Email;
 import java.awt.CardLayout;
 import java.awt.Component;
 import java.util.regex.Matcher;
@@ -140,7 +141,7 @@ public class CreatePatientJPanel extends javax.swing.JPanel {
                 backBtnActionPerformed(evt);
             }
         });
-        add(backBtn, new org.netbeans.lib.awtextra.AbsoluteConstraints(60, 10, -1, -1));
+        add(backBtn, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 10, -1, -1));
         add(passwordTxt, new org.netbeans.lib.awtextra.AbsoluteConstraints(180, 180, 221, -1));
         add(usernameTxt, new org.netbeans.lib.awtextra.AbsoluteConstraints(180, 140, 221, -1));
 
@@ -155,7 +156,7 @@ public class CreatePatientJPanel extends javax.swing.JPanel {
         jLabel11.setBackground(new java.awt.Color(255, 255, 255));
         jLabel11.setIcon(new javax.swing.ImageIcon(getClass().getResource("/ui/Picture/patient.jpg"))); // NOI18N
         jLabel11.setPreferredSize(new java.awt.Dimension(850, 540));
-        add(jLabel11, new org.netbeans.lib.awtextra.AbsoluteConstraints(60, -30, 1110, 700));
+        add(jLabel11, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, 1110, 700));
     }// </editor-fold>//GEN-END:initComponents
 
     private void emailTxtActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_emailTxtActionPerformed
@@ -204,7 +205,8 @@ public class CreatePatientJPanel extends javax.swing.JPanel {
        else{
             Patient patient = business.getPatientDirectory().addPatient(newPatient);
             UserAccount account = business.getUserAccountDirectory().createUserAccount(username, password, patient.getPatientID(), new PatientRole(), patient);
-        
+            Email temp1 = new Email(emailId, "Welcome!!", "Hi Your account was updated successfully, You were added as a patient!");
+                        temp1.sendEmail();
         JOptionPane.showMessageDialog(null, "New patient signed up");
     }//GEN-LAST:event_saveBtnActionPerformed
     }

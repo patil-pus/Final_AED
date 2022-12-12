@@ -9,6 +9,7 @@ import Business.Ecosystem;
 import Business.Lab.Lab;
 import Business.Role.LabRole;
 import Business.UserAccount.UserAccount;
+import Business.email.Email;
 import java.awt.CardLayout;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
@@ -64,11 +65,11 @@ public class CreateLabJPanel extends javax.swing.JPanel {
         jComboBox1 = new javax.swing.JComboBox<>();
         jLabel9 = new javax.swing.JLabel();
 
-        setBackground(new java.awt.Color(0, 51, 51));
+        setBackground(new java.awt.Color(248, 226, 205));
         setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
 
         backBtn.setBackground(new java.awt.Color(0, 0, 0));
-        backBtn.setFont(new java.awt.Font("Lucida Grande", 1, 13)); // NOI18N
+        backBtn.setFont(new java.awt.Font("Segoe UI", 1, 12)); // NOI18N
         backBtn.setForeground(new java.awt.Color(255, 255, 255));
         backBtn.setText("Back");
         backBtn.addActionListener(new java.awt.event.ActionListener() {
@@ -76,24 +77,23 @@ public class CreateLabJPanel extends javax.swing.JPanel {
                 backBtnActionPerformed(evt);
             }
         });
-        add(backBtn, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 80, 70, -1));
+        add(backBtn, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 20, 70, -1));
 
         jLabel1.setFont(new java.awt.Font("Lucida Grande", 1, 32)); // NOI18N
-        jLabel1.setForeground(new java.awt.Color(255, 255, 255));
         jLabel1.setText("Lab Information");
-        add(jLabel1, new org.netbeans.lib.awtextra.AbsoluteConstraints(50, 120, -1, -1));
+        add(jLabel1, new org.netbeans.lib.awtextra.AbsoluteConstraints(100, 110, -1, -1));
 
-        jLabel2.setForeground(new java.awt.Color(255, 255, 255));
+        jLabel2.setFont(new java.awt.Font("Segoe UI", 1, 13)); // NOI18N
         jLabel2.setText("Lab Name:");
         add(jLabel2, new org.netbeans.lib.awtextra.AbsoluteConstraints(60, 260, -1, 20));
         add(nameTxt, new org.netbeans.lib.awtextra.AbsoluteConstraints(130, 260, 221, -1));
 
-        jLabel6.setForeground(new java.awt.Color(255, 255, 255));
+        jLabel6.setFont(new java.awt.Font("Segoe UI", 1, 13)); // NOI18N
         jLabel6.setText("Contact number:");
         add(jLabel6, new org.netbeans.lib.awtextra.AbsoluteConstraints(20, 300, -1, 30));
         add(numberTxt, new org.netbeans.lib.awtextra.AbsoluteConstraints(130, 300, 221, -1));
 
-        jLabel4.setForeground(new java.awt.Color(255, 255, 255));
+        jLabel4.setFont(new java.awt.Font("Segoe UI", 1, 13)); // NOI18N
         jLabel4.setText("Email id:");
         add(jLabel4, new org.netbeans.lib.awtextra.AbsoluteConstraints(70, 340, -1, 30));
 
@@ -104,7 +104,7 @@ public class CreateLabJPanel extends javax.swing.JPanel {
         });
         add(emailTxt, new org.netbeans.lib.awtextra.AbsoluteConstraints(130, 340, 221, -1));
 
-        jLabel7.setForeground(new java.awt.Color(255, 255, 255));
+        jLabel7.setFont(new java.awt.Font("Segoe UI", 1, 13)); // NOI18N
         jLabel7.setText("Address:");
         add(jLabel7, new org.netbeans.lib.awtextra.AbsoluteConstraints(70, 380, -1, 20));
 
@@ -115,8 +115,9 @@ public class CreateLabJPanel extends javax.swing.JPanel {
         });
         add(addressTxt, new org.netbeans.lib.awtextra.AbsoluteConstraints(130, 380, 221, -1));
 
-        saveBtn.setBackground(new java.awt.Color(204, 204, 204));
+        saveBtn.setBackground(new java.awt.Color(0, 0, 0));
         saveBtn.setFont(new java.awt.Font("Lucida Grande", 3, 13)); // NOI18N
+        saveBtn.setForeground(new java.awt.Color(255, 255, 255));
         saveBtn.setText("Save");
         saveBtn.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -125,25 +126,26 @@ public class CreateLabJPanel extends javax.swing.JPanel {
         });
         add(saveBtn, new org.netbeans.lib.awtextra.AbsoluteConstraints(180, 460, 70, -1));
 
-        jLabel5.setForeground(new java.awt.Color(255, 255, 255));
+        jLabel5.setFont(new java.awt.Font("Segoe UI", 1, 13)); // NOI18N
         jLabel5.setText("Username:");
         add(jLabel5, new org.netbeans.lib.awtextra.AbsoluteConstraints(60, 180, -1, 30));
         add(usernameTxt, new org.netbeans.lib.awtextra.AbsoluteConstraints(130, 180, 221, -1));
 
-        jLabel8.setForeground(new java.awt.Color(255, 255, 255));
+        jLabel8.setFont(new java.awt.Font("Segoe UI", 1, 13)); // NOI18N
         jLabel8.setText("Password:");
         add(jLabel8, new org.netbeans.lib.awtextra.AbsoluteConstraints(60, 220, -1, 20));
         add(passwordTxt, new org.netbeans.lib.awtextra.AbsoluteConstraints(130, 220, 221, -1));
 
-        jLabel3.setForeground(new java.awt.Color(255, 255, 255));
+        jLabel3.setFont(new java.awt.Font("Segoe UI", 1, 13)); // NOI18N
         jLabel3.setText("Type:");
         add(jLabel3, new org.netbeans.lib.awtextra.AbsoluteConstraints(90, 420, -1, 20));
 
         jComboBox1.setModel(new javax.swing.DefaultComboBoxModel<>(new String[] { "Pathology Lab", "Neurology Lab", "Orthopedic Lab" }));
         add(jComboBox1, new org.netbeans.lib.awtextra.AbsoluteConstraints(130, 420, 220, -1));
 
-        jLabel9.setIcon(new javax.swing.ImageIcon(getClass().getResource("/ui/Picture/lab2.jpeg"))); // NOI18N
-        add(jLabel9, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 20, 900, 520));
+        jLabel9.setFont(new java.awt.Font("Segoe UI", 1, 12)); // NOI18N
+        jLabel9.setIcon(new javax.swing.ImageIcon(getClass().getResource("/ui/Picture/Laboratory.jpg"))); // NOI18N
+        add(jLabel9, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, -50, 1400, 750));
     }// </editor-fold>//GEN-END:initComponents
 
     private void backBtnActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_backBtnActionPerformed
@@ -203,7 +205,8 @@ public class CreateLabJPanel extends javax.swing.JPanel {
        else{
             Lab lab = business.getLabDirectory().addLab(newLab);
             UserAccount account = business.getUserAccountDirectory().createUserAccount(username, password, lab.getLabID(), new LabRole(), lab);
-        
+        Email temp1 = new Email(emailId, "Welcome!!", "Hi Your account was updated successfully, Your ambulance was added!");
+                        temp1.sendEmail();
         JOptionPane.showMessageDialog(null, "New Lab signed up");
     }                                       
     }

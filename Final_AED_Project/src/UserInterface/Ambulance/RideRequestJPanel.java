@@ -83,9 +83,10 @@ public class RideRequestJPanel extends javax.swing.JPanel {
         RefreshBtn = new javax.swing.JButton();
         BackBtn = new javax.swing.JButton();
 
-        setBackground(new java.awt.Color(0, 51, 51));
+        setBackground(new java.awt.Color(248, 226, 205));
         setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
 
+        sosreq.setBackground(new java.awt.Color(215, 215, 215));
         sosreq.setModel(new javax.swing.table.DefaultTableModel(
             new Object [][] {
                 {null, null, null, null, null, null, null, null},
@@ -109,25 +110,27 @@ public class RideRequestJPanel extends javax.swing.JPanel {
 
         add(jScrollPane1, new org.netbeans.lib.awtextra.AbsoluteConstraints(40, 60, 840, 320));
 
-        UpdateStatus.setBackground(new java.awt.Color(204, 204, 204));
+        UpdateStatus.setBackground(new java.awt.Color(0, 0, 0));
         UpdateStatus.setFont(new java.awt.Font("Segoe UI", 1, 12)); // NOI18N
+        UpdateStatus.setForeground(new java.awt.Color(255, 255, 255));
         UpdateStatus.setText("Update Status");
         UpdateStatus.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 UpdateStatusActionPerformed(evt);
             }
         });
-        add(UpdateStatus, new org.netbeans.lib.awtextra.AbsoluteConstraints(160, 400, 110, -1));
+        add(UpdateStatus, new org.netbeans.lib.awtextra.AbsoluteConstraints(160, 400, 110, 30));
 
-        RefreshBtn.setBackground(new java.awt.Color(204, 204, 204));
+        RefreshBtn.setBackground(new java.awt.Color(0, 0, 0));
         RefreshBtn.setFont(new java.awt.Font("Segoe UI", 1, 12)); // NOI18N
+        RefreshBtn.setForeground(new java.awt.Color(255, 255, 255));
         RefreshBtn.setText("Refresh");
         RefreshBtn.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 RefreshBtnActionPerformed(evt);
             }
         });
-        add(RefreshBtn, new org.netbeans.lib.awtextra.AbsoluteConstraints(50, 400, 80, -1));
+        add(RefreshBtn, new org.netbeans.lib.awtextra.AbsoluteConstraints(50, 400, 90, 30));
 
         BackBtn.setBackground(new java.awt.Color(0, 0, 0));
         BackBtn.setFont(new java.awt.Font("Segoe UI", 1, 12)); // NOI18N
@@ -138,7 +141,7 @@ public class RideRequestJPanel extends javax.swing.JPanel {
                 BackBtnActionPerformed(evt);
             }
         });
-        add(BackBtn, new org.netbeans.lib.awtextra.AbsoluteConstraints(40, 20, 70, -1));
+        add(BackBtn, new org.netbeans.lib.awtextra.AbsoluteConstraints(40, 20, 60, 20));
     }// </editor-fold>//GEN-END:initComponents
 
     private void UpdateStatusActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_UpdateStatusActionPerformed

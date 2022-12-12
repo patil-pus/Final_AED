@@ -56,12 +56,11 @@ public class ManageSlotsJPanel extends javax.swing.JPanel {
         Deletebtn = new javax.swing.JButton();
         Viewbtn = new javax.swing.JButton();
 
-        setBackground(new java.awt.Color(0, 51, 51));
+        setBackground(new java.awt.Color(248, 226, 205));
         setForeground(new java.awt.Color(204, 204, 204));
         setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
 
         jLabel1.setFont(new java.awt.Font("Lucida Grande", 1, 36)); // NOI18N
-        jLabel1.setForeground(new java.awt.Color(255, 255, 255));
         jLabel1.setText("Manage Slots");
         add(jLabel1, new org.netbeans.lib.awtextra.AbsoluteConstraints(230, 50, 310, 42));
 
@@ -74,8 +73,9 @@ public class ManageSlotsJPanel extends javax.swing.JPanel {
                 btnBackActionPerformed(evt);
             }
         });
-        add(btnBack, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 20, -1, -1));
+        add(btnBack, new org.netbeans.lib.awtextra.AbsoluteConstraints(20, 20, -1, -1));
 
+        slotTable.setBackground(new java.awt.Color(215, 215, 215));
         slotTable.setModel(new javax.swing.table.DefaultTableModel(
             new Object [][] {
 
@@ -88,8 +88,9 @@ public class ManageSlotsJPanel extends javax.swing.JPanel {
 
         add(jScrollPane1, new org.netbeans.lib.awtextra.AbsoluteConstraints(30, 120, 670, 156));
 
-        Refreshbtn.setBackground(new java.awt.Color(204, 204, 204));
+        Refreshbtn.setBackground(new java.awt.Color(0, 0, 0));
         Refreshbtn.setFont(new java.awt.Font("Lucida Grande", 3, 13)); // NOI18N
+        Refreshbtn.setForeground(new java.awt.Color(255, 255, 255));
         Refreshbtn.setText("Refresh");
         Refreshbtn.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -98,8 +99,9 @@ public class ManageSlotsJPanel extends javax.swing.JPanel {
         });
         add(Refreshbtn, new org.netbeans.lib.awtextra.AbsoluteConstraints(100, 300, 100, 30));
 
-        addBtn.setBackground(new java.awt.Color(204, 204, 204));
+        addBtn.setBackground(new java.awt.Color(0, 0, 0));
         addBtn.setFont(new java.awt.Font("Lucida Grande", 3, 13)); // NOI18N
+        addBtn.setForeground(new java.awt.Color(255, 255, 255));
         addBtn.setText("Add ");
         addBtn.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -108,8 +110,9 @@ public class ManageSlotsJPanel extends javax.swing.JPanel {
         });
         add(addBtn, new org.netbeans.lib.awtextra.AbsoluteConstraints(230, 300, 100, 30));
 
-        Deletebtn.setBackground(new java.awt.Color(204, 204, 204));
+        Deletebtn.setBackground(new java.awt.Color(0, 0, 0));
         Deletebtn.setFont(new java.awt.Font("Lucida Grande", 3, 13)); // NOI18N
+        Deletebtn.setForeground(new java.awt.Color(255, 255, 255));
         Deletebtn.setText("Delete");
         Deletebtn.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -118,8 +121,9 @@ public class ManageSlotsJPanel extends javax.swing.JPanel {
         });
         add(Deletebtn, new org.netbeans.lib.awtextra.AbsoluteConstraints(360, 300, 100, 30));
 
-        Viewbtn.setBackground(new java.awt.Color(204, 204, 204));
+        Viewbtn.setBackground(new java.awt.Color(0, 0, 0));
         Viewbtn.setFont(new java.awt.Font("Lucida Grande", 3, 13)); // NOI18N
+        Viewbtn.setForeground(new java.awt.Color(255, 255, 255));
         Viewbtn.setText("View");
         Viewbtn.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {

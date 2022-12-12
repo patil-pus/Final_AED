@@ -73,9 +73,10 @@ public class TestInformationJPanel extends javax.swing.JPanel {
         addBtn = new javax.swing.JButton();
         removeBtn = new javax.swing.JButton();
 
-        setBackground(new java.awt.Color(0, 51, 51));
+        setBackground(new java.awt.Color(248, 226, 205));
         setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
 
+        jTable1.setBackground(new java.awt.Color(215, 215, 215));
         jTable1.setModel(new javax.swing.table.DefaultTableModel(
             new Object [][] {
                 {null},
@@ -110,8 +111,9 @@ public class TestInformationJPanel extends javax.swing.JPanel {
         });
         add(backBtn, new org.netbeans.lib.awtextra.AbsoluteConstraints(30, 20, 70, -1));
 
-        addBtn.setBackground(new java.awt.Color(204, 204, 204));
+        addBtn.setBackground(new java.awt.Color(0, 0, 0));
         addBtn.setFont(new java.awt.Font("Lucida Grande", 3, 13)); // NOI18N
+        addBtn.setForeground(new java.awt.Color(255, 255, 255));
         addBtn.setText("Add ");
         addBtn.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -120,8 +122,9 @@ public class TestInformationJPanel extends javax.swing.JPanel {
         });
         add(addBtn, new org.netbeans.lib.awtextra.AbsoluteConstraints(200, 330, 80, 30));
 
-        removeBtn.setBackground(new java.awt.Color(204, 204, 204));
+        removeBtn.setBackground(new java.awt.Color(0, 0, 0));
         removeBtn.setFont(new java.awt.Font("Lucida Grande", 3, 13)); // NOI18N
+        removeBtn.setForeground(new java.awt.Color(255, 255, 255));
         removeBtn.setText("Delete");
         removeBtn.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {

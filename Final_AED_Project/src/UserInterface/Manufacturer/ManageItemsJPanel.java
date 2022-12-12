@@ -83,13 +83,13 @@ public class ManageItemsJPanel extends javax.swing.JPanel {
         btnAddItem = new javax.swing.JButton();
         btnDeleteItem = new javax.swing.JButton();
 
-        setBackground(new java.awt.Color(0, 51, 51));
+        setBackground(new java.awt.Color(248, 226, 205));
 
         jLabel1.setBackground(new java.awt.Color(255, 255, 255));
         jLabel1.setFont(new java.awt.Font("Lucida Grande", 1, 32)); // NOI18N
-        jLabel1.setForeground(new java.awt.Color(255, 255, 255));
         jLabel1.setText("Item List");
 
+        tblItem.setBackground(new java.awt.Color(215, 215, 215));
         tblItem.setModel(new javax.swing.table.DefaultTableModel(
             new Object [][] {
                 {null, null, null},
@@ -113,8 +113,9 @@ public class ManageItemsJPanel extends javax.swing.JPanel {
             }
         });
 
-        btnAddItem.setBackground(new java.awt.Color(204, 204, 204));
+        btnAddItem.setBackground(new java.awt.Color(0, 0, 0));
         btnAddItem.setFont(new java.awt.Font("Lucida Grande", 3, 13)); // NOI18N
+        btnAddItem.setForeground(new java.awt.Color(255, 255, 255));
         btnAddItem.setText("Add");
         btnAddItem.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -122,8 +123,9 @@ public class ManageItemsJPanel extends javax.swing.JPanel {
             }
         });
 
-        btnDeleteItem.setBackground(new java.awt.Color(204, 204, 204));
+        btnDeleteItem.setBackground(new java.awt.Color(0, 0, 0));
         btnDeleteItem.setFont(new java.awt.Font("Lucida Grande", 3, 13)); // NOI18N
+        btnDeleteItem.setForeground(new java.awt.Color(255, 255, 255));
         btnDeleteItem.setText("Delete");
         btnDeleteItem.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {

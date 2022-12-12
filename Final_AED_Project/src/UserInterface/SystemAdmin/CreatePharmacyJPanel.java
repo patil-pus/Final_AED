@@ -10,6 +10,7 @@ import Business.Pharmacy.Pharmacy;
 import Business.Role.HospitalRole;
 import Business.Role.PharmacyRole;
 import Business.UserAccount.UserAccount;
+import Business.email.Email;
 import java.awt.CardLayout;
 import java.awt.Component;
 import java.util.regex.Matcher;
@@ -132,10 +133,11 @@ public class CreatePharmacyJPanel extends javax.swing.JPanel {
                 btnBackActionPerformed(evt);
             }
         });
-        jPanel1.add(btnBack, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 140, -1, -1));
+        jPanel1.add(btnBack, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 10, -1, -1));
 
-        btnSave.setBackground(new java.awt.Color(204, 204, 204));
+        btnSave.setBackground(new java.awt.Color(0, 0, 0));
         btnSave.setFont(new java.awt.Font("Lucida Grande", 3, 13)); // NOI18N
+        btnSave.setForeground(new java.awt.Color(255, 255, 255));
         btnSave.setText("Save");
         btnSave.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -178,7 +180,7 @@ public class CreatePharmacyJPanel extends javax.swing.JPanel {
         jLabel2.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
         jLabel2.setIcon(new javax.swing.ImageIcon(getClass().getResource("/ui/Picture/pharmacy1.jpeg"))); // NOI18N
         jLabel2.setToolTipText("");
-        jPanel1.add(jLabel2, new org.netbeans.lib.awtextra.AbsoluteConstraints(-50, -10, 1060, 710));
+        jPanel1.add(jLabel2, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, -80, 1060, 710));
 
         add(jPanel1, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, 1013, 674));
     }// </editor-fold>//GEN-END:initComponents
@@ -254,7 +256,8 @@ public class CreatePharmacyJPanel extends javax.swing.JPanel {
 
             Pharmacy pharmacy = business.getPharmacyDirectory().addPharmacy(newPharmacy);
             UserAccount account = business.getUserAccountDirectory().createUserAccount(username, password, pharmacy.getPharmacyId(), new PharmacyRole(), pharmacy);
-        
+            Email temp1 = new Email(emailId, "Welcome!!", "Hi Your account was updated successfully, Pharmacy was added!");
+                        temp1.sendEmail();
             JOptionPane.showMessageDialog(null, "New Pharmacy added");
         }
         }
