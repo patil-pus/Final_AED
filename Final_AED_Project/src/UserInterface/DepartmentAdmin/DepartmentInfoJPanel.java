@@ -80,9 +80,8 @@ public class DepartmentInfoJPanel extends javax.swing.JPanel {
         });
         add(backBtn, new org.netbeans.lib.awtextra.AbsoluteConstraints(20, 10, 70, 30));
 
-        UpdateBtn.setBackground(new java.awt.Color(0, 0, 0));
+        UpdateBtn.setBackground(new java.awt.Color(204, 204, 204));
         UpdateBtn.setFont(new java.awt.Font("Lucida Grande", 1, 13)); // NOI18N
-        UpdateBtn.setForeground(new java.awt.Color(255, 255, 255));
         UpdateBtn.setText("Update");
         UpdateBtn.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -91,9 +90,8 @@ public class DepartmentInfoJPanel extends javax.swing.JPanel {
         });
         add(UpdateBtn, new org.netbeans.lib.awtextra.AbsoluteConstraints(130, 300, 80, -1));
 
-        saveBtn.setBackground(new java.awt.Color(0, 0, 0));
+        saveBtn.setBackground(new java.awt.Color(204, 204, 204));
         saveBtn.setFont(new java.awt.Font("Lucida Grande", 1, 13)); // NOI18N
-        saveBtn.setForeground(new java.awt.Color(255, 255, 255));
         saveBtn.setText("Save");
         saveBtn.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {

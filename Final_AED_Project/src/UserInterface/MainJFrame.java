@@ -29,7 +29,7 @@ public class MainJFrame extends javax.swing.JFrame {
         initComponents();
         business = dB4OUtil.retrieveSystem();
         
-        Image img = Toolkit.getDefaultToolkit().getImage("/Users/SARVESH SAWANT/Pictures/POSTGRE SIDDHI.png");
+        Image img = Toolkit.getDefaultToolkit().getImage("/Users/SARVESH SAWANT/Desktop/homepageimage.jpg");
         Image scaledImage = img.getScaledInstance(500, 225 , Image.SCALE_SMOOTH);
         
         LoginJPanel systemAdminLoginJPanel = new LoginJPanel(CardLayoutJPanel,business, "System Admin");

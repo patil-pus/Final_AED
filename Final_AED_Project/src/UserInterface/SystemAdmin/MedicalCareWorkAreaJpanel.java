@@ -112,7 +112,7 @@ public class MedicalCareWorkAreaJpanel extends javax.swing.JPanel {
         rightSystemAdminPanel.setLayout(new java.awt.CardLayout());
 
         jLabel1.setBackground(new java.awt.Color(138, 194, 211));
-        jLabel1.setIcon(new javax.swing.ImageIcon(getClass().getResource("/ui/Picture/cover1.jpeg"))); // NOI18N
+        jLabel1.setIcon(new javax.swing.ImageIcon(getClass().getResource("/ui/Picture/homepageimage.jpg"))); // NOI18N
         rightSystemAdminPanel.add(jLabel1, "card2");
 
         javax.swing.GroupLayout layout = new javax.swing.GroupLayout(this);
@@ -127,9 +127,9 @@ public class MedicalCareWorkAreaJpanel extends javax.swing.JPanel {
         );
         layout.setVerticalGroup(
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addComponent(rightSystemAdminPanel, javax.swing.GroupLayout.DEFAULT_SIZE, 1211, Short.MAX_VALUE)
+            .addComponent(rightSystemAdminPanel, javax.swing.GroupLayout.DEFAULT_SIZE, 900, Short.MAX_VALUE)
             .addGroup(layout.createSequentialGroup()
-                .addComponent(jPanel3, javax.swing.GroupLayout.DEFAULT_SIZE, 1205, Short.MAX_VALUE)
+                .addComponent(jPanel3, javax.swing.GroupLayout.DEFAULT_SIZE, 894, Short.MAX_VALUE)
                 .addContainerGap())
         );
     }// </editor-fold>//GEN-END:initComponents
