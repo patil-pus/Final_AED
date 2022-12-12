@@ -85,7 +85,7 @@ public class PatientScheduleAppointmentJPanel extends javax.swing.JPanel {
         booknowbtn = new javax.swing.JButton();
         jDateChooser1 = new com.toedter.calendar.JDateChooser();
 
-        setBackground(new java.awt.Color(138, 194, 211));
+        setBackground(new java.awt.Color(0, 51, 51));
         setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
 
         physicianNameCombo.addActionListener(new java.awt.event.ActionListener() {

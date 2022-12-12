@@ -98,7 +98,7 @@ public class PhysicianPendingAppointmentsJPanel extends javax.swing.JPanel {
 
         jLabel4.setFont(new java.awt.Font("Lucida Grande", 1, 36)); // NOI18N
         jLabel4.setForeground(new java.awt.Color(255, 255, 255));
-        jLabel4.setText("PENDING APPROVALS");
+        jLabel4.setText("Pending ");
 
         jTable4.setModel(new javax.swing.table.DefaultTableModel(
             new Object [][] {

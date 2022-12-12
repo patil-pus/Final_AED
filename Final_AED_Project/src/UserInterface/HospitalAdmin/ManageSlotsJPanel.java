@@ -56,22 +56,25 @@ public class ManageSlotsJPanel extends javax.swing.JPanel {
         Deletebtn = new javax.swing.JButton();
         Viewbtn = new javax.swing.JButton();
 
-        setBackground(new java.awt.Color(138, 194, 211));
+        setBackground(new java.awt.Color(0, 51, 51));
+        setForeground(new java.awt.Color(204, 204, 204));
         setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
 
         jLabel1.setFont(new java.awt.Font("Lucida Grande", 1, 36)); // NOI18N
         jLabel1.setForeground(new java.awt.Color(255, 255, 255));
-        jLabel1.setText("MANAGE SLOTS");
-        add(jLabel1, new org.netbeans.lib.awtextra.AbsoluteConstraints(310, 30, 310, 42));
+        jLabel1.setText("Manage Slots");
+        add(jLabel1, new org.netbeans.lib.awtextra.AbsoluteConstraints(230, 50, 310, 42));
 
-        btnBack.setFont(new java.awt.Font("Lucida Grande", 3, 13)); // NOI18N
-        btnBack.setText("< Back");
+        btnBack.setBackground(new java.awt.Color(0, 0, 0));
+        btnBack.setFont(new java.awt.Font("Lucida Grande", 1, 13)); // NOI18N
+        btnBack.setForeground(new java.awt.Color(255, 255, 255));
+        btnBack.setText("Back");
         btnBack.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 btnBackActionPerformed(evt);
             }
         });
-        add(btnBack, new org.netbeans.lib.awtextra.AbsoluteConstraints(32, 30, -1, -1));
+        add(btnBack, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 20, -1, -1));
 
         slotTable.setModel(new javax.swing.table.DefaultTableModel(
             new Object [][] {
@@ -83,8 +86,9 @@ public class ManageSlotsJPanel extends javax.swing.JPanel {
         ));
         jScrollPane1.setViewportView(slotTable);
 
-        add(jScrollPane1, new org.netbeans.lib.awtextra.AbsoluteConstraints(110, 120, 670, 156));
+        add(jScrollPane1, new org.netbeans.lib.awtextra.AbsoluteConstraints(30, 120, 670, 156));
 
+        Refreshbtn.setBackground(new java.awt.Color(204, 204, 204));
         Refreshbtn.setFont(new java.awt.Font("Lucida Grande", 3, 13)); // NOI18N
         Refreshbtn.setText("Refresh");
         Refreshbtn.addActionListener(new java.awt.event.ActionListener() {
@@ -92,8 +96,9 @@ public class ManageSlotsJPanel extends javax.swing.JPanel {
                 RefreshbtnActionPerformed(evt);
             }
         });
-        add(Refreshbtn, new org.netbeans.lib.awtextra.AbsoluteConstraints(340, 290, 180, 40));
+        add(Refreshbtn, new org.netbeans.lib.awtextra.AbsoluteConstraints(100, 300, 100, 30));
 
+        addBtn.setBackground(new java.awt.Color(204, 204, 204));
         addBtn.setFont(new java.awt.Font("Lucida Grande", 3, 13)); // NOI18N
         addBtn.setText("Add ");
         addBtn.addActionListener(new java.awt.event.ActionListener() {
@@ -101,8 +106,9 @@ public class ManageSlotsJPanel extends javax.swing.JPanel {
                 addBtnActionPerformed(evt);
             }
         });
-        add(addBtn, new org.netbeans.lib.awtextra.AbsoluteConstraints(340, 340, 180, 40));
+        add(addBtn, new org.netbeans.lib.awtextra.AbsoluteConstraints(230, 300, 100, 30));
 
+        Deletebtn.setBackground(new java.awt.Color(204, 204, 204));
         Deletebtn.setFont(new java.awt.Font("Lucida Grande", 3, 13)); // NOI18N
         Deletebtn.setText("Delete");
         Deletebtn.addActionListener(new java.awt.event.ActionListener() {
@@ -110,8 +116,9 @@ public class ManageSlotsJPanel extends javax.swing.JPanel {
                 DeletebtnActionPerformed(evt);
             }
         });
-        add(Deletebtn, new org.netbeans.lib.awtextra.AbsoluteConstraints(340, 390, 180, 40));
+        add(Deletebtn, new org.netbeans.lib.awtextra.AbsoluteConstraints(360, 300, 100, 30));
 
+        Viewbtn.setBackground(new java.awt.Color(204, 204, 204));
         Viewbtn.setFont(new java.awt.Font("Lucida Grande", 3, 13)); // NOI18N
         Viewbtn.setText("View");
         Viewbtn.addActionListener(new java.awt.event.ActionListener() {
@@ -119,7 +126,7 @@ public class ManageSlotsJPanel extends javax.swing.JPanel {
                 ViewbtnActionPerformed(evt);
             }
         });
-        add(Viewbtn, new org.netbeans.lib.awtextra.AbsoluteConstraints(340, 440, 180, 40));
+        add(Viewbtn, new org.netbeans.lib.awtextra.AbsoluteConstraints(490, 300, 100, 30));
     }// </editor-fold>//GEN-END:initComponents
 
     private void btnBackActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnBackActionPerformed
